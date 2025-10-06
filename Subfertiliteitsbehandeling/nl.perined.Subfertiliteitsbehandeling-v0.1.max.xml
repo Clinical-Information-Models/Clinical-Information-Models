@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="22-10-2015 13:27:24" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>14316</id>
+      <name>nl.perined.Subfertiliteitsbehandeling-v0.1</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Perined, Nictiz Perinatologie"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588, 3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined, Nictiz Perinatologie">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="22-10-2015"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.5"></tag>
+      <tag name="DCM::KeywordList" value="Infertility D007246; infertiliteit, Decreased fertility, Vruchtbaarheid, Verminderde vruchtbaarheid">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Michael van der Zel, REsults 4 Care bv"></tag>
+      <tag name="DCM::Name" value="nl.perined.Subfertiliteitsbehandeling"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.1"></tag>
+    </object>
+    <object>
+      <id>14332</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Versie 0.1: eerste opzet van de DCM.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14322</id>
+      <name>Concept</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Behandeling van subgertiliteit waarbij met subfertiliteit bedoeld wordt: het gedurende meer dan 12 maanden uitblijven van een zwangerschap ondanks onbeschermde coïtus (Landelijke netwerkrichtlijn Subfertiliteit, 2010).</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14337</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het vastleggen van een subfertiliteitsbehandeling waardoor de zwangerschap is ontstaan. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14325</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14324</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De zwangere vrouw.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14329</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Volgens de landelijke netwerkrichtlijn  Subfertiliteit (2010) wordt met subfertiliteit bedoeld: het gedurende meer dan 12 maanden uitblijven van een zwangerschap ondanks onbeschermde coïtus. Het doel van de richtlijn is het strommlijnen van de zorg rondom subfertiele paren d.m.v. onderlinge afstemming van de zorg. Indien na afronding van het oriënterend fertiliteitsonderzoek wordt bij een deel van de paren een duidelijke  oorzaak voor hun subfertiliteit gevonden. De keuze voor een bepaalde behandeling wordt direct bepaald door de gestelde diagnose. Als belangrijkste behandelmogelijkheden van paren met subfertiliteit zijn ovulatie-inductie, intra-uteriene inseminatie (IUI), in-vitro fertilisatie (IVF) en intracytoplasmatische sperma-injectie (IVF/ICSI) en tubachirurgie en hersteloperaties bij de mannelijke partner</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14334</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In het informatiemodel wordt een specificatie gegeven van het concept subfertiliteitsbehandeling.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14344</id>
+      <name>Eicel "afname" procedure</name>
+      <alias />
+      <notes>
+--DCM::Language=nl
+
+Een groepring van data elementen relevant voor Eicel afname procedure.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14334</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14345</id>
+      <name>Eiceldonatrice</name>
+      <alias />
+      <notes>De BSN van de vrouw die de eicel heeft gedoneerd.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14344</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20102"></tag>
+    </object>
+    <object>
+      <id>14346</id>
+      <name>Geboortedatum eiceldonatrice</name>
+      <alias />
+      <notes>De geboortedatum van de vrouw die de eicel heeft gedoneerd.
+ 	
+Indien deze zwangerschap is ontstaan op basis van eiceldonatie, wat is dan de geboortedatum van de donatrice?</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14344</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20103"></tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:184099003 geboortedatum "></tag>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>14343</id>
+      <name>Eicel "afname" procedure</name>
+      <alias />
+      <notes>Eicel "afname" procedure met als subject de eiceldonatrice.</notes>
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14334</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20101"></tag>
+    </object>
+    <object>
+      <id>14338</id>
+      <name>Soort subfertiliteitsbehandeling</name>
+      <alias />
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14334</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20081"></tag>
+      <attribute name="Ovulatie-inductie" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:61285001 Ovulation induction (procedure) "></tag>
+        <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+        <tag name="DCM::Id" value="peri22-dataelement-20091">Als deze waarde is ingevuld dan is de afgeleide waarde True met beschreven Id.</tag></attribute>
+      <attribute name="Geassisteerde conceptie" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:63487001 Assisted fertilization (procedure) "></tag>
+        <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+        <tag name="DCM::Id" value="peri22-dataelement-20095"></tag>
+        <tag name="DCM::ValueSet" value="GeassConceptie22">OID 2.16.840.1.113883.2.4.11.199</tag>
+        <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.199&amp;format=xml&amp;language=nl-NL"></tag>
+        <tag name="DCM::ExampleValue" value="IVF"></tag></attribute>
+      <attribute name="Eiceldonatie" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::Id" value="peri22-dataelement-20100">Als deze waarde is ingevuld dan is de afgeleide waarde True met beschreven Id.</tag>
+        <tag name="DCM::DefinitionCode" value="SnomedCT:176843009 Gamete intrauterine transfer (procedure) "></tag>
+        <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag></attribute>
+    </object>
+    <object>
+      <id>14339</id>
+      <name>Subfertiliteitsbehandeling</name>
+      <alias />
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>14334</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:4589007 Medical procedure related to reproduction (procedure) "></tag>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>14340</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14334</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14341</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14334</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14333</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14342</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>14333</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14323</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Als er sprake is van een subfertiliteitsbehandeling in relatie met de huidige zwangerschap dan wordt hier het soort subfertiliteitsbehandeling ingevuld. Is er een waarde ingevuld dan is een afgeleide daarvan TRUE als het gaat om de vraag of er sparke is geweest van een subfertiliteitsbehandeling.
+
+Als de waarde Eiceldonatie is ingevuld dan is een afgeleide daarvan TRUE als het gaat om de vraag of er sprake was van eiceldonatie.
+
+Als de waarde Ovulatie-inductie is ingevuld dan is een afgeleide daarvan TRUE als het gaat om de vraag of er sprake was van Ovulatie-inductie.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14321</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het gaat in de DCM om soort subfertiliteitsbehandeling. Het invullen van een waarde geeft aan dat er sprake was van de soort subfertiliteitsbehandeling.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14336</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In de zwangerschap is het relevant om te weten of de zwangerschap het gevolg was van een subfertiliteitsbehandeling en welke subfertiliteitsbehandeling. Dit wordt vastgelegd bij de zwangerschapsgegevens.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14328</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14335</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14320</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;NB: een aantal data elementen in deze DCM horen niet bij de implementatie van perinatologie 2.2. Deze data elementen zijn onvoldoende uitgewerkt en zullen in een later stadium worden aangevuld. Deze zijn te herkennen aan het afwezig zijn van detaillering, specifiek het ontbreken van coderingen.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14330</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;
+Nictiz Perinatologie, zie http://decor.nictiz.nl/art-decor/decor-project--peri20-
+DIVA, herinrichting Perined Registratie
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+Voor de opzet van de DCM zijn de volgende refenties van belang:
+&lt;ul&gt;
+	&lt;li&gt;Landelijke netwerkrichtlijn Subfertiliteit (2010). Verkregen op 22 oktober 2015, van http://www.nvog-documenten.nl/uploaded/docs/Landelijke%20netwerkrichtlijn%20Subfertiliteit%20def.pdf   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;&lt;/font&gt;
+NICTIZ Perinatologie implementatie (2005-2007) 2.16.840.1.113883.2.4.4.13
+PRN: 2.16.840.1.113883.2.4.3.22.1
+Data set Perinatologie 2.2: 2.16.840.1.113883.2.4.3.11.60.90.77.1.5
+PRN LVR 1-id lijst 2.16.840.1.113883.2.4.3.22.98.1
+
+De diverse broncodesystemen en bijbehorende OID's zijn opgenomen in de Tagged Values bij het data element.
+
+Het is mogelijk dat anderen in dit domein gebruik maken van andere coderingen en value sets dan in dit DCM zijn gebruikt. In dat geval stellen wij&lt;font color="#ff0000"&gt; &lt;/font&gt;het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT, LOINC, NICTIZ Perinatologie implementatie dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICPC, ICD10, ICF, ICNP). Daarnaast hebben diverse belanghebbenden aan het DCM haar eigen interne code(s) toegevoegd. De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept/de concepten zoals die zijn opgenomen in de terminologie of classificatie. 
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig alleen eigen coderingen gebruikt en zullen de ontbrekende concepten bij onder andere Snomed CT worden ingebracht.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14318</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14326</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14327</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland  of Results 4 Care via een website van Stichting Perinatale Registratie Nederland  of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland  via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. 
+
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. 
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14331</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14319</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14317</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>14316</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>14345</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>7</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14345</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>14343</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14346</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>14343</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14338</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14339</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14338</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14343</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14339</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

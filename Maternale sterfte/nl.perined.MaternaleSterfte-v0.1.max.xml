@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="26-11-2015 12:09:51" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>14488</id>
+      <name>nl.perined.MaternaleSterfte-v0.1</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="MAX::ExportDate" value="24-11-2015 15:15:53"></tag>
+      <tag name="MAX::ExportFile" value="E:\1 R4C Projecten\DCM\Uitgewerkte DCM\Maternale Sterfte\nl.perined.MaternaleSterfte-v0.1.max.xml"></tag>
+      <tag name="DCM::CoderList" value="Perined, Nictiz Perinatologie"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588, 3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined, Nictiz Perinatologie">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="24-11-2015"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.8"></tag>
+      <tag name="DCM::KeywordList" value="Moedersterfte, Maternal Mortality D008428">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Michael van der Zel, Results 4 Care bv"></tag>
+      <tag name="DCM::Name" value="nl.perined.MaternaleSterfte"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.1"></tag>
+    </object>
+    <object>
+      <id>14504</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Versie 0.1: eerste opzet van de DCM. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14494</id>
+      <name>Concept</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Maternale sterfte ofwel Moedersterfte is volgens Volksgezondheid en Zorg het totaal van directe en indirecte moedersterfte (binnen 42 dagen na beëindiging van een zwangerschap).
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14509</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het vastleggen van gegevens over maternale sterfte in het dossier van de (zwangere) vrouw.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14497</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14496</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De zwangere vrouw.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14501</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>Volksgezondheid en Zorg beschrijven dat in de periode 1999 tot en met 2012 266 zorgverleners gevallen van directe (181) en indirecte (85) maternale sterfte tijdens de zwangerschap of binnen 42 dagen na beeindiging van de zwangerschap hebben gemeld bij de Auditcommissie Maternale sterfte van de NVOG. De Stichting PRN (2013) geeft aan dat dit betekent dat in die periode 9,3 moeders per 100.000 levend geboren kinderen is overleden. 
+Moedersterfte is een belangrijke indicator voor de kwaliteit van obstetrische zorg. Deze indicator wordt wereldwijd gebruikt door de World Health Organisation (WHO) (Schutte, J. Et al, 2013). 
+
+Maternale sterfte ofwel Moedersterfte is volgens Volksgezondheid en Zorg het totaal van directe en indirecte moedersterfte (binnen 42 dagen na beëindiging van een zwangerschap). Onder directe sterfte wordt verstaan het gevolg van complicaties van zwangerschap, bevalling en kraambed, van interventies, omissies of onjuiste behandeling, of van een reeks gebeurtenissen die voortvloeien uit deze complicaties. Indirecte sterfte wordt gedefinieerd als het gevolg van een pre-existente ziekte of van een ziekte die tijdens de zwangerschap ontstond maar werd verergerd door de fysiologische effecten van de zwangerschap. 
+Volksgezondheid en Zorg beschrijft dat de belangrijkste oorzaken voor moedersterfte zijn (pre-)eclampsie (zwangerschapsvergiftiging), trombo-embolie en hart- en vaatziekten (Schutte et al., 2010; Schutte et al., 2010; de Graaf et al., 2012). 
+
+Zie ook de NVOG kwaliteitsnorm Preventie van Maternale Mortaliteit (2012). 
+De maternale sterfte wordt uitgedrukt per 100.000 levendgeborenen.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14506</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In het informatiemodel wordt een specificatie gegeven van het concept maternale sterfte.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14515</id>
+      <name>Soort Maternale sterfte</name>
+      <alias />
+      <notes>De soort maternale sterfte verdeeld in verschillende vormen van maternale sterfte. </notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <attribute name="Directe maternale sterfte" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:237358009 Direct maternal death (event) "></tag>
+        <tag name="DCM::Id" value="peri22-dataelement-20670"></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>Directe maternale sterfte is het gevolg van complicaties van zwangerschap, bevalling en kraambed, van interventies, omissies of onjuiste behandeling, of van een reeks gebeurtenissen die voortvloeien uit deze complicaties (Volksgezondheid en Zorg).
+
+Maternale sterfte volgens Perined is 'Vrouw overleden tijdens of aansluitend aan de bevalling. (Dus niet de 3 maanden termijn…)'. 
+In vergelijking met de definitie op Volksgezondheid en Zorg gaat het hier om directe maternale sterfte.</attribute>
+      <attribute name="Indirecte maternale sterfte" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:698714004  Indirect maternal death (event) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>Indirecte maternale sterfte sterfte is het gevolg van een pre-existente ziekte of van een ziekte die tijdens de zwangerschap ontstond maar werd verergerd door de fysiologische effecten van de zwangerschap (Volksgezonheid en Zorg).</attribute>
+      <attribute name="Toevallige sterfte" minCard="1" maxCard="1" value="" type="" stereotype="enum">Toevallige sterfte is volgens Schutte et al (2013) sterfte met een oorzaak die geen verband houdt met de 
+(effecten van) zwangerschap (bijvoorbeeld ten gevolge van een auto-ongeluk of kanker waar geen invloed van de zwangerschap op aanwijsbaar was). </attribute>
+      <attribute name="Late sterfte" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:200155004  Death from any obstetric cause occurring more than 42 days but less than one year after delivery (event) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>Late sterfte is volgens Schutte et al (2013) sterfte na het kraambed, te weten langer dan 42 dagen postpartum, maar binnen een jaar na de bevalling.</attribute>
+    </object>
+    <object>
+      <id>14516</id>
+      <name>Obductie</name>
+      <alias>Is obductie vrouw verricht?</alias>
+      <notes>Hierbij gaat het om de vraag of er obductie is verricht op de overleden moeder om te onderzoeken wat de precieze doodsoorzaak is.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:29240004  Autopsy examination (procedure) "></tag>
+      <tag name="DCM::DefinitionCode" value="PerinatologyProceduresPRN: PRN8304"></tag>
+      <tag name="DCM::CodeSystem" value="PerinatologyProceduresPRN">OID 2.16.840.1.113883.2.4.3.22.1.3</tag>
+      <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>14517</id>
+      <name>Aanmelding Auditcommissie Maternale Sterfte</name>
+      <alias />
+      <notes>In 1981 installeerde de Nederlandse Vereniging voor Obstetrie en Gynaecologie (NVOG, 2012) de Commissie Maternale Sterfte. De opdracht van de commissie is gevallen van moedersterfte te analyseren naar analogie van de Confidential Enquiries into Maternal Death in het Verenigd Koninkrijk. Het resultaat is een periodieke rapportage van de maternale sterfte in Nederland door de commissie aan de NVOG. In 2010 is de naam van de Commissie Maternale Sterfte gewijzigd in ‘Auditcommissie Maternale Sterfte' (AMS). land. </notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PerinatologyActPRN: PRN8305"></tag>
+      <tag name="DCM::CodeSystem" value="PerinatologyActPRN">OID 2.16.840.1.113883.2.4.3.22.1.11</tag>
+    </object>
+    <object>
+      <id>14518</id>
+      <name>Doodsoorzaak</name>
+      <alias />
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:184305005 Doodsoorzaak"></tag>
+      <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::CodeSystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <attribute name="(pre)eclampsie (vooral de daarbij optredende hersenbloeding)" minCard="1" maxCard="1" value="1" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:274100004 Cerebral hemorrhage (disorder) |47429007 Associated with (attribute) |398254007 Pre-eclampsia (disorder) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag></attribute>
+      <attribute name="trombo-embolie" minCard="1" maxCard="1" value="2" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:371039008 Thromboembolic disorder (disorder) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag></attribute>
+      <attribute name="verbloeding (bijvoorbeeld door placenta praevia, solutio placentae met stollingsstoornissen, fluxus post partum)" minCard="1" maxCard="1" value="3" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:131148009 Bleeding (finding) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>Verbloeding door bijvoorbeeld:
+&lt;ul&gt;
+	&lt;li&gt;placenta praevia; 36813001 Placenta previa (disorder)&lt;/li&gt;
+	&lt;li&gt;solutio placentae met stollingsstoornis: 415105001 Placental abruption (disorder)|20401003 With (attribute)|64779008 Blood coagulation disorder (disorder)&lt;/li&gt;
+	&lt;li&gt;fluxux post partum: 47821001 Postpartum hemorrhage (disorder).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</attribute>
+      <attribute name="puerperale sepsis of kraamvrouwenkoorts" minCard="1" maxCard="1" value="4" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:2858002 Puerperal sepsis (disorder) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag></attribute>
+      <attribute name="extra-uteriene graviditeit" minCard="1" maxCard="1" value="5" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:34801009 Ectopic pregnancy (disorder) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag></attribute>
+      <attribute name="vruchtwaterembolie" minCard="1" maxCard="1" value="6" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:17263003 Amniotic fluid embolism (disorder) "></tag>
+        <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag></attribute>
+      <attribute name="overig" minCard="1" maxCard="1" value="OTH" type="" stereotype="enum">
+        <tag name="DCM::CodeSystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag></attribute>
+    </object>
+    <object>
+      <id>14519</id>
+      <name>Soort doodsoorzaak</name>
+      <alias />
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <attribute name="Voorlopig" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN8306"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>Voorlopige doodsoorzaak vrouw.</attribute>
+      <attribute name="Definitief bij 3 maanden" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN8404"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>Definitieve doodsoorzaak vrouw. </attribute>
+      <attribute name="Uitslag 3 maands followup" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN8402"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>Uitslag obductie vrouw.
+</attribute>
+      <attribute name="Audit vrouw uitslag bij 3 maanden" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN8403"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>Uitslag Landelijke maternale sterfte audit.</attribute>
+    </object>
+    <object>
+      <id>14521</id>
+      <name>Datum eindevaluatie </name>
+      <alias />
+      <notes>Datum van 3 maands followup meting </notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PerinatologyEncounterPRN: 8.4.01"></tag>
+      <tag name="DCM::CodeSystem" value="PerinatologyEncounterPRN">OID 2.16.840.1.113883.2.4.3.22.1.5</tag>
+    </object>
+    <object>
+      <id>14510</id>
+      <name>Datum maternale sterfte</name>
+      <alias />
+      <notes>De datum en tijd waarop de moeder is overleden.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20680"></tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:399753006 Datum van overlijden"></tag>
+      <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>14511</id>
+      <name>Maternale Sterfte</name>
+      <alias />
+      <notes>Het rootconcept van de data specificatie maternale sterfte. </notes>
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:59283008 Maternal death (event) "></tag>
+    </object>
+    <object>
+      <id>14512</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14513</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14506</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14505</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14514</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>14505</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14495</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+In het informatie model zijn gegevens opgenomen die kunnen worden vastgelegd in het dossier van de zwangeren vrouw. Daarnaast wordt een deel van die gegevens aangeleverd aan de Perinatale Registratie Nederland, Perined. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14493</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Datum maternale sterfte maakt deel uit van de Dataset Perinatologie 2.2 en van de en kernset aanleverbericht.
+Deze datum samen met de waarde 'Directe maternale sterfte' geven aan dat er sprake is van maternale sterfte. Deze afgeleide is eveneens deel van de Dataset Perinatologie en de kernset aanleverbericht.
+
+andere data elementen in deze DCM maken deel uit van de Perined dataset, maar zitten niet in de kernset aanleverbericht.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14508</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Maternale of moeder sterfte vindt plaats tijdens de zwangerschap of binnen 42 dagen na beeindiging van de zwangerschap en is een belangrijke indicator voor de kwaliteit van de obstetrische zorg. Gegevens van de maternale sterfte worden vastgelegd in het dossier van de zwangere vrouw en worden (deels) aangeleverd aan de Perinatale Registratie Nederland ten behoeve van de kwlaiteitsindicator en wetenschappelijk onderzoek. 
+Het vastleggen van de gegevens en de aanlevering aan Perined vindt plaats tijdens de zorgverlening.
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14500</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14507</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14492</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Voor een aantal data elementen zijn nog geen coderingen gevonden of aangemaakt. &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;REview van de DCM door Perined moet nog plaats vinden.&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14502</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;
+Nictiz Perinatologie, zie http://decor.nictiz.nl/art-decor/decor-project--peri20-
+DIVA, herinrichting Perined Registratie
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+Voor de opzet van de DCM zijn de volgende refenties van belang:
+&lt;ul&gt;
+	&lt;li&gt;Maternale sterfte. Verkregen op 26-11-2015, van https://www.knov.nl/scholing-en-registratie/tekstpagina/501/maternale-sterfte/&lt;/li&gt;
+	&lt;li&gt;Moedersterfte. Verkregen op 24 november 2015, van https://www.volksgezondheidenzorg.info/onderwerp/sterfte-rond-de-geboorte/cijfers-context/sterfte#definities      &lt;/li&gt;
+	&lt;li&gt;Preventie van Maternale Mortaliteit. Verkregen op 24 november 2015, van http://www.nvog-documenten.nl/index.php?pagina=/richtlijn/item/pagina.php&amp;amp;richtlijn_id=912   &lt;/li&gt;
+	&lt;li&gt;Schutte, J.,  Akker van den, T., Engel, N. , Groot de, C., Kuppens, S., Schuitemaker, N., Vermeulen, G., Zwart, J., Roosmal van, J., (2013). Moedersterfte in Nederland: op de goede weg?. KNOV, Tijdschrift voor Verloskundigen, TvV,  September 2013, 30-33.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;font color="#0f0f0f"&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;&lt;/font&gt;
+NICTIZ Perinatologie implementatie (2005-2007) 2.16.840.1.113883.2.4.4.13
+PRN: 2.16.840.1.113883.2.4.3.22.1
+Data set Perinatologie 2.2: 2.16.840.1.113883.2.4.3.11.60.90.77.1.5
+PRN LVR 1-id lijst 2.16.840.1.113883.2.4.3.22.98.1
+
+De diverse broncodesystemen en bijbehorende OID's zijn opgenomen in de Tagged Values bij het data element.
+
+Het is mogelijk dat anderen in dit domein gebruik maken van andere coderingen en value sets dan in dit DCM zijn gebruikt. In dat geval stellen wij&lt;font color="#ff0000"&gt; &lt;/font&gt;het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT, LOINC, NICTIZ Perinatologie implementatie dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICPC, ICD10, ICF, ICNP). Daarnaast hebben diverse belanghebbenden aan het DCM haar eigen interne code(s) toegevoegd. De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept/de concepten zoals die zijn opgenomen in de terminologie of classificatie. 
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig alleen eigen coderingen gebruikt en zullen de ontbrekende concepten bij onder andere Snomed CT worden ingebracht.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14490</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De specificatie in deze DCM heeft relatie met de volgende functionaliteiten in het EHR-S FM R2:
+&lt;ul&gt;
+	&lt;li&gt;CP.1.1 Manage Patient History&lt;/li&gt;
+	&lt;li&gt;CP.7.2 Manage Recommendations for Future Care&lt;/li&gt;
+	&lt;li&gt;CP.9.2#03&lt;/li&gt;
+	&lt;li&gt;CPS.1.2#08&lt;/li&gt;
+	&lt;li&gt;CPS.9.2#08&lt;/li&gt;
+	&lt;li&gt;CPS.9.2#09&lt;/li&gt;
+	&lt;li&gt;CPS.9.2.2 Support for Provider to Professional Communication&lt;/li&gt;
+	&lt;li&gt;CPS.9.2.2#02&lt;/li&gt;
+	&lt;li&gt;CPS.9.2.2#04&lt;/li&gt;
+	&lt;li&gt;CPS.9.2.2#05&lt;/li&gt;
+	&lt;li&gt;AS.2.1 Synchronize Patient Demographic Data;&lt;/li&gt;
+	&lt;li&gt;AS.2.1#06&lt;/li&gt;
+&lt;/ul&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14498</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De NVOG kwaliteitsnorm Preventie van Maternale Mortaliteit (2012). </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14499</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland  of Results 4 Care via een website van Stichting Perinatale Registratie Nederland  of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland  via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. 
+
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. 
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14503</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14491</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14488</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>14515</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14515</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14517</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14517</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14518</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14519</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14521</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>5</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14521</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14510</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14510</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>5</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14516</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14516</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14511</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

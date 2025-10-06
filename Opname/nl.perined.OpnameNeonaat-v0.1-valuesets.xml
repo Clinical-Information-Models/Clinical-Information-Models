@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="OpnameConcepts">
+    <code code="32485007" displayName="| Hospital admission (procedure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="399423000" displayName="| Date of admission (observable entity) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="417005" displayName="| Hospital re-admission (procedure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="32485007" displayName="| Hospital admission (procedure) | : ??? =  404684003 | klinische bevinding |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="32485007" displayName="| Hospital admission (procedure) | : ??? =  363787002 | waarneembare entiteit |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="266751003" displayName="| Transferred from department (finding) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="OpnameIndicatie">
+    <code code="57036006" displayName="| Fetal gestational age (observable entity) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="276609002" displayName="| Birth weight abnormality (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="276514007" displayName="| neonatale cardiale insufficiëntie | + 95619009 | Neonatal respiratory failure (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="387712008" displayName="| neonatale geelzucht |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="52767006" displayName="| Neonatal hypoglycemia (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="78648007" displayName="| risico op infectie |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="473130003" displayName="| verdenking op infectieziekte |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="413654009" displayName="| perinatale asfyxie |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="87476004" displayName="| neonatale convulsies |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="72552008" displayName="| neonataal voedingsprobleem |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="702709008" displayName="| Congenital anomaly of fetus (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="206572008" displayName="| Neonatal withdrawal symptoms from maternal use of drugs of addiction (finding) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="288249001" displayName="| Maternal medical problem (situation) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="87996002" displayName="| Psychosocial status (social concept) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="305351004" displayName="| opname op intensive care |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="OTH" displayName="Overige indicaties" codeSystemName="NullFlavor" codeSystem="2.16.840.1.113883.5.1008" />
+  </valueSet>
+  <valueSet name="Afkomstigvan">
+    <code displayName="via eigen ziekenhuis, andere afdeling" />
+    <code displayName="via ander ziekenhuis" />
+    <code displayName="via thuis/geboortecentrum" />
+  </valueSet>
+</valueSets>

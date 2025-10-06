@@ -1,0 +1,3 @@
+"Include";"Name";"DataType";"Realization";"Description";"ExampleValue";"Terminology"
+"Yes";"FoetaleLigging";"";"";"";"";"SnomedCT:271692001 | Presentation of fetus (observable entity) |"
+"Required";"   Ligging bij Geboorte";"Coded Description";"";"Vastellilng van de ligging bij de geboorte, inclusief liggingsafwijking in zwangerschap vanaf 35 weken.";"";"PerinatologyObservationsPRN:LigGbrt Ligging bij Geboorte"

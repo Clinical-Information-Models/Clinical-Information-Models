@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="PartusKindConcepts">
+    <code code="169836001" displayName="| Birth of child (finding) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="364336006" displayName="| Pattern of delivery (observable entity) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="LigGbrt" displayName="Ligging bij geboorte" codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="Interv" displayName="Overige interventies " codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="236974004" displayName="| Instrumental delivery (procedure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="11466000" displayName="| Cesarean section (procedure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="SectioCaeInd" displayName="Indicatie sectio caesarea " codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+  </valueSet>
+  <valueSet name="Beslismomentsectiocaesarea">
+    <code displayName="tijdens ontsluiting besloten" />
+    <code displayName="tijdens uitdrijving besloten" />
+  </valueSet>
+</valueSets>

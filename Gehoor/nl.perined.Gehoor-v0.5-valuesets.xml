@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="GehoorConcepts">
+    <code code="364019009" displayName="Ability to hear" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRN6509" displayName="InformatieGehoor" codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+  </valueSet>
+  <valueSet name="InformatieGehoor">
+    <code code="3" displayName="afwijkend, neurosensorisch gehoorverlies" codeSystemName="PerinatologyValuesetcodesPRN" />
+    <code code="4" displayName="ernstig afwijkend, doof" codeSystemName="PerinatologyValuesetcodesPRN" />
+    <code code="2" displayName="mild afwijkend, licht gehoorverlies" codeSystemName="PerinatologyValuesetcodesPRN" />
+    <code code="1" displayName="Normaal, geen gehoorprobleem" codeSystemName="PerinatologyValuesetcodesPRN" />
+  </valueSet>
+</valueSets>

@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="11-8-2016 17:16:58" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>8579</id>
+      <name>nl.Perined.LiggingGeboorte-v0.3</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2016-08-11T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Anne Marieke Schriere, Anneke Goossen-Baremans"></tag>
+      <tag name="DCM::ContactInformation.Address" value=""></tag>
+      <tag name="DCM::ContactInformation.Name" value="Results 4 Care B.V.">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="DCMHelpdesk@results4care.eu"></tag>
+      <tag name="DCM::ContentAuthorList" value="Anneke Goossen-baremans, Results 4 Care B.V.">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="14-6-2012"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.30"></tag>
+      <tag name="DCM::KeywordList" value="Abnormale ligging foetus; afwijkende positie foetus; Labor Presentation &#x9;D007746; 364607000 position of fetus; 15028002 abnormal fetal presentation (Snomed CT); Stuitligging; Breech Presentation  D001946">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="William Goossen, Results 4 Care B.V."></tag>
+      <tag name="DCM::Name" value="nl.Perined.LiggingGeboorte"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.3"></tag>
+      <tag name="MAX::ExportDate" value="11-8-2016 16:55:29"></tag>
+      <tag name="MAX::ExportFile" value="D:\OwnCloud\1-Perined 2015\DCM instances PRN\Ligging bij Geboorte\nl.Perined.LiggingGeboorte-v0.3.max"></tag>
+    </object>
+    <object>
+      <id>8591</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;v 0.1 start basisstructuur voor PRN&lt;/font&gt;
+&lt;font color="#408080"&gt;v 0.2 model afgerond en tekst compleet&lt;/font&gt;
+&lt;font color="#408080"&gt;v 0.3 gewijzigd van foetale liggingsafwijking na 35 weken naar ligging bij geboorte conform perinatologie 2.2 dataset van art decor. &lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8583</id>
+      <name>Concept</name>
+      <alias />
+      <notes>De positie of ligging van de foetus in de laatste weken van de zwangerschap.  </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8596</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2010-07-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>8585</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>Het vastleggen van de ligging bij de geboorte, inclusief een eventuele liggingsafwijking van de foetus, in het dossier van de zwangere vrouw ten behoeve van de verloskundige begeleiding en voor de aanlevering van gegevens aan de Perinatale Registratie Nederland.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8586</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>Zwangere vrouwen.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>8587</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>Vanaf een zwangerschap van 36 weken daalt de foetus normaliter in,  in het bekken van de moeder. 
+Als het gaat om een abnormale houding spreekt men van een liggingsafwijking. Een vaginale bevalling kan mogelijk zijn, maar als de uitdrijving niet lukt, kan een vaginale 
+
+Ligging bij geboorte, liggingssafwijking, abnormale ligging van de foetus en afwijkende positie van de foetus verwijst naar de ligging van de foetus in de laatste weken van de zwangerschap. Normaal ligt de foetus met de kin op de borst en de armen voor de borst gekruist. Ligt de foetus in een andere positie kan dit de bevalling bemoeilijken. Eventueel kan een kunstverlossing of een keizersnede noodzakelijk zijn (KiesBeter, 2012, Merck Manual, 2012).
+
+Een liggingsafwijking komt voor als de foetus vrijer dan normaal kan bewegen in de baarmoeder of juist wordt belemmerd. Situaties waarin zich dit voordoet zijn een vroeggeboorte waarbij de foetus nog klein is en niet is  ingedaald, bij zeer veel vruchtwater, bij een meerlingzwangerschap, een laagliggende placenta of een vleesboom waardoor de foetus niet in het bekken indaalt en een baarmoeder met een afwijkende vorm (KiesBeter, 2012). 
+
+Soorten liggingsafwijkingen zijn:
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Stuitligging&lt;/b&gt; (KiesBeter, 2012):&lt;/li&gt;
+&lt;/ul&gt;
+Het hoofd van de foetus ligt boven in de baarmoeder en de billetjes of beentjes liggen naar beneden. Voor de 32 weken zwangerschap liggen veel foetussen in een stuitligging, maar de meesten draaien voor de 36 weken naar een hoofdligging. De andere (3 op de 100) liggen in een van de twee vormen van stuitligging: een onvolkomen stuitligging (de beentjes liggen omhoog geklapt, de gunstigste stuitligging), of de volkomen stuitligging, waarbij de foetus in kleermakerszit ligt. Het kan voorkomen dat alleen een of twee voetjes voor de baarmoedermond liggen en de stuit zelf boven de bekkeningang. In het geval van een tweeling ligt een van de twee foetussen in een stuitligging.
+
+De NVOG beschrijft in de richtlijn 'Stuitligging' (2008) dat bij een stuitligging vaker complicaties durante partu voorkomen met een verhoogde kans op maternale en neonatale morbiditeit en mortaliteit zowel op korte als op langere termijn. Daarnaast is het sectio-caesarea-percentage in verband met stuitligging sinds 2000 toegenomen van ongeveer 50 naar 80. De grotere kans op maternale problemen komt door de verhoogde kans op een sectio caesarea. Een uitwendige versie van de foetus in stuitligging naar hoofdligging resulteert in een daling van het aantal kinderen in stuitligging met als gevolg een daling van het aantal sectio's.  
+&amp;nbsp;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Dwarsligging&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+Een zeldzame (0,5%) liggingsafwijking is  wanneer de baby dwars in de baarmoeder ligt. Als de dwarsligging niet gecorrigeerd kan worden zal een sectio-caesarea plaats vinden. Mogelijke redenen voor een dwarsligging zijn een vernauwd bekken of een voorliggende placenta (Maxima Medisch Centrum, 2012).  
+&amp;nbsp;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Achterhoofdsligging achter (verkeerde spildraai)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+Ongeveer één op de vijf foetussen ligt aan het begin van de bevalling in een occipito-posterior-positie, met het hoofd naar beneden, maar met het gezicht naar de buik van de moeder in plaats van naar haar rug. Tijdens de bevalling draaien de meeste foetussen met het achterhoofd naar voren, maar twee op de honderd doen dit niet en worden met het achterhoofd achter geboren (KiesBeter, 2012).
+&amp;nbsp;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Aangezichtsligging&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+De foetus ligt met het hoofd in de nek, zodat het aangezicht boven de baarmoederhals ligt. Gewoon bevallen is wel mogelijk, maar door stuwing van het hoofd ziet de baby er na de geboorte anders uit dan normaal, het gezichtje is erg gezwollen. Deze ligging komt  bij één op de vierhonderd geboorten voor (KiesBeter, 2012).
+&amp;nbsp;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Voorhoofdsligging&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+Komt bij één op de duizend geboorten voor. Het hoofdje ligt in de nek, maar minder uitgesproken dan bij een aangezichtsligging. Een natuurlijke bevalling is niet mogelijk, maar tijdens de bevalling kan de ligging veranderen in een aangezichtsligging en dan kan de baby wel langs natuurlijke weg geboren worden (KiesBeter, 2012).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8600</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8601</id>
+      <name>Ligging bij Geboorte</name>
+      <alias />
+      <notes>Vastellilng van de ligging bij de geboorte, inclusief liggingsafwijking in zwangerschap vanaf 35 weken. </notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>8600</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+      <tag name="DCM::ValueSet" value="LiggingBijGeboorte22 2.16.840.1.113883.2.4.11.177">http://decor.nictiz.nl/art-decor/decor-valuesets--peri20-?id=2.16.840.1.113883.2.4.11.177&amp;effectiveDate=2013-12-24T00%3A00%3A00</tag>
+      <tag name="DCM::Id" value="PRN 1.3: item 5.3.06"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-40140 "></tag>
+      <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: LigGbrt"></tag>
+    </object>
+    <object>
+      <id>8605</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>8600</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>8606</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>8600</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>8608</id>
+      <name>FoetaleLigging</name>
+      <alias />
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>8600</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:271692001 | Presentation of fetus (observable entity) |"></tag>
+    </object>
+    <object>
+      <id>8581</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;TODO: Translate&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;In dit hoofdstuk kunnen een aantal voorbeeld scenario's en het gebruik en vulling van de verschillende concepten uit het informatiemodel in de tijd worden gevisualiseerd.&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;Dit is dus niet het werkproces, maar juist een voorbeeld van hoe het informatie model er ingevuld uit kan zien in de loop van het proces.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2010-02-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>8590</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>&lt;font color="#0f0f0f"&gt;De verloskundige of obstetricus documenteert de ligging van de baby bij de geboorte in het EPD bij de kindspecifieke maternale gegevens. &lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8582</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>Zie de specifieke beschrijving bij evidence van de verschillende vormen van ligging bij geboorte. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8594</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>&lt;font color="#0f0f0f"&gt;Dit gegeven kan al vanaf de 35e week relevant zijn en worden bijgehouden in het dossier. &lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8593</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8597</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8588</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>Dit is een inperking van de originele PRN 1.3 specificatie waarin de tijdstip van registratie en de acties 1e en 2e lijn zijn vervallen. 
+Daarmee is ook het rootconcept veranderd van abnormale ligging naar foetale ligging en is Snomed CT code SnomedCT: 15028002 abnormal fetal presentation vervallen. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8589</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;b&gt;Projecten:&lt;/b&gt;
+
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Abnormale ligging. Verkregen op 14 juni 2012, van http://www.kiesbeter.nl/medische-informatie/medische-encyclopedie/abnormale-ligging/&lt;/li&gt;
+	&lt;li&gt;Complicaties in de zwangerschap. Verkregen op 14 juni 2012, van http://gynaecologie.mmc.nl/verloskunde/zwangerschap/complicaties#stui&lt;/li&gt;
+	&lt;li&gt;Richtlijn Stuitligging (2008). Verkregen op 14 juni 2012, van http://nvog-documenten.nl/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>8598</id>
+      <name>Functional Model</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8599</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8592</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>Stichting Perined als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Perined en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Perined of Results 4 Care, of door U via een website van Perined,  of Results 4 Care of via e-mail, of anderszins langs elektronische weg.
+Tevens aanvaarden Perined  en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Perined via deze DCM, Detailed Clinical Model. Perined aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. 
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8595</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>De gebruiker mag de informatie van deze Detailed Clinical Model (Klinische Bouwsteen / Zorginformatiebouwsteen) zonder beperking gebruiken. 
+Voor het kopiëren, verspreiden en doorgeven van de informatie gelden de volgende copyrights-bepalingen. De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 
+(zie ook &lt;a href="http://creativecommons.org/licenses/by-nc-sa/3.0/nl/"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;http://creativecommons.org/licenses/by-nc-sa/3.0/nl/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;).
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8584</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>Op de kennis rondom de in deze DCM beschreven onderwerpen is geen licentie of copyright van toepassing. Ook de door Perined verstrekte coderingen, en valueset zoals op art-decor gepubliceerd zijn rechtenvrij.
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8579</parentId>
+      <modified>2016-08-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>8580</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>8579</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>8601</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8601</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>8608</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

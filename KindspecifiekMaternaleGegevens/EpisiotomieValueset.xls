@@ -1,0 +1,5 @@
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception
+0;L;1;"mediolaterale episiotomie";2.16.840.1.113883.2.4.3.22.1.3.60;EpisiotomieType;;;false
+0;L;2;"mediane episiotomie";2.16.840.1.113883.2.4.3.22.1.3.60;EpisiotomieType;;;false
+0;L;UNK;onbekend;2.16.840.1.113883.5.1008;NullFlavor;;;true
+0;L;NI;"geen informatie";2.16.840.1.113883.5.1008;NullFlavor;;;true

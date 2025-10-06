@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="8/2/2016 2:46:42 PM" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>8270</id>
+      <name>nl.perined.ReanimatieKind-v0.2</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2016-08-02T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Perined"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588, 3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="21-5-2012"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.47"></tag>
+      <tag name="DCM::KeywordList" value="Reanimatie, CPR, &#x9;Cardiopulmonary Resuscitation D016887, Resuscitation D012151  ">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Results 4 Care BV"></tag>
+      <tag name="DCM::Name" value="nl.perined.ReanimatieKind"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.2"></tag>
+    </object>
+    <object>
+      <id>8288</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>Versie 0.1: eerste opzet van de DCM.
+Versie 0.2: informatiemodel aangepast, naam perined opgenomen, OID als DCM Id toegevoegd.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>8272</id>
+      <name>Concept</name>
+      <alias />
+      <notes>Reanimatie zijn alle handelingen die nodig zijn om ademhaling en circulatie te herstellen bij een ademstilstand of hartstilstand (NVK, 2008).
+
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2010-06-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>8285</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>8283</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>Het vastleggen van relevante informatie over de reanimatie bij het kind in het dossier van het kind.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8289</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>De pasgeborene.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>8273</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>Wetenschappelijke onderbouwing van reanimatie bij de pasgeborene is beschreven in de NVK Richtlijn Reanimatie van pasgeborenen (2008).
+
+Voor verloskundigen is er een KNOV-Standpunt Reanimatie pasgeborene in thusisituatie (2009). De inhoud van dit standpunt is gebaseerd op de al genoemde NVK richtlijn.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8276</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8737</id>
+      <name>MiddelReanimatieVerloskundigeZorgverlener</name>
+      <alias />
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>8276</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PRN:PRN560802"></tag>
+    </object>
+    <object>
+      <id>8738</id>
+      <name>MiddelReanimatieKinderarts</name>
+      <alias />
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>8276</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PRN:PRN560804"></tag>
+    </object>
+    <object>
+      <id>8292</id>
+      <name>VerloskundigZorgverlener</name>
+      <alias />
+      <notes>Heeft er een reanimatie door een door een verloskundig zorgverlener plaats gevonden. In te vullen door de zorgverlener die de reanimatie heeft verricht.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>8276</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT: 11935004 obstetrician"></tag>
+      <tag name="DCM::DefinitionCode" value="PRN: PRN560801"></tag>
+      <attribute id="2669" name="Nee" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: 1"></tag></attribute>
+      <attribute id="2670" name="Ja" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: 2"></tag></attribute>
+      <attribute id="2671" name="Onbekend" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: 9"></tag></attribute>
+    </object>
+    <object>
+      <id>8294</id>
+      <name>Kinderarts</name>
+      <alias />
+      <notes>Heeft er een reanimatie door een door een kinderarts plaats gevonden. In te vullen door de kinderarts die de reanimatie heeft verricht.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>8276</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PRN: PRN560801"></tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT: 82296001 paediatrician"></tag>
+      <attribute id="2672" name="Nee" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: 1"></tag>1=Nee, 2=Ja; 9=Onbekend.</attribute>
+      <attribute id="2673" name="Ja" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: 2"></tag></attribute>
+      <attribute id="2674" name="Onbekend" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: 9"></tag></attribute>
+    </object>
+    <object>
+      <id>8295</id>
+      <name>MiddelReanimatie</name>
+      <alias />
+      <notes>Indien reanimatie door verloskundige hulpverlener of kinderarts is ja: Welke vorm van reanimatie. In te vullen door de zorgverlener die de interventie doet. Meerdere antwoorden </notes>
+      <stereotype />
+      <type>Class</type>
+      <parentId>8276</parentId>
+      <modified>2012-06-15T00:00:00</modified>
+      <attribute id="2675" name="MaskerBallon" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: A"></tag>
+        <tag name="DCM::DefinitionCode" value="SnomedCT: 29396008 resuscitator"></tag>Beademing met behulp van een masker/ballon.</attribute>
+      <attribute id="2676" name="EndotrachealeBeademing" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: B"></tag>
+        <tag name="DCM::DefinitionCode" value="SnomedCT: 182686001 endotracheal respiratory assistance"></tag>Beademing door middel van een tracheacanule in de luchtpijp.</attribute>
+      <attribute id="2677" name="Hartmassage" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT: 89666000 cardiopulmonary resuscitation"></tag>
+        <tag name="DCM::DefinitionCode" value="PRN: C"></tag>Het ritmisch krachtig drukken op de borstkas, waardoor er een afwisselende positieve en negatieve druk wordt opgebouwd in de thorax met als gevolg dat de grote vaten bloed aanzuigen.</attribute>
+      <attribute id="2678" name="Adrenaline" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN: D"></tag>
+        <tag name="DCM::DefinitionCode" value="SnomedCT: 387362001 adrenaline"></tag>Intraveneuze toediening van adrenaline wordt aanbevolen wanneer de hartfrequentie &amp;lt; 60 slagen per minuut blijft na minimaal 30 seconden adequate beademing met 100% zuurstof en thoraxcompressie (&lt;i&gt;&lt;u&gt;ILCOR: Klasse I, LOE Onbepaald&lt;/u&gt;&lt;/i&gt;) (NVK, 2008)</attribute>
+      <attribute id="2679" name="OverigeReanimatie" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN:E"></tag>Overige reanimatie: andere vormen van reanimatie dan al genoemd.</attribute>
+    </object>
+    <object>
+      <id>8296</id>
+      <name>ReanimatieKind</name>
+      <alias />
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>8276</parentId>
+      <modified>2012-05-21T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT: 386412000 resuscitation of neonate"></tag>
+    </object>
+    <object>
+      <id>8297</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>8276</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>8299</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>8276</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>8281</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2010-02-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>8300</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>8281</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>8279</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>De werkwijze tijdens reanimatie van pasgeborenen wordt schematisch weergegeven in de NVK Richtlijn Reanimatie van pasgeborenen (beslisboom). Deze richtlijn is te verkrijgen via http://www.nvk.nl/Kwaliteit/Richtlijnenenindicatoren/Richtlijnen/Reanimatievanpasgeborenen.aspx
+
+Voor verloskundigen is in het KNOV-Standpunt reanimatie pasgeborene in thuissituatie de werkwijze bij een reanimatie beschreven en schematisch weergegeven in een beslisboom. Dit standpunt is te verkrijgen via http://www.knov.nl/voor-verloskundigen/richtlijnen-gedragscodes-en-werkafspraken/knov-standpunten/reanimatie-pasgeborene/ 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>8278</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8277</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8286</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8274</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2010-02-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>8291</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8280</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;b&gt;Projecten:&lt;/b&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;Indien van toepassing hier de projecten vermelden.&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+Koninklijke Nederlandse Organisatie van Verloskundigen
+(KNOV)
+&lt;ul&gt;
+	&lt;li&gt;Koninklijke Nederlandse Organisatie van Verloskundigen, KNOV, (2009). KNOV-Standpunt. REanimatie van de pasgeborene in de thuissituatie of vergelijkbare omstandigheden 2009. KNOV.&lt;/li&gt;
+	&lt;li&gt;Nederlandse Vereniging voor KIndergeneeskunde, NVK, (2008). Richtlijn Reanimatie van pasgeborenen. NVK.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;b&gt;Vocabulary:&lt;/b&gt;
+Het is mogelijk dat mensen in dit domein gebruik maken van andere coderingen en value sets dan in deze DCM zijn gebruikt. In dat geval stellen wij als ontwikkelaars het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT en/of LOINC, dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICD10, ICF, ICNP). De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept / de concepten zoals die zijn opgenomen in de terminologie of classificatie.  
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig eigen coderingen gemaakt en zullen de ontbrekende concepten bij Snomed CT worden ingebracht.
+De OID’s voor de gebruikte vocabulary zijn:
+SNOMED CT	2.16.840.1.113883.6.96
+LOINC	2.16.840.113883.6.1
+&lt;font color="#ff0000"&gt;PRN  ?&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>8275</id>
+      <name>Functional Model</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8287</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>8284</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>Stichting Perinatale Registratie Nederland (PRN) als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland of Results 4 Care via een website van Stichting Perinatale Registratie Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>8290</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>8282</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>Niet van toepassing.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>8270</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>8271</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>8270</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>8292</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8292</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>8296</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8294</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>8296</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8294</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8295</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8737</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>8296</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8737</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>8295</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8738</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>8296</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>8738</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>8295</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+  </relationships>
+</model>

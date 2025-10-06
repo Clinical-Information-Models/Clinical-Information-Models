@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="KenmerkenBloedConcepts">
+    <code code="57171008" displayName="| Hematopoietic system structure (body structure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="66958002" displayName="| Isoimmunization from non-ABO, non-Rh blood-group incompatibility affecting pregnancy (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="SnomedCT" displayName="278155008 | Rhesus status (attribute) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="312457003" displayName="Finding of irregular blood group antibody present (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="48767-8" displayName="Annotation comment" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code code="883-9" displayName="Bloedgroep" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+  </valueSet>
+  <valueSet name="IrregulaireAntistoffen">
+    <code code="405844003" displayName="| Antibody to antigen in Kell blood group system (substance) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="112162009" displayName="Rhesus D" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="8362009" displayName="Rhesus c" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="62523009" displayName="Rhesus e" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="8376005" displayName="Duffy" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="25453008" displayName="Kidd" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="UNK" displayName="Onbekend" codeSystemName="HL7 NullFlavor" />
+    <code code="OTH" displayName="Overig" codeSystemName="HL7 NullFlavor" />
+  </valueSet>
+  <valueSet name="RhesusDfactor">
+    <code code="165747007" displayName="RhD positive (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="165746003" displayName="RhD negative (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Bloedgroep">
+    <code code="112144000" displayName="bloodgroup A" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="112149005" displayName="bloodgroup B" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="165743006" displayName="bloodgroup AB" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="58460004" displayName="O" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+</valueSets>

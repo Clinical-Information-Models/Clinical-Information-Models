@@ -1,0 +1,42 @@
+archetype (adl_version=1.5)
+  cimi-RM-ENTRY.FoetaleLigging.v1
+
+language
+  original_language = <[ISO_639-1::en]>
+description
+  original_author = <
+    ["name"] = <"unknown">
+  >
+  lifecycle_state = <"Draft">
+
+definition
+  ENTRY[at0000] matches { -- FoetaleLigging
+    data matches {
+        ELEMENT[at0001] occurrences matches {1..1} matches { -- Ligging bij Geboorte
+          value matches {
+            [local::
+          }
+        }
+    }
+  }
+
+ontology
+  term_definitions = <
+    ["en"] = <
+      items = <
+        ["at0000"] = <
+          text = <"FoetaleLigging">
+        >
+        ["at0001"] = <
+          text = <"Ligging bij Geboorte">
+          description = <"Vastellilng van de ligging bij de geboorte, inclusief liggingsafwijking in zwangerschap vanaf 35 weken.">
+        >
+      >
+    >
+  >
+  term_bindings = <
+    ["SCT"] = <
+      items = <
+      >
+    >
+  >

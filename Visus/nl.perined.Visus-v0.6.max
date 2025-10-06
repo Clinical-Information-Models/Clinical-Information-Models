@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="8/2/2016 2:14:42 PM" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>1247</id>
+      <name>nl.perined.Visus-v0.6</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2016-04-18T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Perined, Anneke Goossen, Results 4 Care"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588,3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined, Anneke Goossen, Results 4 Care">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="8/1/2010"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.45"></tag>
+      <tag name="DCM::KeywordList" value="D014785 Vision, Ocular; zien, beperking in visus, beperking in zien">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Results 4 Care"></tag>
+      <tag name="DCM::Name" value="nl.perined.Visus"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Author Draft">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.6"></tag>
+    </object>
+    <object>
+      <id>1254</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;18-04-2016: versie 0.6 DCM Id toegevoegd en in Naam DCM perined opgenomen.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1252</id>
+      <name>Concept</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Informatie over visus (PRN Dataset 1.3)</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1259</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1251</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het doel is het vastleggen van informatie over de visus in het dossier van het kind voor zowel de directe zorgverlening als voor het follow-up bericht na 6 weken van de kinderarts naar Perined. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1260</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;De visus vastgesteld  bij 6 weken na de geboorte.&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1266</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1267</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1269</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>1267</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1270</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>1267</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>1271</id>
+      <name>InformatieVisus</name>
+      <alias />
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>1267</parentId>
+      <modified>2011-07-14T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN6508"></tag>
+      <tag name="DCM::ValueSet" value="InformatieVisusFU">OID 2.16.840.1.113883.2.4.3.22.1.18.5.19</tag>
+      <tag name="DCM::CodeSystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT: 301978000 Finding of vision of eye (finding) "></tag>
+      <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <attribute id="548" name="afwijkend, beperkte visus met mogelijkheid iets te zien" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyValuesetcodesPRN: 3"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyValuesetcodesPRN">OID 2.16.840.1.113883.2.4.3.22.1.2</tag></attribute>
+      <attribute id="549" name="ernstig afwijkend, blind" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyValuesetcodesPRN: 4"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyValuesetcodesPRN">OID 2.16.840.1.113883.2.4.3.22.1.2</tag></attribute>
+      <attribute id="550" name="mild afwijkend, onder behandeling van oogarts/orthoptist" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyValuesetcodesPRN: 2"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyValuesetcodesPRN">OID 2.16.840.1.113883.2.4.3.22.1.2</tag></attribute>
+      <attribute id="551" name="normaal, geen visusproblemen" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PerinatologyValuesetcodesPRN: 1"></tag>
+        <tag name="DCM::CodeSystem" value="PerinatologyValuesetcodesPRN">OID 2.16.840.1.113883.2.4.3.22.1.2</tag></attribute>
+    </object>
+    <object>
+      <id>1272</id>
+      <name>Visus</name>
+      <alias />
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>1267</parentId>
+      <modified>2011-07-14T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT: 415823006  Vision observable"></tag>
+      <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>1253</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1273</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>1253</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>1257</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1249</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1250</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In de perinatologie wordt bij kinderen die bij de kinderarts onder controle zijn 6 weken na de geboorte de visus beoordeeld. Het resultaat wordt in het dossier van het kind vastgelegd en via het follow-up bericht 6 weken verstuurd naar Perined voor de perinatale registratie.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1265</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1268</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1258</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1256</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;&lt;b&gt;Literatuur:&lt;/b&gt;&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;Voor de opzet van de DCM zijn de volgende refenties van belang:&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;
+In deze DCM is zowel een intern codesysteem van Perined gebruikt als Snomed CT.
+PerinatologyObservationsPRN: OID 2.16.840.1.113883.2.4.3.22.1.1
+Snomed CT: OID 2.16.840.1.113883.6.96
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1264</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1263</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1261</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland  of Results 4 Care via een website van Stichting Perinatale Registratie Nederland  of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland  via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. 
+
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1262</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1255</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1247</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1248</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>1247</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>1271</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1272</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1271</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+  </relationships>
+</model>

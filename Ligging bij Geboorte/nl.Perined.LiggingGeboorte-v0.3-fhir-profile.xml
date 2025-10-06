@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <version value="1.0.0" />
+  <name value="FoetaleLigging" />
+  <status />
+  <experimental />
+  <fhirVersion value="0.0.82" />
+  <structure>
+    <type value="Observation" />
+    <publish />
+    <element id="39B81DD5-CB9F-4be3-A31A-FC6FF1AD5FBF">
+      <path value="Observation.related" />
+      <name value="Ligging bij Geboorte" />
+      <definition>
+        <type>
+          <code value="CodeableConcept" />
+        </type>
+      </definition>
+    </element>
+  </structure>
+</Profile>

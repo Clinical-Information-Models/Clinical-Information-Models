@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="ReproQZV4Concepts">
+    <code code="225349005" displayName="Respecting the client's privacy (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="406221003" displayName="Health status (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="32485007" displayName="Hospital admission (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="271903000" displayName="History of pregnancy (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="272058002" displayName="History of past delivery (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="161811009" displayName="History of perinatal fetal loss (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="161805006" displayName="History of cesarean section (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="57797005" displayName="Induced termination of pregnancy (disorder)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="161744009" displayName="History of miscarriage (situation) or 161763005 History of ectopic pregnancy (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="386229000" displayName="Caregiver support (regime/therapy)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="ON" displayName="Naam kraamorganisatie" codeSystemName="HL7R2DT" />
+    <code code="AD.postalCode" displayName="Postcode" codeSystemName="HL7R2DT" />
+    <code code="184102003" displayName="Patient postal code (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="105421008" displayName="Educational achievement (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="ON" displayName="Naam verloskunde praktijk" codeSystemName="HL7R2DT" />
+    <code code="184099003" displayName="Date of birth" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="ON" displayName="Naam ziekenhuis" codeSystemName="HL7R2DT" />
+    <code code="309370004" displayName="Consent status (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="420107008" displayName="Patient decision status (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="289908002" displayName="Pregnancy, function (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Toestemming" />
+</valueSets>

@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="20-10-2015 18:52:00" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>14234</id>
+      <name>nl.perined.CongenitaleAfwijkingen-v0.2</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2015-10-20T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Perined, Nictiz Perinatologie"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588, 3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined, Nictiz Perinatologie">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="12-10-2015"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.3"></tag>
+      <tag name="DCM::KeywordList" value="Aangeboren afwijkingen, Congenital Abnormalities D000013">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value=""></tag>
+      <tag name="DCM::Name" value="nl.Perined.CongenitaleAfwijkingen"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.2"></tag>
+      <tag name="MAX::ExportDate" value="20-10-2015 18:49:21"></tag>
+      <tag name="MAX::ExportFile" value="E:\1 R4C Projecten\DCM\Uitgewerkte DCM\Congenitale Afwijking\nl.Perined.CongenitaleAfwijkingen-v0.2.max.xml"></tag>
+    </object>
+    <object>
+      <id>14248</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Versie 0.1: eerste opzet van de DCM.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;Versie 0.2: review opmerkingen verwerkt.&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14236</id>
+      <name>Concept</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Congenitale afwijkingen ofwel aangeboren afwijkingen, zijn lichamelijke afwijkingen die al voor de geboorte van de baby aanwezig zijn. De afwijkingen zijn al bij de geboorte duidelijk zichtbaar of komen in het eerste levensjaar aan het licht (Merck Manual, 2012). Zij kunnen erfelijk zijn, het erfelijke materiaal wordt door één of beide ouders overgedragen. Ook kunnen congenitale afwijkingen ontstaan door ziekten van de meoder (rode hond, toxoplasmose) of een virus (cytomegalovirus) tijdens de zwangerschap. Het risico op congenitale afwijkingen worden verhoogd door roken en alcoholgebruik tijdens de zwangerschap (medicinfo, 2012).</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14239</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14243</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>
+--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het vastleggen van een congenitale afwijking in het dossier van het kind, Kindspecifieke uitkomstgegevens. Secundair doel is het vastleggen van een congenitale afwijking voor Perined ten behoeve van een systematische monitoring van congenitale afwijkingen in Nederland.
+
+Het tweede doel is het vastleggen van een congenitale afwijking in het dossier van de zwangere vrouw in de obstetrische anamnese.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14252</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Pasgeborenen en zuigelingen waarbij een congenitale afwijking is vastgesteld.
+
+De zwangere vrouw als het gaat om kindspecifieke gegevens vorige uitkomsten, cq vorige bevallingen..</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14242</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Congenitale afwijkingen kunnen elk deel van elk orgaan in het lichaam betreffen. Sommige congenitale afwijkingen komen vaker voor dan anderen. Bij 7,5% van alle kinderen is de manifestatie van een congenitale afwijking rond het 5e levensjaar (Merck Manual, 2012). 
+
+In het rapport Aangeboren afwijkingen in Nederland 1997 - 2007 van TNO (2009) wordt beschreven dat voor de planning van medische en sociale voorzieningen, als vanuit wetenschappelijk oogpunt, is het van belang te weten hoe vaak aangeboren afwijkingen in Nederland voorkomen. Daarnaast stellen zij dat de enige manier waarop inzicht kan worden verkregen in de prevalentie van congenitale afwijkingen  is door systematische monitoring via een registratie. De Stichting Perinatale Registratie Nederland heeft in haar dataset een tweetal items opgenomen waardoor een systematische registratie van congenitale afwijkingen mogelijk is. 
+In 2007 was de prevalentie van congenitale afwijkingen in Nederland 3,75%, en is over de periode van 1997 tot 2007 een significante afname van de prevalentie van congenitale afwijkingen waarneembaar (TNO, 2009). 
+Daarnaast wordt door Eurocat Noord Nederland een registratie bijgehouden van kinderen met congenitale afwijkingen (Eurocat Nederland, 2012). Het totaal aantal geboortes in de Eurocat regio is gedaal van ca 20.000 in 2003 naar 18.000 in 2009. Er is in de groep kinderen met een congenitale afwijking een daling zichtbaar in het aantal doodgeboren kinderen, terwijl het aantal afgebroken zwangerschappen is gestegen vanwege een congenitale afwijking. De vermoedelijke oorzoek is de, in 2007, invoering van het Structureeel Echoscopisch Onderzoek (SEO) bij 20 weken zwangerschap warbij na een constatering van een lethale aandoening de zwangerschap meestal wordt afgebroken (Eurocat, 2011).
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14244</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Een specificatie van de gegevens met betrekking tot congenitale afwijkingen bij een kind.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14311</id>
+      <name>Specificatie Congenitale Afwijkingen</name>
+      <alias />
+      <notes>Aangeboren afwijkingen, conform de lijst PRN, exclusief chromosomale afwijkingen.
+Niet alle afwijkingen zijn als zodanig te constateren door de verloskundige/ gynaecoloog bij uitkomst van het kind. Het kan dan ook volstaan om een hoofdgroep uit deze lijst te kiezen (niveau 0 of soms 1 in waardenlijst), maar áls de zorgverlener meer detail weet (bijvoorbeeld bij lipspleet of microcefalie) dient wél de betreffende (gedetailleerde) waarde gekozen te worden. Gewenst is om te registreren tot op het detail niveau dat de zorgverlener (in dit geval verloskundige of gynaecoloog) dat kan.
+
+Bij anemnestische gegevens (vorige zwangerschappen) is vaak wél bekend welke afwijkingen op een kind van toepassing zijn/waren. Dit kan dan ook gedetailleerd worden vastgelegd.
+
+Bron: De waardenlijst bevat de lijst van PRN zoals deze afgestemd is met de kinderartsen (Codelijst KA behorende bij Dataset Perinatale Registratie versie 1.4.xls).</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14244</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::Id" value="peri22-dataelement-81000">Id voor context Obstetrische bevalling/ Eerdere bevalling/ Vorige uitkomst (per kind)/ Vorige baring/ Kindspecifieke gegevens vorige uitkomsten</tag>
+      <tag name="DCM::Id" value="peri22-dataelement-40090">Id voor context Uitkomst (per kind)/ Baring/ Kindspecifieke uitkomstgegevens</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::Codesystem" value="CongenitaleAfwijkingen">OID 2.16.840.1.113883.2.4.4.13.8</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:443341004 Congenital anomaly (disorder)"></tag>
+      <tag name="DCM::ExampleValue" value="Congenital hydrocephalus (disorder)"></tag>
+      <tag name="DCM::ValueSet" value="CongenitaleAfwijking22">OID 2.16.840.1.113883.2.4.11.196</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.196&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14312</id>
+      <name>Waarschijnlijkheid </name>
+      <alias />
+      <notes>Geeft aan of de bevinding onzeker (= vermoeden) is.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14244</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-40100">Id voor context Uitkomst (per kind)/ Baring/ Kindspecifieke uitkomstgegevens specifiek voor de congenitale afwijkingen.</tag>
+      <tag name="DCM::ValueSet" value="UncertaintyCode">OID 2.16.840.1.113883.2.4.11.50</tag>
+      <tag name="DCM::Codesystem" value="ActUncertainty">OID 2.16.840.1.113883.5.1053</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/services/RetrieveValueSet?prefix=peri20-&amp;language=nl-NL&amp;id=2.16.840.1.113883.2.4.11.50&amp;effectiveDate=2013-01-18T11:08:03&amp;format=xml"></tag>
+      <tag name="DCM::ExampleValue" value="stated with uncertainty"></tag>
+      <tag name="DCM::DefinitionCode" value="HL7: ActUncertainty"></tag>
+      <tag name="DCM::Codesystem" value="HL7">OID 2.16.840.1.113883.11.13954</tag>
+      <tag name="DCM::Id" value="peri22-dataelement-40130">Id voor context Uitkomst (per kind)/ Baring/ Kindspecifieke uitkomstgegevens specifiek voor de chromosomale afwijkingen.</tag>
+    </object>
+    <object>
+      <id>14261</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14244</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14262</id>
+      <name>CongenitaleAfwijkingen</name>
+      <alias />
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>14244</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:443341004 Congenital anomaly (disorder)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80998"></tag>
+    </object>
+    <object>
+      <id>14263</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14244</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14253</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14267</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>14253</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14237</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Registreren van het wel of niet aanwezig zijn van een congenitale afwijking bij het kind voor het einde van de zorg. Indien er een congenitale afwijking is vastgesteld voor het einde van de zorg dan dient te worden geregistreerd om welke congenitale afwijking het gaat. 
+
+Registratie van een congenitale afwijking als uitkomst van een vorige zwangerschap in de context van de obstetrische anamnese.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14251</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Indien er een congenitale afwijking is vastgesteld dan wordt dit vastgelegd. Daarbij wordt de waarschijnlijkheid van deze congenitale afwijking vastgelegd.
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14240</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Voor het einde van de zorg(relatie) wordt vastgelegd of de pasgeborene/ zuigeling een congenitale afwijking heeft. Bij aanwezigheid van een congenitale afwijking zal de zorgverlener bij de geboorte het kind verwijzen naar een kinderarts. De kinderarts zal onderzoeken om welke congenitale afwijkign het gaat en een behandelplan vaststellen voor de pasgeborene/zuigleing relevant voor de congenitale afwijking die is vastgesteld.
+
+Bij een volgende zwangerschap zal bij de obstetrische anamnese gevraagd worden naar de aanwezigheid van een congenitale afwijking bij een vorig kind.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14250</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14238</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14246</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-20T00:00:00</modified>
+    </object>
+    <object>
+      <id>14249</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;
+&lt;font color="#0f0f0f"&gt;Nictiz Perinatologie, Kernset aanleverbericht en Verwijzing Regulier bericht. Z&lt;/font&gt;ie http://decor.nictiz.nl/art-decor/decor-project--peri20-
+&lt;font color="#0f0f0f"&gt;DIVA, &lt;/font&gt;herinrichting PRN/PAN Registratie
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aangeboren afwijkingen. Verkregen op 24 mei 2012 van http://www.merckmanual.nl/mmhenl/sec23/ch265/ch265a.html   &lt;/li&gt;
+	&lt;li&gt;Aangeboren afwijkingen. Verkregen op 24 mei 2012, van http://www.medicinfo.nl/%7Bef1a9f27-6d6d-4486-b12a-2b4ff8ec91d3%7D   &lt;/li&gt;
+	&lt;li&gt;Eurocat Nederland. Verkregen op 24 mei 2012, van http://www.rug.nl/umcg/faculteit/disciplinegroepen/MedischeGenetica/Eurocat/index   &lt;/li&gt;
+	&lt;li&gt;Mohangoo, A. D., Buitendijk, S. E.,TNO, (2009). Aangeboren afwijkingen in Nederland 1997 - 2007. Leiden, TNO.   &lt;/li&gt;
+	&lt;li&gt;Stichting Perinatale Registratie Nederland. Verkregen op 24 mei 2012, van http://www.google.nl/search?q=stichting+perinatale+registratie+nederland&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;rls=org.mozilla:en-US:official&amp;amp;client=firefox-a   &lt;/li&gt;
+	&lt;li&gt;Update: Actuele cijfers aangeboren aandoeningen Eurocat Nederland. Verkregen op 24 mei 2012, van http://www.rug.nl/umcg/faculteit/disciplinegroepen/MedischeGenetica/Eurocat/tabellen   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;
+NICTIZ Perinatologie implementatie (2005-2007) 2.16.840.1.113883.2.4.4.13
+PRN: 2.16.840.1.113883.2.4.3.22.1
+Data set Perinatologie 2.2: 2.16.840.1.113883.2.4.3.11.60.90.77.1.5
+PRN LVR 1-id lijst 2.16.840.1.113883.2.4.3.22.98.1
+
+De diverse broncodesystemen en bijbehorende OID's zijn opgenomen in de Tagged Values bij het data element.
+
+Het is mogelijk dat anderen in dit domein gebruik maken van andere coderingen en value sets dan in dit DCM zijn gebruikt. In dat geval stellen wij&lt;font color="#ff0000"&gt; &lt;/font&gt;het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT, LOINC, NICTIZ Perinatologie implementatie dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICPC, ICD10, ICF, ICNP). Daarnaast hebben diverse belanghebbenden aan het DCM haar eigen interne code(s) toegevoegd. De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept/de concepten zoals die zijn opgenomen in de terminologie of classificatie. 
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig alleen eigen coderingen gebruikt en zullen de ontbrekende concepten bij onder andere Snomed CT worden ingebracht.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14247</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14245</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14241</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland (PRN) als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland of Results 4 Care via een website van Stichting Perinatale Registratie Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-09-30T00:00:00</modified>
+    </object>
+    <object>
+      <id>14254</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFUU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14255</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;Licenties van bronmateriaal&lt;/b&gt;
+&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14235</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>14234</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>14311</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14262</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14311</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14265</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14265</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14262</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14312</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14262</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

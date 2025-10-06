@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="Doodsoorzaken(extreem)vroeggeborenkinderenConcepts">
+    <code code="184305005" displayName="| doodsoorzaak |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="66091009" displayName="| Congenital disease (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="49333008" displayName="| Immature fetus (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="OTH" displayName="Other/ Anders" codeSystemName="HL7 NullFlavor" />
+    <code code="399753006" displayName="| datum van overlijden |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="10588007" displayName="| Perinatal death (event) | : 246454002 | Occurrence (attribute) | = 32485007 | Hospital admission (procedure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="UNK" displayName="Unknown/ Onbekend" codeSystemName="HL7 NullFlavor" />
+    <code code="46775006" displayName="| Respiratory distress syndrome in the newborn (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="46775006" displayName="| Respiratory distress syndrome in the newborn (disorder) |+ 70611002 | Perinatal intraventricular hemorrhage (disorder) | : 246112005 | Severity (attribute) | = 24484000 | ernstig |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="46775006" displayName="| Respiratory distress syndrome in the newborn (disorder) |+ 40733004 | Infectious disease (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="46775006" displayName="| Respiratory distress syndrome in the newborn (disorder) | + 414822009 | Neonatal pulmonary hemorrhage (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="67569000" displayName="| bronchopulmonale dysplasie |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="67569000" displayName="| bronchopulmonale dysplasie | + 40733004 | Infectious disease (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="67569000" displayName="| bronchopulmonale dysplasie | + 2470005 | Brain damage (disorder) | : 246112005 | Severity (attribute) | = 24484000 | ernstig |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="473130003" displayName="| verdenking op infectieziekte |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="40733004" displayName="| Infectious disease (disorder) : | 363713009 | Has interpretation (attribute) | = 277025001 | Proven (qualifier value) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="2707005" displayName="| Necrotizing enterocolitis in fetus OR newborn (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="2707005" displayName="| Necrotizing enterocolitis in fetus OR newborn (disorder) | + 206376005 | Sepsis of the newborn (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="56905009" displayName="| darmperforatie | : 363713009 | Has interpretation (attribute) | = 5054005 | Spontaneous (qualifier value) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="56905009" displayName="| darmperforatie | : 42752001 | Due to | = 2707005 | Necrotizing enterocolitis in fetus OR newborn (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="26629001" displayName="| short-bowel syndrome |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="70611002" displayName="| Perinatal intraventricular hemorrhage (disorder) | : 246112005 | Severity (attribute) | = 24484000 | ernstig |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="70611002" displayName="| Perinatal intraventricular hemorrhage (disorder) | : 246112005 | Severity (attribute) | = 24484000 | ernstig | + 40733004 | Infectious disease (disorder) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="230769007" displayName="| Periventricular leukomalacia (disorder) | : 116676008 | Associated morphology (attribute) |  = 20476009 | Cystic (qualifier value) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="413654009" displayName="| perinatale asfyxie | : 246112005 | Severity (attribute) | = 24484000 | ernstig |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+</valueSets>

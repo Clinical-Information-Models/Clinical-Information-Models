@@ -1,0 +1,1677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="26-11-2015 16:22:52" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>14522</id>
+      <name>nl.perined.ReproQuestionnaire-v0.1</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2015-11-24T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Perined, Nictiz Perinatologie"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588, 3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined, Nictiz Perinatologie">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="24-11-2015"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.9"></tag>
+      <tag name="DCM::KeywordList" value="*">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Michael van der Zel, Results 4 Care bv"></tag>
+      <tag name="DCM::Name" value=" nl.perined.ReproQuestionnaire"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.1"></tag>
+    </object>
+    <object>
+      <id>14538</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Versie 0.1: eerste opzet DCM. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14528</id>
+      <name>Concept</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De ReproQuestionnaire, afgekort met ReproQ, is een vragenlijst die de kwaliteit van geboortezorg vanuit het perspectief van de cliënten meet (Erasmus MC en het UMC Utrecht). 
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14543</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het doel van de vragenlijst is het meten van de ervaringen van zwangere of pas bevallen vrouw en met de verleende zorg tijdens zwangerschap, bevalling en kraambed. De meting is gericht op de mate waarin de zorgverlening cliënt gericht is volgens het universele 'responsiveness' model van de World Health Organisation (WHO). </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14531</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14530</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De zwangere of pas bevallen vrouw.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14535</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het document 'De psychometrische eigenschappen 
+van de ReproQuestionnaire, Op weg naar de CQ-geboortezorg' van  Scheerhagen et al (2013) geeft een beschrijving van de achtergrand, ontwikkeling en opbouw van de vragenlijst ReproQ. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14540</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In het informatiemodel wordt een specificatie gegeven van de vragenlijst ReproQ.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14558</id>
+      <name>Gezondheid moeder en baby</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14560</id>
+      <name>Gezondheid baby</name>
+      <alias>Vraag 7; Hoe gezond is uw baby op dit moment volgens u?</alias>
+      <notes>Bij kleine of grote problemen gaat het om uw ervaring of gevoel.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14558</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="gezond, geen problemen" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="kleine problemen" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="grote problemen" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="problemen, maar onduidelijk hoe erg het was" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="overleden. Ik heb een miskraam gehad/ Ik ben bevallen van een doodgeboren baby" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14563</id>
+      <name>Gezondheid moeder</name>
+      <alias>Vraag 8; Nu gaat het over u. Hoe gezond bent u nu?</alias>
+      <notes>Bij kleine of grote problemen gaat het om uw ervaring of gevoel.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14558</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="gezond, geen problemen" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="kleine problemen" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="grote problemen" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="problemen, maar onduidelijk hoe erg het was" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14565</id>
+      <name>Opname tijdens zwangerschap</name>
+      <alias>Vraag 9; Bent u tijdens de zwangerschap opgenomen in het ziekenhuis?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14558</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="nee" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ja, vanwege mijn eigen gezoendhied" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ja, vanwege de (slechte) gezondheid van mijn baby" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ja, vanwege mijzelf en mijn baby" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14550</id>
+      <name>Huidige zwangerschap</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14551</id>
+      <name>Eerste verloskundige controle</name>
+      <alias>Vraag 1; bij wie had u de eerste verloskundige controle?</alias>
+      <notes>De intake/ intakegesprek.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14550</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="Verloskundige" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Gynaecoloog" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Huisarts" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14552</id>
+      <name>Controles tot nu toe</name>
+      <alias>Vraag 2; Bij wie waren de controles tot nu toe?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14550</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="vanaf het begin bij de verloskundige" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="tijdelijk naar de gynaecoloog, maar nu weer bij de verloskundige" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="naar de gynaecoloog verwezen en daar gebleven" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14553</id>
+      <name>Controles tot nu toe</name>
+      <alias>Vraag 3; Bij wie waren de controles tot nu toe?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14550</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="vanaf het begin bij de gyneacoloog" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="tijdelijk naar de verloskundige, maar nu weer bij de gynaecoloog" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="naar de verloskundige verwezen en daar gebleven" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14554</id>
+      <name>Controles tot nu toe</name>
+      <alias>Vraag 4; Bij wie waren de controles tot nu toe?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14550</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="vanaf het begin bij de huisarts" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="tijdelijk naar de gynaecoloog, maar nu weer bij de huisarts" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="naar de gynaecoloog verwezen en daar gebleven" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14555</id>
+      <name>Meeste controles 1e helft</name>
+      <alias>Vraag 5; Bij wie had u de meeste controles in de eerste helft van de zwangerschap?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14550</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="verloskundige" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="gynaecoloog" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="huisarts" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="verloskundige en gynaecoloog, ongeveer gelijk" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="huisarts en gynaecoloog, ongeveer gelijk" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14561</id>
+      <name>Meeste controles 2e helft</name>
+      <alias>Vraag 5; Bij wie had u de meeste controles in de eerste helft van de zwan</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14550</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="gynaecoloog" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="verloskundige" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="huisarts" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="verloskundige en gynaecoloog, ongeveer gelijk" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="huisarts en gynaecoloog, ongeveer gelijk" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14568</id>
+      <name>Omgang met zorgverleners</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14569</id>
+      <name>Privacy</name>
+      <alias>Vraag 10; Hield uw zorgverlener rekening met uw privacy?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14571</id>
+      <name>ValueSet</name>
+      <alias />
+      <stereotype>valueset</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="altijd" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="meestal" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="soms" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="nooit" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14573</id>
+      <name>Respect</name>
+      <alias>Vraag 11; Behandelde uw zorgverlener u met respect?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14575</id>
+      <name>Persoonlijke aandacht</name>
+      <alias>Vraag 12; Kreeg u persoonlijke aandacht van uw zorgverlener?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14576</id>
+      <name>Vriendelijk</name>
+      <alias>Vraag 13; Behandelde uw zorgverlener u vriendelijk?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14577</id>
+      <name>Wensen en gebruiken</name>
+      <alias>Vraag 14; Hield uw zorgverlener rekening met uw wensen en gebruiken rondom zwanger zijn en bevallen?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14578</id>
+      <name>Alles vertellen</name>
+      <alias>Vraag 15; Had u het gevoel dat u alles kon vertellen aan uw zorgverleners?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14568</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14581</id>
+      <name>Zelf beslissen</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14583</id>
+      <name>Behandeling</name>
+      <alias>Vraag 16; Besliste u mee over uw behandeling als dat kon?</alias>
+      <notes>Het gaat hier &lt;b&gt;niet&lt;/b&gt; om noodsituaties.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14581</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14585</id>
+      <name>Weigeren behandeling</name>
+      <alias>Vraag 17; Kon u een voorgestelde behandeling weigeren?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14581</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14587</id>
+      <name>Syndroom van Down</name>
+      <alias>Vraag 18; Is er aan u gevraagd of u uw baby wilde laten testen op het Syndroom van Down?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14581</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="ja" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="nee" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ik weet het niet meer" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14589</id>
+      <name>Geboorteplan</name>
+      <alias>Vraag 19; Hoeveel invloed had u op uw geboorteplan?</alias>
+      <notes>In een geboorteplan beschrijft u uw wensen rondom de bevalling, bijvoorbeeld over de plaats van bevallen, de manier van bevallen, en over de pijnbehandeling en kraamzorg.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14581</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="ik heb het helemaal zelf bepaald" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ik had veel invloed" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ik had weinig invloed" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ik had geen invloed, zonder dat hier een medische reden voor was" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="ik had geen invloed, vanwege een medische reden" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="er is nog niet over gesproken/ het is nog niet aan de orde geweest" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14592</id>
+      <name>Privacy</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14593</id>
+      <name>Medische situatie</name>
+      <alias>Vraag 20; Bespraken uw zorgverleners uw medische situatie met uw familie, alleen als u dat goed vond?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14592</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14596</id>
+      <name>Belangrijke zaken</name>
+      <alias>Vraag 21; Kon u belangrijke zaken met uw zorgverleners bespreken, zonder dat anderen dat hoorden?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14592</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14598</id>
+      <name>Medische gegevens</name>
+      <alias>Vraag 22; Gingen uw zorgverleners zorgvuldig om met uw medische gegevens en uw dossier?</alias>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14592</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14549</id>
+      <name>Huidige zwangerschap</name>
+      <alias>Uw huidige zwangerschap</alias>
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14566</id>
+      <name>Omgang met zorgverleners </name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14567</id>
+      <name>Omgang met zorgverleners 2e helft zwangerschap</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14579</id>
+      <name>Zelf beslissen </name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14580</id>
+      <name>Zelf beslissen 2e helft zwangerschap</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14590</id>
+      <name>Privacy </name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14591</id>
+      <name>Privacy 2e helft zwangerschap</name>
+      <alias />
+      <stereotype />
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14600</id>
+      <name>Antenataal Moment</name>
+      <alias />
+      <stereotype>qualifier</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+      <attribute name="tijdens de eerste controles" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="tijdens de tweede helft van de zwangerschap" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14544</id>
+      <name>Gezondheid moeder en baby</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14545</id>
+      <name>Antenatale ReproQ versie 2 </name>
+      <alias />
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14546</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14547</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14540</parentId>
+      <modified>2015-11-24T00:00:00</modified>
+    </object>
+    <object>
+      <id>14539</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14548</id>
+      <name />
+      <alias />
+      <notes>Bij een aantal vragen van de Antenatale ReproQ  wordt gevraagd om twee scores te geven, 1 voor bij de eerste controle bij de zorgverlener en 2 bij de 2e helft van de zwangerschap.</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>14539</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14529</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14527</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14542</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14534</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14541</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14526</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het informatiemodel moet nog worden uitgewerkt.
+
+Bij referenties moet het deel over Vocabulary nog worden bijgesteld na het uiterken van het informatiemodel.
+
+De copyrights op de vragenlijst zijn nog onduidelijk.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14536</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;
+Perined DIVA, ReproQ.
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+Voor de opzet van de DCM zijn de volgende refenties van belang:
+&lt;ul&gt;
+	&lt;li&gt;Key Informant Survey on Responsiveness. Verkregen op 26-11-2015, van http://www.who.int/responsiveness/surveys/Ques%20for%20KIS%20WHR2000.pdf?ua=1    &lt;/li&gt;
+	&lt;li&gt;Scheerhagen, M., Stel van, H.F., Birnie, E., Franx, A., Steegers, E.A.P., Schrijvers, A.J.P., Bonsel, G.J., (2013). De psychometrische eigenschappen van de ReproQuestionnaire, Op weg naar de CQ-geboortezorg. Rotterdam, Erasmus MC, Utrecht, UMC Utrecht, Zeist, Stichting Miletus.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;b&gt;Vocabulary:&lt;/b&gt;
+NICTIZ Perinatologie implementatie (2005-2007) 2.16.840.1.113883.2.4.4.13
+PRN: 2.16.840.1.113883.2.4.3.22.1
+Data set Perinatologie 2.2: 2.16.840.1.113883.2.4.3.11.60.90.77.1.5
+PRN LVR 1-id lijst 2.16.840.1.113883.2.4.3.22.98.1
+
+De diverse broncodesystemen en bijbehorende OID's zijn opgenomen in de Tagged Values bij het data element.
+
+Het is mogelijk dat anderen in dit domein gebruik maken van andere coderingen en value sets dan in dit DCM zijn gebruikt. In dat geval stellen wij&lt;font color="#ff0000"&gt; &lt;/font&gt;het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT, LOINC, NICTIZ Perinatologie implementatie dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICPC, ICD10, ICF, ICNP). Daarnaast hebben diverse belanghebbenden aan het DCM haar eigen interne code(s) toegevoegd. De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept/de concepten zoals die zijn opgenomen in de terminologie of classificatie. 
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig alleen eigen coderingen gebruikt en zullen de ontbrekende concepten bij onder andere Snomed CT worden ingebracht.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14524</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De DCM heeft relatie met de volgende functionaliteit in het EHR-S FM:
+&lt;ul&gt;
+	&lt;li&gt;POP.6.2 Quality, Performance and Accountability Measures.&lt;/li&gt;
+&lt;/ul&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14532</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14533</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland  of Results 4 Care via een website van Stichting Perinatale Registratie Nederland  of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland  via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. 
+
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. 
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14537</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+    <object>
+      <id>14525</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14522</parentId>
+      <modified>2015-11-26T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>14560</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14544</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14560</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14563</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14544</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14563</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14565</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14544</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14565</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14551</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14551</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14549</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14552</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14549</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14552</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14553</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14549</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14553</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14554</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14549</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14554</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14555</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14549</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14555</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14561</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14549</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14561</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14569</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14566</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14569</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14569</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14569</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14567</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14571</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14596</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14571</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14598</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14573</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14566</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14573</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14573</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14573</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14567</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14578</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14566</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14578</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14567</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14578</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14578</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14575</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14575</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14566</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14575</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14575</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14567</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14576</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14576</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14566</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14576</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14576</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14567</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14577</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14577</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14566</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14577</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14577</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14567</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14583</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14579</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14583</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14583</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14583</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14580</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14587</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14587</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14579</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14587</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14580</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14589</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14589</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14579</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14589</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14580</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14585</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14579</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14585</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14585</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14585</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14580</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14593</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14593</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14590</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14593</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14571</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14596</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14596</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14590</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14598</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14590</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14549</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14544</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14566</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14567</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14579</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14580</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14590</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14591</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14600</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14600</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>14545</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

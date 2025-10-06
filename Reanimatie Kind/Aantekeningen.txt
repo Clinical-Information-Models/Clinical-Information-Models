@@ -1,0 +1,22 @@
+DCM Reanimatie
+
+439569004 | Resuscitation (procedure) | of 386412000 | Resuscitation of neonate (procedure) |
+
+47545007 | Continuous positive airway pressure ventilation treatment (regime/therapy) |
+
+69779005 | Cardiac resuscitation (procedure) |
+
+
+
+
+
+
+
+40617009 | kunstmatige beademing | : 363699004 | Direct device (attribute) | = 26412008 | Endotracheal tube, device (physical object) |
+
+
+
+432102000 | Administration of substance (procedure) | : 424361007 | Using substance (attribute) | = 24099007 | Oxygen (substance) |
+of
+57485005 | Oxygen therapy (procedure) |
+

@@ -1,0 +1,2038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="22-10-2015 11:12:41" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>14158</id>
+      <name>nl.perined.Bevalling-v0.2</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Stichting Perinatale Registratie Nederland, Nictiz Perinatologie"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588, 3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Stichting Perinatale Registratie Nederland">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perinatreg.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Stichting Perinatale Registratie Nederland, Nictiz Perinatologie">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="28-9-2015"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.2"></tag>
+      <tag name="DCM::KeywordList" value="Bevalling, Partus, Parturition D036801,">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Michael van der Zel, Results 4 Care"></tag>
+      <tag name="DCM::Name" value="nl.PRN.Bevalling-v0.1"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.2"></tag>
+      <tag name="MAX::ExportDate" value="15-10-2015 11:16:15"></tag>
+      <tag name="MAX::ExportFile" value="E:\1 R4C Projecten\DCM\Uitgewerkte DCM\Bevalling\nl.perined.Bevalling-v0.1.max.xml"></tag>
+    </object>
+    <object>
+      <id>14178</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Versie 0.1: eerste opzet van de DCM.
+Versie 0.2: verwerken review opmerkingen. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14177</id>
+      <name>Concept</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+Ook wel baring en partus genoemd. Het is de gebeurtenis waarbij een foetus vanuit de baarmoeder door het geboortekanaal naar buiten komt als baby.
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14174</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De mindmap geeft alle gegevens elementen weer die van belang zijn voor de bevalling. De gegevens elementen maken deel uit van de PRN Dataset 2.2 en zijn opgenomen in ART DECOR, zie http://decor.nictiz.nl/art-decor/decor-project--peri20-
+De mindmap is als linked document toegevoegd.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14163</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Het vastleggen van gegevens met betrekking tot de bevalling ofwel de partus.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14166</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De zwangere vrouw net voor de partus of al in de partus.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>14161</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Voor de eerste lijnszorg tijdens de bevalling wordt verwezen naar het deel over de bevalling van de KNOV website, http://www.knov.nl/vakkennis-en-wetenschap/tekstpagina/17/bevalling/ 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14165</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In het informatiemodel wordt een specificatie gegeven van alle gegevens die van belang zijn voor de registratie van de bevalling. 
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14208</id>
+      <name>Partusassistentie</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14211</id>
+      <name>PartusstadiumAssistentieGearriveerd</name>
+      <alias />
+      <notes>Het stadium van de partus waarin de partusassistent gearriveerd is.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14208</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::Codesystem" value="PartusassKraamzorg">OID 2.16.840.1.113883.2.4.3.22.1.2.98</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::ExampleValue" value="Na geboorte gearriveerd"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20650"></tag>
+      <tag name="DCM::ValueSet" value="PartusStadium">OID 2.16.840.1.113883.2.4.11.195</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.195&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14212</id>
+      <name>RolPartusassistent</name>
+      <alias />
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14208</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::ExampleValue" value="Kraamverzorgende"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82132"></tag>
+      <tag name="DCM::ValueSet" value="PartusassistentRol">OID 2.16.840.1.113883.2.4.11.194</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.194&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14206</id>
+      <name>Placenta</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14213</id>
+      <name>Datum/tijd Geboorte Placenta</name>
+      <alias />
+      <notes>Datum en tijd geboorte placenta.
+
+Tenminste dag (DD), maand (MM) en jaar (JJJJ), uur (uu) en minuut (mm)</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14206</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-80791"></tag>
+    </object>
+    <object>
+      <id>14214</id>
+      <name>Bijzonderheden Placenta</name>
+      <alias />
+      <notes>Bijzonderheden placenta.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14206</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:169952004 Placental finding (finding) "></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80981"></tag>
+    </object>
+    <object>
+      <id>14216</id>
+      <name>Placenta naar PA</name>
+      <alias />
+      <notes>Bestemming placenta: betreft dit PA?</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14206</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-80803"></tag>
+    </object>
+    <object>
+      <id>14217</id>
+      <name>Natasten</name>
+      <alias>Is er sprake van natasten?</alias>
+      <notes>Is er sprake van natasten?
+</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14206</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-82224"></tag>
+    </object>
+    <object>
+      <id>14209</id>
+      <name>Immunisatie</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14219</id>
+      <name>Datum Immunisatie</name>
+      <alias />
+      <notes>Datum immunisatie.
+Tenminste dag (DD), maand (MM) en jaar (JJJJ)</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14209</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-80801"></tag>
+    </object>
+    <object>
+      <id>14220</id>
+      <name>Rhesus D Immunisatie</name>
+      <alias>Is er sprake van Rhesus D immunisatie? </alias>
+      <notes>Alleen van toepassing bij Rhesus D negatieve moeder</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14209</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-80831"></tag>
+    </object>
+    <object>
+      <id>14221</id>
+      <name>Chargenummer</name>
+      <alias />
+      <notes>Het chargenummer is een nummer waaraan de fabrikant het product kan herkennen.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14209</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-82130"></tag>
+    </object>
+    <object>
+      <id>14205</id>
+      <name>Diagnose Bevalling</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14222</id>
+      <name>PPROM</name>
+      <alias>Is er sprake van gebroken vliezen zonder weeën bij een zwangerschapsduur tot en met 36w6d. (PPROM).</alias>
+      <notes>PPROM = Preterm Prelabor Rupture of Membranes.
+PPROM = Breken van vliezen zonder weeën tot en met 36w6d.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:312974005 Preterm premature rupture of membranes (disorder)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82338"></tag>
+    </object>
+    <object>
+      <id>14223</id>
+      <name>PROM</name>
+      <alias>Is er sprake van gebroken vliezen zonder weeën bij een zwangerschapsduur van 37w0d of later (PROM).</alias>
+      <notes>PROM = Prelabor Rupture of Membranes
+PROM = Breken van vliezen zonder weeën 37w0d of later.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:44223004 Premature rupture of membranes (disorder)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82290"></tag>
+    </object>
+    <object>
+      <id>14224</id>
+      <name>Verdenking Foetale Nood</name>
+      <alias>Is er sprake van verdenking foetale nood?</alias>
+      <notes>Verdenking foetale nood?
+
+</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:609415007:246090004=12867002 Suspected fetal distress affecting management of mother (situation) "></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82296"></tag>
+    </object>
+    <object>
+      <id>14225</id>
+      <name>Vastzittende Placenta</name>
+      <alias>Is er sprake van een vastzittende placenta?</alias>
+      <notes>Vastzittende placenta?</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:109894007 Retained placenta (disorder)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82295"></tag>
+    </object>
+    <object>
+      <id>14226</id>
+      <name>Koorts</name>
+      <alias>Is er sprake van koorts?</alias>
+      <notes>Is er sprake van koorts?</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:386661006 Fever (finding)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82292"></tag>
+    </object>
+    <object>
+      <id>14227</id>
+      <name>Niet Vorderende Ontsluiting</name>
+      <alias>Is er sprake van een niet vorderende ontsluiting?</alias>
+      <notes>Niet vorderende ontsluiting?</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:237320005 Failure to progress in first stage of labor (finding)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82293"></tag>
+    </object>
+    <object>
+      <id>14228</id>
+      <name>Niet Vorderende Uitdrijving</name>
+      <alias>Is er sprake van een niet vorderende uitdrijving?</alias>
+      <notes>Niet vorderende uitdrijving?</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14205</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:249166003 Failure to progress in second stage of labor (finding)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82294"></tag>
+    </object>
+    <object>
+      <id>14210</id>
+      <name>Medicatie nageboortetijdperk</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14229</id>
+      <name>SoortMedicatieNageboortetijdperk</name>
+      <alias />
+      <notes>Hier kan worden vastgelegd welke soort medicatie is gebruikt in het nageboortetijdperk.
+
+Bij keuze voor 'overig' kan nader gespecificeerd worden met vrije tekst.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14210</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Perinatologische observatiecodes">OID 2.16.840.1.113883.2.4.4.13</tag>
+      <tag name="DCM::Codesystem" value="WHO ATC">OID 2.16.840.1.113883.6.73</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::DefinitionCode" value="Perinatologische observatiecodes: Medic3stage Medicatie nageboortetijdperk"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20626"></tag>
+      <tag name="DCM::Valueset" value="MedicatieNageboorte">OID 2.16.840.1.113883.2.4.3.11.60.90.77.11.9</tag>
+      <tag name="DCM::Valueset" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.3.11.60.90.77.11.9&amp;format=xml&amp;language=nl-NL"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20620">Indien een waarde is ingevuld voor Soort Medicatie Nageboortetijdperk dan wordt de de vraag of er sprake is van Medicatie Nageboortetijdperk afgeleid als True. Is er niets ingevuld dan is de afleiding False.</tag>
+    </object>
+    <object>
+      <id>14207</id>
+      <name>Interventies begin baring</name>
+      <alias />
+      <stereotype />
+      <type>Package</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14315</id>
+      <name>Conditie Perineum Post Partum</name>
+      <alias />
+      <notes>Conditie perineum postpartum. Het gaat hier om de conditie aan het einde van de bevalling/partus.</notes>
+      <stereotype>enumeration</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:364297003 Female perineum observable (observable entity)"></tag>
+      <tag name="DCM::ExampleValue" value="Perineum intact "></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80673"></tag>
+      <tag name="DCM::ValueSet" value="Conditieperineum22">OID 2.16.840.1.113883.2.4.11.192</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.192&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14180</id>
+      <name>Bevalling</name>
+      <alias />
+      <notes>Een specificatie van de gegevens over de partus.</notes>
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:236973005 Delivery procedure (procedure)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-6"></tag>
+    </object>
+    <object>
+      <id>14181</id>
+      <name>Diagnose Bevalling</name>
+      <alias />
+      <notes>Diagnose bevalling</notes>
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:439401001 Diagnosis (observable entity)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82291"></tag>
+    </object>
+    <object>
+      <id>14183</id>
+      <name>Partusassistentie</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+      <tag name="DCM::Id" value=" peri22-dataelement-80839"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82131">Indien bij Partusassistentie Partusstadium assistentie gearriveerd en/of Rol partusassistent is ingevuld, dan is de afleiding voor dit Id True. </tag>
+    </object>
+    <object>
+      <id>14184</id>
+      <name>OverigTrauma</name>
+      <alias />
+      <notes>Overig trauma (anders dan perineum) aangaande het baringskanaal.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:417746004 Traumatic injury (disorder) associated with 169836001  Birth of child (finding) "></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82126"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82127">Indien een waarde is ingevuld voor Overig Trauma dan wordt de de vraag of er sprake is van een overig trauma afgeleid als True. Is er niets ingevuld dan is de afleiding False.</tag>
+      <attribute name="Cervix ruptuur" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:370500003 Rupture of uterine cervix (disorder) "></tag></attribute>
+      <attribute name="Labium ruptuur" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Overig" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Uterus ruptuur" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:34430009 Rupture of uterus (disorder)"></tag></attribute>
+      <attribute name="Vaginawand ruptuur" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:283967000 Rupture of vagina (disorder)"></tag></attribute>
+    </object>
+    <object>
+      <id>14185</id>
+      <name>Aantal Geboren Kinderen</name>
+      <alias />
+      <notes>Het aantal uitkomsten na 16w 0d. Met andere woorden, het aantal kinderen dat inmiddels na de 16e zwangerschapsweek is geboren.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Perinatologische observatiecodes">OID 2.16.840.1.113883.2.4.4.13</tag>
+      <tag name="DCM::DefinitionCode" value="Perinatologische observatiecodes: NBorn16"></tag>
+      <tag name="DCM::ExampleValue" value="1"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20505"></tag>
+    </object>
+    <object>
+      <id>14186</id>
+      <name>Partusnummer</name>
+      <alias />
+      <notes>Volgnumer bevalling/post partum per jaar per zwangerschap binnen een zorgaanbieder</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Perinatologische observatiecodes">OID 2.16.840.1.113883.2.4.4.13</tag>
+      <tag name="DCM::DefinitionCode" value="Perinatologische observatiecodes: PartusNr"></tag>
+      <tag name="DCM::ExampleValue" value="2"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20500"></tag>
+    </object>
+    <object>
+      <id>14187</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14188</id>
+      <name>Wijze van hechten</name>
+      <alias />
+      <notes>Of er wel of niet gehecht is en de wijze waarop er gehecht is.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80797"></tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:26799004 Suture of female perineum (procedure)"></tag>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <attribute name="Intracutaan geknoopt" minCard="1" maxCard="1" value="" type="" stereotype="enum">Losse geknoopte hechtingen vlak onder de opperhuid </attribute>
+      <attribute name="Intracutaan voortlopend" minCard="1" maxCard="1" value="" type="" stereotype="enum">Vlak onder de opperhuid doorlopende hechting </attribute>
+      <attribute name="Onbekend" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Transcutaan geknoopt" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Transcutaan voortlopend" minCard="1" maxCard="1" value="" type="" stereotype="enum">Doorlopende hechting door de huid heen</attribute>
+      <attribute name="Niet gehecht" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::Id" value="peri22-dataelement-82125"></tag></attribute>
+    </object>
+    <object>
+      <id>14189</id>
+      <name>Wijze waarop de baring begon</name>
+      <alias />
+      <notes>Wijze waarop de baring begon</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::Codesystem" value="WijzeBaringBegin">OID 2.16.840.1.113883.2.4.3.22.1.2.46</tag>
+      <tag name="DCM::Codesystem" value="Perinatologische observatiecodes">OID 2.16.840.1.113883.2.4.4.13</tag>
+      <tag name="DCM::DefinitionCode" value="Perinatologische observatiecodes: BeginDeliv"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20550"></tag>
+      <tag name="DCM::ValueSet" value="WijzeBaringBegin">OID 2.16.840.1.113883.2.4.11.16</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.16&amp;effectiveDate=2013-01-10T12:25:06&amp;prefix=peri20-&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14190</id>
+      <name>Medicatie Nageboortetijdperk</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20619"></tag>
+    </object>
+    <object>
+      <id>14191</id>
+      <name>Risicostatus Uiteindelijk</name>
+      <alias />
+      <notes>De uiteindelijke risicostatus die van toepassing was (zoals achteraf vastgesteld).</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codestelsel" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::Codestelsel" value="RisicoBaring">OID 2.16.840.1.113883.2.4.3.22.1.2.25</tag>
+      <tag name="DCM::DefinitionCode" value="550403"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-82057"></tag>
+      <tag name="DCM::ValueSet" value="RisicoBaring22">OID 2.16.840.1.113883.2.4.11.180</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.180&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14193</id>
+      <name>Risicostatus vóór baring</name>
+      <alias />
+      <notes>Risicostatus vlak vóór de start van de baring.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>
+      <tag name="DCM::Codesystem" value="RisicoBaring">OID 2.16.840.1.113883.2.4.3.22.1.2.25</tag>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN5102 Risicostatus vóór baring"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20530"></tag>
+      <tag name="DCM::ValueSet" value="RisicoBaring22">OID 2.16.840.1.113883.2.4.11.180</tag>
+      <tag name="DCM::ValueSet" value="http://decor.nictiz.nl/decor/services/RetrieveValueSet?id=2.16.840.1.113883.2.4.11.180&amp;format=xml&amp;language=nl-NL"></tag>
+    </object>
+    <object>
+      <id>14194</id>
+      <name>Interventies Begin Baring</name>
+      <alias />
+      <notes>Interventies begin baring.
+Deze groep is alleen van toepassing wanneer 'Wijze waarop de baring begon' = 'interventie'.</notes>
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="PerinatologyOrganizersPRN">OID 2.16.840.1.113883.2.4.3.22.1.6</tag>
+      <tag name="DCM::DefinitionCode" value="PerinatologyOrganizersPRN: PRN520102"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20555"></tag>
+    </object>
+    <object>
+      <id>14195</id>
+      <name>Placenta</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:181455002 Entire placenta (body structure)"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80612"></tag>
+    </object>
+    <object>
+      <id>14196</id>
+      <name>Ontslag datum Post Partum</name>
+      <alias />
+      <notes>Ontslag vrouw uit ziekenhuis ná de partus.
+Alleen van toepassing bij een klinische partus (in de 2e of 3e lijn)</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Id" value="peri22-dataelement-20660"></tag>
+    </object>
+    <object>
+      <id>14197</id>
+      <name>Hoeveelheid Bloedverlies</name>
+      <alias />
+      <notes>Hoeveelheid bloedverlies tijdens baring/nageboortetijdperk</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codestelsel" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:364332008 Blood loss in labour (observable entity)"></tag>
+      <tag name="DCM::ExampleValue" value="500 ml"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20640"></tag>
+    </object>
+    <object>
+      <id>14198</id>
+      <name>BijstimulatieToegediend</name>
+      <alias> Is er na begin van de baring bijstimulatie gegeven?	</alias>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>
+      <tag name="DCM::DefinitionCode" value="PerinatologyProceduresPRN: PRN540201 Bijstimulatie toegediend"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20616"></tag>
+    </object>
+    <object>
+      <id>14199</id>
+      <name>Compleetheid Vliezen</name>
+      <alias />
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="NullFlavor">OID 2.16.840.1.113883.5.1008</tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80792"></tag>
+      <attribute name="Compleet" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Dubieus" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute name="Niet compleet" minCard="1" maxCard="1" value="" type="" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:79986005  Incomplete amnion (disorder)"></tag></attribute>
+      <attribute name="Onbekend" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>14201</id>
+      <name>Immunisatie</name>
+      <alias />
+      <stereotype>container</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+      <tag name="DCM::Codesystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:304250009  Immunization status (finding) "></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-80799"></tag>
+    </object>
+    <object>
+      <id>14202</id>
+      <name>Tijdstip Begin Actieve Ontsluiting</name>
+      <alias />
+      <notes>Datum en tijd begin actieve ontsluiting.
+Tenminste dag (DD), maand (MM) en jaar (JJJJ), uur (uu) en minuut (mm)</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>14165</parentId>
+      <modified>2015-10-22T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PerinatologyObservationsPRN: PRN520301 Tijdstip begin actieve ontsluiting"></tag>
+      <tag name="DCM::Id" value="peri22-dataelement-20590"></tag>
+      <tag name="DCM::Codestelsel" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+      <tag name="DCM::Codesystem" value="PerinatologyObservationsPRN">OID 2.16.840.1.113883.2.4.3.22.1.1</tag>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:249120008 Onset of labour first stage (observable entity) "></tag>
+    </object>
+    <object>
+      <id>14204</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>14165</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14176</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14233</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>14176</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+    <object>
+      <id>14172</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;De volgende data elementen zijn opgenomen in het 'Verwijzing Regulier bericht'. &lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bevalling  &lt;/li&gt;
+	&lt;li&gt;Diagnose &lt;/li&gt;
+	&lt;li&gt;Partusnummer &lt;/li&gt;
+	&lt;li&gt;PROM &lt;/li&gt;
+	&lt;li&gt;Koorts &lt;/li&gt;
+	&lt;li&gt;Niet vorderende ontsluiting? &lt;/li&gt;
+	&lt;li&gt;Verdenking foetale nood? &lt;/li&gt;
+	&lt;li&gt;Vastzittende placenta? &lt;/li&gt;
+	&lt;li&gt;Risicostatus vóór baring &lt;/li&gt;
+	&lt;li&gt;Wijze waarop de baring begon &lt;/li&gt;
+	&lt;li&gt;Interventies begin baring (groep) &lt;/li&gt;
+	&lt;li&gt;Interventie begin baring &lt;/li&gt;
+	&lt;li&gt;Indicatie interventie begin baring &lt;/li&gt;
+	&lt;li&gt;Tijdstip begin actieve ontsluiting &lt;/li&gt;
+	&lt;li&gt;Bijstimulatie toegediend &lt;/li&gt;
+	&lt;li&gt;Medicatie nageboortetijdperk (groep) &lt;/li&gt;
+	&lt;li&gt;Medicatie nageboortetijdperk? &lt;/li&gt;
+	&lt;li&gt;Soort medicatie nageboortetijdperk &lt;/li&gt;
+	&lt;li&gt;Placenta &lt;/li&gt;
+	&lt;li&gt;Geboorte placenta &lt;/li&gt;
+	&lt;li&gt;Natasten &lt;/li&gt;
+	&lt;li&gt;Placenta Compleet &lt;/li&gt;
+	&lt;li&gt;Datum/tijd geboorte placenta &lt;/li&gt;
+	&lt;li&gt;Placenta naar PA &lt;/li&gt;
+	&lt;li&gt;Bijzonderheden placenta &lt;/li&gt;
+	&lt;li&gt;Compleetheid vliezen &lt;/li&gt;
+	&lt;li&gt;Hoeveelheid bloedverlies &lt;/li&gt;
+	&lt;li&gt;Conditie perineum postpartum &lt;/li&gt;
+	&lt;li&gt;Hechten &lt;/li&gt;
+	&lt;li&gt;Wijze van hechten &lt;/li&gt;
+	&lt;li&gt;Overig trauma? &lt;/li&gt;
+	&lt;li&gt;Overig trauma &lt;/li&gt;
+	&lt;li&gt;Immunisatie &lt;/li&gt;
+	&lt;li&gt;Rhesus D immunisatie &lt;/li&gt;
+	&lt;li&gt;Datum immunisatie &lt;/li&gt;
+	&lt;li&gt;Chargenummer &lt;/li&gt;
+	&lt;li&gt;Partusassistentie (groep) &lt;/li&gt;
+	&lt;li&gt;Partusassistentie &lt;/li&gt;
+	&lt;li&gt;Partusstadium assistentie gearriveerd &lt;/li&gt;
+	&lt;li&gt;Rol partusassistent &lt;/li&gt;
+	&lt;li&gt;Risicostatus uiteindelijk &lt;/li&gt;
+	&lt;li&gt;Ontslagdatum post partum &lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;De volgende data elementen zijn opgenomen in het 'Kernset aanleverbericht' &lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bevalling  &lt;/li&gt;
+	&lt;li&gt;Partusnummer &lt;/li&gt;
+	&lt;li&gt;PPROM &lt;/li&gt;
+	&lt;li&gt;PROM &lt;/li&gt;
+	&lt;li&gt;Koorts &lt;/li&gt;
+	&lt;li&gt;Niet vorderende ontsluiting? &lt;/li&gt;
+	&lt;li&gt;Niet vorderende uitdrijving? &lt;/li&gt;
+	&lt;li&gt;Verdenking foetale nood? &lt;/li&gt;
+	&lt;li&gt;Vastzittende placenta? &lt;/li&gt;
+	&lt;li&gt;Aantal geboren kinderen &lt;/li&gt;
+	&lt;li&gt;Risicostatus vóór baring &lt;/li&gt;
+	&lt;li&gt;Wijze waarop de baring begon &lt;/li&gt;
+	&lt;li&gt;Interventies begin baring (groep) &lt;/li&gt;
+	&lt;li&gt;Interventie begin baring &lt;/li&gt;
+	&lt;li&gt;Indicatie interventie begin baring &lt;/li&gt;
+	&lt;li&gt;Tijdstip begin actieve ontsluiting &lt;/li&gt;
+	&lt;li&gt;Bijstimulatie toegediend &lt;/li&gt;
+	&lt;li&gt;Medicatie nageboortetijdperk (groep) &lt;/li&gt;
+	&lt;li&gt;Medicatie nageboortetijdperk? &lt;/li&gt;
+	&lt;li&gt;Nageboortetijdperk (groep)  &lt;/li&gt;
+	&lt;li&gt;Soort medicatie nageboortetijdperk &lt;/li&gt;
+	&lt;li&gt;Placenta &lt;/li&gt;
+	&lt;li&gt;Geboorte placenta &lt;/li&gt;
+	&lt;li&gt;Geboorte placenta &lt;/li&gt;
+	&lt;li&gt;Hoeveelheid bloedverlies &lt;/li&gt;
+	&lt;li&gt;Conditie perineum postpartum &lt;/li&gt;
+&lt;/ul&gt;
+
+Voor de bijbehorende HL7 templates zie http://decor.nictiz.nl/art-decor/decor-project--peri20-</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14171</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14175</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;De bevalling of partus is de geboorte van de vrucht of het kind en 
+wordt onderverdeeld in 5 periodes:
+&lt;ul&gt;
+	&lt;li&gt;Tot de 16e week de miskraam (abortus) periode &lt;/li&gt;
+	&lt;li&gt;Van de 16e tot de 28e week de voortijdige bevalling (partus immaturus) &lt;/li&gt;
+	&lt;li&gt;Van de 28e tot de 37e week de vroegtijdige bevalling (partus prematurus) &lt;/li&gt;
+	&lt;li&gt;Van de 37e tot de 42e week de normale bevalling (partus maturus) &lt;/li&gt;
+	&lt;li&gt;Na de 42e week de over-tijd bevalling (partus serotinus) &lt;/li&gt;
+&lt;/ul&gt;
+
+De bevalling of partus kan thuis, poliklinisch of klinisch plaats vinden. De normaal verlopende zwangerschap, bevalling en kraambed behoren tot het verzorgingsgebied van de eerstelijns zorgverleners. Een te verwachten pathologische zwangerschap, bevalling en kraambed behoren, op grond van de selectie door de eerstelijns zorgverle-
+ner, tot het verzorgingsgebied van de tweedelijns zorgverlener (Verloskundig Vademecum, 2003).
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14164</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14167</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14168</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+--DCM::Language=nl
+
+NB: een aantal data elementen in deze DCM horen niet bij de implementatie van perinatologie 2.2. Deze data elementen zijn onvoldoende uitgewerkt en zullen in een later stadium worden aangevuld. Deze zijn te herkennen aan het afwezig zijn van detaillering, specifiek het ontbreken van coderingen.
+&lt;ol&gt;
+	&lt;li&gt;"CompleetheidVliezen" expected at least 1 DCM::DefinitionCode Tagged Value: geen code in ART DECOR. Ontbreekt in MappingTabel-NwDatasetPRN1.4Peri-2.2ArtDecCom&amp;amp;HL7v0981kernset2014mei.xls. Bij Nictiz ART DECOR nog ontwerp. Voor PRN is dit data element niet nodig.	        &lt;/li&gt;
+	&lt;li&gt;"CompleetheidVliezen" valueset is opgenomen bij data element in ART DECOR. Er is geen expliciete valueset gedefinieerd met naam en OID. Geen coderingen voor waarde opgenomen. Zie opmerkingen bij punt 1.     &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+	&lt;li&gt;expected attribuut "Compleet" to have at least 1 DCM::DefinitionCode Tagged Value: niet in Snomed CT.        &lt;/li&gt;
+	&lt;li&gt;expected attribuut "Dubieus" to have at least 1 DCM::DefinitionCode Tagged Value: niet in Snomed CT.        &lt;/li&gt;
+	&lt;li&gt;expected attribuut "Onbekend" to have at least 1 DCM::DefinitionCode Tagged Value: hoe coderen? &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;DCMCC-??: "CompleetheidVliezen" expected attribute "Niet compleet" to be "enum" but got "". Ook bij de andere waarden in deze waardenset. Correctie in extensie nodig.	        &lt;/li&gt;
+	&lt;li&gt;"OntslagdatumPostPartum" expected at least 1 DCM::DefinitionCode Tagged Value: geen code bij data element in ART DECOR. Dit data element zit niet in de PRN Kernset, maar hoort wel bij PRN Dataset 1.3. Nog code zoeken voor Discharge date in relatie met post partum.	        &lt;/li&gt;
+	&lt;li&gt;"OverigTrauma" expected at least 1 DCM::DefinitionCode Tagged Value: 417746004 Traumatic injury (disorder) associated with 169836001  Birth of child (finding): dit voorlopig opgenomen in DCM, geen overig. Geen code in Art DECOR.	Is geen data element in de PRN Kernset en PRN Dataset.     &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+	&lt;li&gt;"OverigTrauma" expected attribute "Labium ruptuur" to be "enum" but got "": krijg ik bij alle waardenlijsten die ik heb opgenomen. Toch enum in klasse. Wat doe ik verkeerd? Hoe te veranderen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;"OverigTrauma" expected attribuut "Labium ruptuur" to have at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet in Snomed CT en in ART DÉCOR.	        &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;"OverigTrauma" expected attribuut "Vaginawand ruptuur" to have at least 1 DCM::DefinitionCode Tagged Value: niet in ART DECOR, ik heb in DCM opgenomen 283967000 Rupture of vagina (disorder)".&lt;/li&gt;
+	&lt;li&gt;OverigTrauma" expected attribuut "Uterus ruptuur" to have at least 1 DCM::DefinitionCode Tagged Value: niet in ART DECOR, ik heb in DCM opgenomen 34430009 Rupture of uterus (disorder) 	        &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;"OverigTrauma" expected attribuut "Overig" to have at least 1 DCM::DefinitionCode Tagged Value: wat te doen met deze waarde als het gaat om een code? Ik weet het niet meer.    &lt;/li&gt;
+&lt;/ul&gt;
+&amp;nbsp;
+&lt;ol&gt;
+	&lt;li&gt;DCMCC-??: "OverigTrauma" expected attribute "Labium ruptuur" to be "enum" but got "". Ook bij andere waarden in de waardenset.  Correctie in extensie nodig. &lt;/li&gt;
+	&lt;li&gt;"Partusassistentie?" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT en in ART DECOR.	        &lt;/li&gt;
+	&lt;li&gt;"RisicostatusUiteindelijk" expected at least 1 DCM::DefinitionCode Tagged Value: geen code in ART DECOR. Niets in Snomed CT kunnen vinden. Wel Risk assessment status, maar niet met Uiteindelijk. Zit niet in PRN Kernset en PRN Dataset.         &lt;/li&gt;
+	&lt;li&gt;"Wijze van hechten" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet in Snomed CT. En in ART DECOR. Dit data element is geen onderdeel van de PRN Kernset en PRN Dataset.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+	&lt;li&gt;expected attribuut "Intracutaan voortlopend" to have at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet in Snomed CT en in ART DECOR.	        &lt;/li&gt;
+	&lt;li&gt;expected attribuut "Transcutaan voortlopend" to have at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet in Snomed CT en in ART DECOR.	        &lt;/li&gt;
+	&lt;li&gt;expected attribuut "Intracutaan geknoopt" to have at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet in Snomed CT en in ART DECOR.	        &lt;/li&gt;
+	&lt;li&gt;expected attribuut "Transcutaan geknoopt" to have at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet in Snomed CT en in ART DECOR.	        &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;expected attribuut "Onbekend" to have at least 1 DCM::DefinitionCode Tagged Value: wat te doen met deze waarde als het gaat om een code? Ik weet het niet meer.  &lt;/li&gt;
+&lt;/ul&gt;
+&amp;nbsp;
+&lt;ol&gt;
+	&lt;li&gt;DCMCC-??: "Wijze van hechten" expected attribute "Intracutaan voortlopend" to be "enum" but got "". Ook bij andere waarden in de waardenset.  Correctie in extensie nodig. &lt;/li&gt;
+	&lt;li&gt;"PartusstadiumAssistentieGearriveerd" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT en in ART DECOR.	        &lt;/li&gt;
+	&lt;li&gt;"RolPartusassistent" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT.        &lt;/li&gt;
+	&lt;li&gt;"Datum/tijdGeboortePlacenta" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT. Zie ook item 3.        &lt;/li&gt;
+	&lt;li&gt;"Natasten" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; niet duidelijk op welke medische term ik moet zoeken in Snomed CT. In ART DECOR geen code.        &lt;/li&gt;
+	&lt;li&gt;"PlacentaNaarPA" expected at least 1 DCM::DefinitionCode Tagged Value	-&amp;gt; geen code in Snomed CT en in ART DECOR.        &lt;/li&gt;
+	&lt;li&gt;"Chargenummer" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT en in ART DECOR.        &lt;/li&gt;
+	&lt;li&gt;"DatumImmunisatie" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT en in ART DÉCOR. Zie punt 3 en 15.        &lt;/li&gt;
+	&lt;li&gt;"RhesusDImmunisatie" expected at least 1 DCM::DefinitionCode Tagged Value -&amp;gt; geen code in Snomed CT. Althans in Snomed CT is dit opgenomen 307333004 rhesus-D-antagonisme (disorder). En ook 307333004 Rhesus isoimmunization due to anti-D (disorder)  &lt;/li&gt;
+	&lt;li&gt;Ik was op zoek naar een procedure, maar weet nu niet goed wat ik moet openemen. Het gaat erom of een vrouw deze immunisatie heeft gehad.        &lt;/li&gt;
+	&lt;li&gt;"MedicatieNageboortetijdperk" DCM::DefinitionCode has a not accepted codeSystemName: -&amp;gt; nageboortetijdperk geen code in Snomed CT.        &lt;/li&gt;
+	&lt;li&gt;"SoortMedicatieNageboortetijdperk" DCM::DefinitionCode has a not accepted codeSystemName: hoe coderen? Het is specifiek voor na de geboorte. Dit is niet in Snomed CT te vinden. Dus postcoordinatie met medicatie is niet mogelijk.        &lt;/li&gt;
+	&lt;li&gt;In Diagnose Bevalling is een data element Verdenking Foetale Nood. Hierin is een Snomed CT postcoordinatie expressie opgenomen volgens de Snomed CT Compositional Grammar. Dit vooralsnog laten staan. Kan dat?       &lt;/li&gt;
+	&lt;li&gt;“Placenta”: heeft een Snomed CT code  181455002 Entire placenta (body structure). Moet dat niet zijn 78067005 Placental structure (body structure)? &lt;/li&gt;
+	&lt;li&gt;DCMCC-26: "TijdstipBeginActieveOntsluiting" DCM::DefinitionCode has a not accepted codeSystemName, maar ook een code van Snomed CT en toch geeft hij deze waarschuwing? &lt;/li&gt;
+	&lt;li&gt;DCMCC-26: "IndicatieInterventieBeginBaring" DCM::DefinitionCode has a not accepted codeSystemName. Dit is PerinatologyOrganizersPRN met code PRN520103. Klopt PRN wel in de code zelf?	 &lt;/li&gt;
+&lt;/ol&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>14162</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Projecten:&lt;/b&gt;
+Nictiz Perinatologie, zie http://decor.nictiz.nl/art-decor/decor-project--peri20-
+DIVA, herinrichting Perined Registratie
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Bevallingsmoment. Verkregen op 22 september 2015, van http://www.gynaecologie.nl/zwangerschap/bevallingsmoment/   &lt;/li&gt;
+	&lt;li&gt;Continue begeleiding tijdens de baring. Verkregen op 22 september 2015, van http://www.knov.nl/vakkennis-en-wetenschap/tekstpagina/537/continue-begeleiding-tijdens-de-baring/   &lt;/li&gt;
+	&lt;li&gt;Perinatologie Datasets 2.2. Verkregen op 22 september 2015, van http://decor.nictiz.nl/art-decor/decor-datasets--peri20-?id=2.16.840.1.113883.2.4.3.11.60.90.77.1.5&amp;amp;effectiveDate=&amp;amp;conceptId=&amp;amp;conceptEffectiveDate=   &lt;/li&gt;
+	&lt;li&gt;Verloskundig Vademecum 2003. Verkregen op 22 september 2015, van http://www.knov.nl/fms/file/knov.nl/knov_downloads/769/file/Verloskundig%20Vademecum%202003.pdf?download_category=richtlijnen-praktijkkaarten   &lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;b&gt;Vocabulary:&lt;/b&gt;
+NICTIZ Perinatologie implementatie (2005-2007) 2.16.840.1.113883.2.4.4.13
+PRN: 2.16.840.1.113883.2.4.3.22.1
+Data set Perinatologie 2.2: 2.16.840.1.113883.2.4.3.11.60.90.77.1.5
+PRN LVR 1-id lijst 2.16.840.1.113883.2.4.3.22.98.1
+
+De diverse broncodesystemen en bijbehorende OID's zijn opgenomen in de Tagged Values bij het data element.
+
+Het is mogelijk dat anderen in dit domein gebruik maken van andere coderingen en value sets dan in dit DCM zijn gebruikt. In dat geval stellen wij&lt;font color="#ff0000"&gt; &lt;/font&gt;het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT, LOINC, NICTIZ Perinatologie implementatie dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICPC, ICD10, ICF, ICNP). Daarnaast hebben diverse belanghebbenden aan het DCM haar eigen interne code(s) toegevoegd. De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept/de concepten zoals die zijn opgenomen in de terminologie of classificatie. 
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig alleen eigen coderingen gebruikt en zullen de ontbrekende concepten bij onder andere Snomed CT worden ingebracht.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14169</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14160</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14173</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland  of Results 4 Care via een website van Stichting Perinatale Registratie Nederland  of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland  via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. 
+
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>14170</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFUU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>14179</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>14158</parentId>
+      <modified>2015-10-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>14159</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>14158</parentId>
+      <modified>2015-09-22T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>14211</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14211</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14183</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14212</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14212</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14183</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14213</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>5</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14213</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14195</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14214</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>21</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14214</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14195</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14215</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14215</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14195</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14216</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14216</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14195</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14217</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14217</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14195</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14218</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14218</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14195</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14219</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>5</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14219</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14201</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14220</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14220</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>14201</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14221</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>7</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14221</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14201</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14224</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14224</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14225</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14225</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14226</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14226</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14227</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14227</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14228</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14228</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14222</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14222</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14223</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14223</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14229</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14229</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14190</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14231</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14231</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14194</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14232</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14232</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14194</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14181</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14183</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14184</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14184</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14185</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>6</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14185</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14186</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>7</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14186</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14188</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14188</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14189</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14189</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14190</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14191</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14193</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14193</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14194</sourceId>
+      <sourceLabel />
+      <sourceCard>0..*</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14195</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14196</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>5</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14196</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14197</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>8</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14197</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14198</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>9</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14198</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14199</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14199</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14201</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14202</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>5</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14202</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14315</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>24</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>14315</sourceId>
+      <sourceLabel />
+      <sourceCard>0..1</sourceCard>
+      <destId>14180</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

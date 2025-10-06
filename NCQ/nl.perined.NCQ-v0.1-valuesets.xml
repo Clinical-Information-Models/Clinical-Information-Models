@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="NCQConcepts">
+    <code code="PerinedNCQ" displayName="NCQ" codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="NCQ100" displayName="Beleving Vrouw" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ111" displayName="Tegengevallen" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ112" displayName="Veilig" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ113" displayName="Verkeerd" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ114" displayName="Twijfelde" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ115" displayName="Paniek" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ116" displayName="Ontspannen" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ117" displayName="Eenzaam" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ118" displayName="Trots" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ119" displayName="Schuldgevoelens" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ120" displayName="Genoten" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ121" displayName="Anders gelopen" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ122" displayName="Gezellig" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ200" displayName="Beoordeling " codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ123" displayName="Goed kennen" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ124" displayName="Medische voorgeschiedenis " codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ125" displayName="Weten wat gedaan " codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ126" displayName="Familieomstandigheden" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ127" displayName="Dagelijkse bezigheden" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ128" displayName="Verloskundige neemt contact op" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ129" displayName="Belangrijk" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ130" displayName="Contact houden" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ131" displayName="Informatie overdragen" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ132" displayName="Samenwerken" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ133" displayName="Zorg sluit goed aan" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ134" displayName="Van elkaar weten" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ139" displayName="Context" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ300" displayName="Samenwerking 1e &amp; 2e lijn" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ135" displayName="Informatie goed overdragen" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ136" displayName="Goede samenwerking" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ137" displayName="Zorg sluit goed op elkaar aan" codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+    <code code="NCQ138" displayName="Zorgverleners weten van elkaar " codeSystemName="NCQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.11   " />
+  </valueSet>
+  <valueSet name="Eens-Oneens4" oid="2.16.840.1.113883.2.4.3.22.1.18.3.1">
+    <code code="NCQ-2" displayName="helemaal eens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-1" displayName="eens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-4" displayName="oneens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-3" displayName="helemaal oneens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+  </valueSet>
+  <valueSet name="Eens-Oneens6" oid="2.16.840.1.113883.2.4.3.22.1.18.3.2">
+    <code code="NCQ-3" displayName="helemaal oneens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-4" displayName="oneens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-5" displayName="neutraal" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-1" displayName="eens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-2" displayName="helemaal eens" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-6" displayName="niet van toepassing" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+  </valueSet>
+  <valueSet name="Context" oid="2.16.840.1.113883.2.4.3.22.1.18.3.3">
+    <code code="NCQ-7" displayName="1e lijn" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+    <code code="NCQ-8" displayName="2e lijn" codeSystemName="NCQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.4  " />
+  </valueSet>
+</valueSets>

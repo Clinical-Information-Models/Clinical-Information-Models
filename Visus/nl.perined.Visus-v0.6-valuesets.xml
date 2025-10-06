@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="VisusConcepts">
+    <code code="415823006" displayName="Vision observable" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRN6508" displayName="InformatieVisus" codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="301978000" displayName="Finding of vision of eye (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="InformatieVisus">
+    <code code="3" displayName="afwijkend, beperkte visus met mogelijkheid iets te zien" codeSystemName="PerinatologyValuesetcodesPRN" />
+    <code code="2" displayName="mild afwijkend, onder behandeling van oogarts/orthoptist" codeSystemName="PerinatologyValuesetcodesPRN" />
+    <code code="1" displayName="normaal, geen visusproblemen" codeSystemName="PerinatologyValuesetcodesPRN" />
+    <code code="4" displayName="ernstig afwijkend, blind" codeSystemName="PerinatologyValuesetcodesPRN" />
+  </valueSet>
+</valueSets>

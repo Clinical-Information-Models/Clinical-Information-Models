@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="5-8-2015 17:56:33" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>13945</id>
+      <name>nl.PRN.VrouwelijkeGenitaleVerminking-v0.9</name>
+      <alias>Sjabloon</alias>
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2014-11-24T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Anne Marieke Schriere" />
+      <tag name="DCM::ContactInformation.Address" value="*" />
+      <tag name="DCM::ContactInformation.Name" value="Results 4 Care B.V.">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@results4care.nl" />
+      <tag name="DCM::ContentAuthorList" value="Anneke Goossen-Baremans, Results 4 Care B.V.">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="16-4-2012" />
+      <tag name="DCM::DeprecatedDate" />
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" />
+      <tag name="DCM::EndorsingAuthority.Address" />
+      <tag name="DCM::EndorsingAuthority.Name">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" />
+      <tag name="DCM::Id" value="*" />
+      <tag name="DCM::KeywordList" value="VGV, Besnijdenis, Sunna, Circumcisie, Clitoridectomie, Excisie, Herinfibulatie, Reinfibulatie, Infibulatie, Defibulatie,  Faraonische besnijdenis, Circumcision, Female D019093, ">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" />
+      <tag name="DCM::ModelerList" value="Michael van der Zel, Results 4 Care B.V." />
+      <tag name="DCM::Name" value="nl.PRN.VrouwelijkeGenitaleVerminking" />
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Unpublished">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" />
+      <tag name="DCM::RevisionDate" />
+      <tag name="DCM::Superseeds" />
+      <tag name="DCM::Version" value="0.9" />
+    </object>
+    <object>
+      <id>13947</id>
+      <name>Revision History</name>
+      <notes>Versie 0.1: eerste opzet van de DCM.
+Versie 0.2 - 0.6: review, verbetering informatiemodel en bijstelling na feedback PRN.
+0.7 en 0.8 uitwerking PRN en leverancier. 
+0.9 overleg PWD redactieraad over de juiste Snomed CT codering voor het item en voor de vier types. Codes zoals voorgesteld door Natasha Krul van Nictiz dd 24 november 2014 overgenomen. </notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-02-19T00:00:00</modified>
+    </object>
+    <object>
+      <id>13950</id>
+      <name>Concept</name>
+      <notes>Vrouwelijke Genitale Verminking (VGV) vastleggen in het dossier van een vrouw. 
+
+</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-06-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>13958</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>Inzicht krijgen in een eventuele vrouwelijke genitale verminking bij de vrouwelijke patient. Hierbij wordt ook het type van de vrouwelijke genitale verminking vastgelegd.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13961</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>Geen mindmap beschikbaar.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-07-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>13963</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>De vrouwelijke patiënt afkomstig uit een de risicolanden. VGV komt met name voor in Afrika en in een beperkt aantal landen in het Nabije Oosten en in Azië, bijvoorbeeld in Indonesië en Koerdisch Irak (NVOG, AJN, KAMG, KNMG, KNOV, LHV, NHG, NVK, NVPC, NVU, NVVS, VVAK, Pharos, 2010). Een overzicht is te vinden op &lt;a href="http://www.meisjesbesnijdenis.nl/over/feitenencijfers"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;http://www.meisjesbesnijdenis.nl/over/feitenencijfers&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;. </notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>13953</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>Door de WHO, World Health Organization, wordt vrouwelijke genitale verminking (VGV) gedefinieerd als een gedeeltelijke of volledige verwijdering of elke andere beschadiging van de vrouwelijke genitalien omwille van culturele of niet-therapeutische redenen. Er worden vier vormen van VGV gedefinieerd (IGZ, 2010):
+&lt;ul&gt;
+	&lt;li&gt;Type 1: verwijdering van de voorhuid van de clitoris met of zonder gedeeltelijke of volledige verwijdering van de clitoris. Dit noemt men ook wel circumcisie of clitoridectomie.&lt;/li&gt;
+	&lt;li&gt;Type 2: verwijdering van de clitoris met gedeeltelijke of volledige verwijdering van de kleine schaamlippen, ook wel excisie genoemd.&lt;/li&gt;
+	&lt;li&gt;Type 3: verwijdering van de clitoris en van de uitwendige genitalia en hechten/vernauwen van de vagina. Dit noemt men ook wel infibulatie of faraonische besnijdenis.&lt;/li&gt;
+	&lt;li&gt;Type 4: overige (meng)vormen zoals prikken, piercen, uitrekken of snijden in clitoris en/of schaamlippen, het aanbrengen van brandwonden, inbrengen van bijtende stoffen of kruiden in de vagina.&lt;/li&gt;
+&lt;/ul&gt;
+
+Bij alle vormen van VGV gaat het om ernstige, onherstelbare vormen van lichamelijk letsel met lichamelijke en psychische klachten. Complicatie komen vaak voor en worden verdeel in vroege en late complicatie. Als vroege complicaties noemt het IGZ (2010):
+&lt;ul&gt;
+	&lt;li&gt;overmatig bloedverlies, &lt;/li&gt;
+	&lt;li&gt;beschadiging van plasbuis (wat in het ergste geval incontinentie kan veroorzaken), &lt;/li&gt;
+	&lt;li&gt;beschadiging van anus en vaginawanden,&lt;/li&gt;
+	&lt;li&gt;het optreden van ontstekingen.&lt;/li&gt;
+&lt;/ul&gt;
+
+Late complicaties kunnen zijn:
+&lt;ul&gt;
+	&lt;li&gt;chronische infecties van blaas en vagina met mogelijk opstijgende infecties naar nieren en inwendige geslachtsorganen, &lt;/li&gt;
+	&lt;li&gt;pijn bij coïtus, &lt;/li&gt;
+	&lt;li&gt;onvruchtbaarheid&lt;/li&gt;
+	&lt;li&gt;ernstige problemen bij de bevalling. &lt;/li&gt;
+&lt;/ul&gt;
+
+Psychische klachten zijn vooral problematische seksuele beleving.
+
+In een retrospectief prevalentieonderzoek uitgevoerd door TNO (2008)  kwam naar voren dat de prevalentie van VGV retrospectief gemeten gedurende zwangerschap, bevalling of kraambed in de verloskundepraktijk 0,32 % was. Dit is ruim 3 besneden vrouwen op de 1000 zwangere vrouwen. Het beleid in Nederland is gericht op preventie en bestrijding van vrouwelijke genitale verminking (Focal Point, 2012). 
+
+In het geval van zwangerschap is het voor de verloskundige zorgverlener van belang te weten of er sprake is van VGV. Vrouwen met VGV hebben bij de bevalling vaak ondraaglijke pijn. De blaas en organen kunnen tijdens de bevalling beschadigd raken. Het ontstaan van fistels tussen bijvoorbeeld de vagina en de blaas of de vagina en het einde van de dikke darm is mogelijk. Dit kan leiden tot incontinentie (Kennisring, 2012).
+
+</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13956</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13966</id>
+      <name>IsBesneden</name>
+      <alias>Is mevrouw besneden?</alias>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>13956</parentId>
+      <modified>2012-04-23T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PRN: PRN320801" />
+      <attribute name="Nee" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN:1 Nee" />De vrouw is niet besneden.  </attribute>
+      <attribute name="Ja" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN:2 Ja" />De vrouw is besneden.  </attribute>
+      <attribute name="Onbekend" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="PRN:9 Onbekend" />Het is onbekend of de vrouw wel of niet is besneden. </attribute>
+    </object>
+    <object>
+      <id>13967</id>
+      <name>Type VGV</name>
+      <alias>Indien mevrouw besneden=ja. Type vrouwelijke genitale verminking</alias>
+      <notes>1=type 1: excisie van het preutium clitoris, met of zonder gedeeltelijke of volledige excisie van de clitoris; 2=type 2: excisie van de clitoris met gedeeltelijke of volledige excisie van de labia minora; 3=type 3: excisie van de externe genitalia en hechten/vernauwen van de introïtus vaginae (infibulatie); 4=type 4: overige vormen van vrouwelijke genitale verminking</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>13956</parentId>
+      <modified>2012-05-16T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="Snomed CT: 95041000119101 Female genital mutilation (disorder)" />
+      <tag name="DCM::DefinitionCode" value="PRN: PRN320802" />
+      <tag name="DCM::DefinitionCode1" value="PRN: PRN320802" />
+      <attribute name="Type 1" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT: 130631000119108 Female genital mutilation type 1 (disorder)" />
+        <tag name="DCM::DefinitionCode" value="PRN: 1 Type 1 VGV" />Excisie van het preutium clitoris, met of zonder gedeeltelijke of volledige excisie van de clitoris</attribute>
+      <attribute name="Type 2" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT: 130621000119105 Female genital mutilation type 2 (disorder)" />
+        <tag name="DCM::DefinitionCode" value="PRN: 2 Type 2 VGV" />Excisie van de clitoris met gedeeltelijke of volledige excisie van de labia minora</attribute>
+      <attribute name="Type 3" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="SnomedCT:: 130611000119103 Female genital mutilation type 3 (disorder)" />Excisie van de externe genitalia en hechten/vernauwen van de introïtus vaginae (infibulatie)</attribute>
+      <attribute name="Type 4" minCard="1" maxCard="1" stereotype="enum">
+        <tag name="DCM::DefinitionCode" value="Snomed CT: 107411000119108 Female genital mutilation type 4 (disorder)" />Overige vormen van vrouwelijke genitale verminking</attribute>
+    </object>
+    <object>
+      <id>13968</id>
+      <name>Legend</name>
+      <type>Text</type>
+      <parentId>13956</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>13969</id>
+      <name>Vrouwelijke Genitale Verminking</name>
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>13956</parentId>
+      <modified>2014-11-24T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="PRN: PRN3208" />
+    </object>
+    <object>
+      <id>13970</id>
+      <type>Text</type>
+      <parentId>13956</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>13952</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-02-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>13971</id>
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <type>Note</type>
+      <parentId>13952</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>13949</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>In het KNOV standpunt VGV (2007) wordt beschreven dat de verloskundige tijdens de intake signaleert of de zwangere vrouw uit een land afkomstig is waar VGV voorkomt en vraagt zij/hij of de vrouw besneden is. Vervolgens bespreekt zij/hij tijdens de zwangerschap de genitale verminking van de vrouw in relatie tot mogelijke lichamelijke klachten en het beleid rondom de baring. Indien er een meisje wordt geboren brengt de verloskundige in het kraambed de mogelijke besnijdenis van de pasgeborene ter sprake&lt;i&gt;. &lt;/i&gt;Als het kind aan de kinderarts wordt overgedragen dan neemt deze de taak over. 
+Bij overdracht naar de JGZ wordt relevante informatie over VGV doorgegeven aan de JGZ.
+
+Voor de JGZ is er een gespreksprotocol meisjesbesnijdenis ontwikkeld door AJN, MOA, LVST, LVT, LVW, GGD Nederland, Pharos, FSAN, (2005). Het gespreksprotocol is een handleiding voor artsen en verpleegkusnigen werkzaam in de jeugdgezondheidszorg om, ter preventie van meisjesbesnijdenis, vanaf het eerste contact, gestructureerd een gesprek te voeren met ouders en familie van meisjes uit landen waar meisjesbesnijdenis wordt gepraktiseerd.&lt;i&gt; &lt;/i&gt;
+&lt;i&gt;
+&lt;/i&gt;Daarnaast is er een Modelprotocol medische zorg voor vrouwen en meisjes met vrouwelijke genitale verminking (VGV) (2010) opgesteld door verschillende beroepsorganisaties worden aanbevelingen gedaan over de wijze waarop verschillende medische beroepsgroepen medische, psychologische en seksuele zorg kunnen leveren aan meisjes en vrouwen die, al dan niet op minderjarige leeftijd, slachtoffer zijn geworden van vrouwelijke genitale verminking.
+&lt;i&gt;
+&lt;/i&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>13946</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>In het Modelprotocol (2010) wordt de minimaal vereiste zorg en kernaanbevelingen beschreven. Zo wordt bijvoorbeeld de zorg rondom zwangerschap en bevalling apart beschreven. 
+De zorg die voor de vrouw relevant is, is afhankelijk van het type VGV. </notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13955</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>In het geval van zwangerschap zal bij intake bekeken worden of de vrouw afkomstig is uit een van de risicolanden. Is dit het geval dan zal VGV ter sprake worden gebracht. Gedurende de zwangerschap, bevalling en in het kraambed zal VGV een punt van aandacht blijven. Ook in de JGZ, na overdracht, blijft VGV een aandachtspunt.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13962</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13954</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-02-12T00:00:00</modified>
+    </object>
+    <object>
+      <id>13965</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>Informatiemodel uitgewerkt op basis van de data elementen uit de PRN Dataset. Naar alle waarschijnlijkheid is dit niet een volledige weergave van hetgeen zorgverleners vastleggen over VGV in het dossier van de patient.
+
+De coderingen uit Snomed CT zijn optimaal voor de types en voor het element VGV. Echter voor het rootconcept en de boolean variabele zijn geen equivalente coderingen. Vandaar het handhaven van de PRN code en het maken van de PRN code voor het rootconcept. 
+De subtypes van de WHO zijn niet opgenomen. </notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13959</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;b&gt;Projecten:&lt;/b&gt;
+PRN aanlevering
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Artsen(vereniging) Jeugdgezondheidszorg Nederland (AJN), Medische Opvang Asielzoekers (MOA), LVST, LVT, LVW, GGD Nederland, Pharos, FSAN, (2005). Gespreksprotocol meisjesbesnijdenis. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inspectie voor de Gezondheidszorg, IGZ, (2010). Vrouwelijke genitale verminking. DEn Haag, IGZ.&lt;/li&gt;
+	&lt;li&gt;Meisjesbesnijdenis. Verkregen op 16 april 2012, van http://www.meisjesbesnijdenis.nl/&lt;/li&gt;
+	&lt;li&gt;Nederlandse Vereniging voor Obstetrie en Gynaecologie (NVOG), Artsen Jeugdgezondheidszorg Nederland (AJN), Koepel van Artsen Maatschappij en Gezondheid (KAMG), Koninklijke Nederlandse Maatschappij ter Bevordering der Geneeskunst (KNMG), Koninklijke Nederlandse Organisatie Verloskundigen (KNOV), Landelijke Huisartsen Vereniging (LHV), Nederlands Huisartsen Genootschap (NHG), Nederlandse Vereniging voor Kindergeneeskunde (NVK), Nederlandse Vereniging voor Plastische Chirurgie (NVPC), Nederlandse Vereniging voor Urologie (NVU), Nederlandse Vereniging voor Seksuologie (NVVS), Vereniging Vertrouwensartsen Kindermishandeling (VVAK), Pharos, (2010). Modelprotocol medische zorg voor vrouwen en meisjes met vrouwelijke genitale verminking (VGV). Verkregen op 16 april 2012, van http://knmg.artsennet.nl/Dossiers/Dossiers-op-thema/Medische-ethiek/Vrouwelijke-genitale-verminking.htm&lt;/li&gt;
+	&lt;li&gt;TNO, (2008). Retrospectief onderzoek naar de prevalentie van vrouwenbesnijdenis of VGV (vrouwelijke genitale verminking) in de verloskundigenpraktijk  in 2008. Leiden, TNO.&lt;/li&gt;
+	&lt;li&gt;Vrouwelijke genitale verminking. Verkregen op 16 april 2012, van http://knmg.artsennet.nl/Dossiers/Dossiers-op-thema/Medische-ethiek/Vrouwelijke-genitale-verminking.htm&lt;/li&gt;
+	&lt;li&gt;Vrouwenbesnijdenis (genitale verminking). Verkregen op 16 april 2012, van http://www.kennisring.nl/smartsite.dws?id=58272&lt;/li&gt;
+	&lt;li&gt;WHO. Female Genital Mutilation. http://www.who.int/reproductivehealth/topics/fgm/overview/en/ verkregen 24 november 2014&lt;/li&gt;
+&lt;/ul&gt;
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;
+Het is mogelijk dat mensen in dit domein gebruik maken van andere coderingen en value sets dan in deze DCM zijn gebruikt. In dat geval stellen wij als ontwikkelaars het op prijs hiervan op de hoogte te worden gesteld. 
+Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT en/of LOINC, dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICD10, ICF, ICNP). De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept / de concepten zoals die zijn opgenomen in de terminologie of classificatie.  
+Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. 
+Daar waar we geen codering hebben kunnen vinden zijn voorlopig eigen coderingen gemaakt en zullen de ontbrekende concepten bij Snomed CT worden ingebracht.
+De OID’s voor de gebruikte vocabulary zijn:
+SNOMED CT	2.16.840.1.113883.6.96
+LOINC	2.16.840.113883.6.1
+&lt;font color="#0f0f0f"&gt;PRN 2.16.840.1.113883.2.4.3.22.1&lt;/font&gt;</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>13964</id>
+      <name>Functional Model</name>
+      <notes>Niet gedefinieerd in termen van het HL7 EHR-S FM.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13951</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>Vrouwelijke genitale verminking is opgenomen in de PRN Dataset: PRN id 3.2.08.01 en 3.2.08.02</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-07-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>13957</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>Stichting Perinatale Registratie Nederland (PRN) als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland of Results 4 Care via een website van Stichting Perinatale Registratie Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>13948</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>13960</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>Niet van toepassing.</notes>
+      <type>Package</type>
+      <parentId>13945</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <sourceId>13966</sourceId>
+      <destId>13969</destId>
+      <notes />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <sourceId>13967</sourceId>
+      <destId>13969</destId>
+      <notes />
+      <type>Aggregation</type>
+    </relationship>
+  </relationships>
+</model>

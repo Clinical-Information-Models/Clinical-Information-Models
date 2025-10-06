@@ -1,0 +1,18 @@
+Level;Type;Code;DisplayName;CodeSystem;CodeSystemName;CodeSystemVersion;Flexibility;Exception
+0;A;100;"ante partum";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;1;"na eerste controle";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;2;"voor 28e week";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;3;"28e tot en met 36e week";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;4;"vanaf 37e week";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+0;A;200;"durante partu";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;5;"tijdens ontsluiting";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;6;"tijdens uitdrijving";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;7;nageboortetijdperk;2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+0;A;300;postpartum;2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;8;"direct postpartum";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;9;"tijdens kraambed";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+2;L;91;"binnen 24 uur";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+2;L;92;"2e t/m 7e dag";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+1;L;10;"2e week of later";2.16.840.1.113883.2.4.3.22.1.2.52;PerinatalePeriodeOverdrachtConsult;;;false
+0;L;UNK;onbekend;2.16.840.1.113883.5.1008;NullFlavor;;;true
+0;L;NI;"geen informatie";2.16.840.1.113883.5.1008;NullFlavor;;;true

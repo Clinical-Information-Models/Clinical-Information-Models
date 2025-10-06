@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="FoetaleLiggingConcepts">
+    <code code="271692001" displayName="| Presentation of fetus (observable entity) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="LigGbrt" displayName="Ligging bij Geboorte" codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+  </valueSet>
+</valueSets>

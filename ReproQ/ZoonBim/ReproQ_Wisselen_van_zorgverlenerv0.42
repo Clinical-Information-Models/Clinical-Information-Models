@@ -1,0 +1,75 @@
+</organizer>
+  </component>
+  <component typeCode="COMP" sequenceNumber="C000">
+    <organizer classCode="CONTAINER" moodCode="DEF">
+      <id root="C45CF120-5C08-48a1-87BD-7F509E1518D9" />
+      <code displayName="Wisselen van zorgverlener" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+        <translation code="Perined10" displayName="Wisselen van zorgverlener" codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+      </code>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="2A8B6439-59CF-4165-ADAF-B70758C8793E" />
+          <code displayName="Wenselijke zorgverlener 2e helft zwangerschap" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <translation code="PRQ177" displayName="Wenselijke zorgverlener 2e helft zwangerschap" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Beoordeling9" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.1.31" />
+        </observation>
+      </component>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="33CFC55D-7E6A-40a3-B52E-6B220150EBBD" />
+          <code displayName="Geïnformeerd eerste controles" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <translation code="PRQ172" displayName="Geïnformeerd eerste controles" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Beoordeling7" />
+        </observation>
+      </component>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="80A43130-9536-4ae5-82DC-572840F96134" />
+          <code displayName="Wenselijke zorgverlener eerste controles" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <originalText>Vermeld bij de vraag:
+Denk aan: huisarts, verloskundige, ziekenhuisverloskundige, gynaecoloog, kraamverzorgster, kinderarts.</originalText>
+            <translation code="PRQ176" displayName="Wenselijke zorgverlener eerste controles" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Beoordeling9" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.1.31" />
+        </observation>
+      </component>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="F075572B-A60B-4112-9355-D11C050C86E7" />
+          <code displayName="Bij verwijzing goed geinformeerd 2e helft zwangerschap" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <translation code="PRQ175" displayName="Bij verwijzing goed geinformeerd 2e helft zwangerschap" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Beoordeling8" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.1.30" />
+        </observation>
+      </component>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="8B5A3E96-6E37-4dd0-8EB7-34C43E3CE883" />
+          <code displayName="Geïnformeerd 2e helft zwangerschap" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <translation code="PRQ173" displayName="Geïnformeerd 2e helft zwangerschap" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Beoordeling7" />
+        </observation>
+      </component>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="15A36357-2C5F-4d5b-9693-5C8FD394C98F" />
+          <code displayName="Bij verwijzing goed geinformeerd eerste controles" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <translation code="PRQ174" displayName="Bij verwijzing goed geinformeerd eerste controles" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Beoordeling8" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.1.30" />
+        </observation>
+      </component>
+      <component typeCode="COMP" sequenceNumber="C000A000">
+        <observation classCode="OBS" moodCode="DEF">
+          <id root="C13F4D34-D020-4391-AA01-981F7B64E5C8" />
+          <code displayName="Leiding over zorg eerste controles" codeSystemName="DCMInternal" codeSystem="2.16.840.1.113883.3.3210.12">
+            <translation code="PRQ178" displayName="Leiding over zorg eerste controles" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+          </code>
+          <value xsi:type="CD" codeSystemName="Algemeen" codeSystem="2.16.840.1.113883.2.4.3.22.1.18.1.19" />
+        </observation>
+      </component>
+	  
+	  Leiding over zorg 2e helft zwangerschap MIST IN BOVENSTAAND XML FRAGMENT.

@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="8/2/2016 2:10:49 PM" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>1218</id>
+      <name>nl.perined.Schedelomtrek-v0.4</name>
+      <alias />
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2016-04-18T00:00:00</modified>
+      <tag name="DCM::CoderList" value="Perined, Anneke Goossen, Results 4 Care"></tag>
+      <tag name="DCM::ContactInformation.Address" value="Postbus 8588,3503 RN Utrecht"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Perined">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="info@perined.nl"></tag>
+      <tag name="DCM::ContentAuthorList" value="Perined, Anneke Goossen, Results 4 Care">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="18-8-2011"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="nl">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.2.4.3.22.1.17.44"></tag>
+      <tag name="DCM::KeywordList" value="head circumference; occipito-frontale circumferentie; circumferentie; fronto-occipitale diameter">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value=""></tag>
+      <tag name="DCM::ModelerList" value="Anneke Goossen, Results 4 Care"></tag>
+      <tag name="DCM::Name" value="nl.perined.Schedelomtrek"></tag>
+      <tag name="DCM::PublicationDate" value="*">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Author Draft">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value=""></tag>
+      <tag name="DCM::RevisionDate" value=""></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="0.4"></tag>
+    </object>
+    <object>
+      <id>1233</id>
+      <name>Revision History</name>
+      <alias />
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;18 augustus 2011: Versie 0.1 Eerste opzet. 
+18 april 2016: versie 0.4 OID toegevoegd, perined in naam DCM opgenomen.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1235</id>
+      <name>Concept</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;Put the description and the definition of the concept here.&lt;/i&gt;&lt;/font&gt;
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;DCM beschrijft de schedelomtrek van een kind waarbij het gaat om de grootste fronto-occipitale diameter (PRN Dataset, versie 1.3).</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1232</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1221</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+Het doel is het vastleggen van de schedelomtrek in het dossier van het kind voor zowel de directe zorgverlening als voor het follow-up bericht na 6 weken van de kinderarts naar Perined. 
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1227</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;De schedelomtrek wordt gemeten op kinderleeftijd.&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1237</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+Beoordeling van de groei is cruciaal. Het biedt een richtlijn voor de gezondheid, ontwikkeling, voedingstoestand en respons op de behandeling van een kind. De schedelomtrek maakt deel uit van deze beoordeling (NHS, 2011). De groei van het hoofd van de foetus en zuigeling wordt in belangrijke mate bepaald door de groei van de hersenen (Boere et al, 2010). Andere onderdelen in de beoordeling zijn de lichaamslengte en het lichaamsgewicht. De relatie van deze metingen kan aanleiding zijn voor verdere monitoring of onderzoek. Een kleine schedelomtrek met een laag gewicht vraagt een andere benadering dan een kleine schedelomtrek met een normaal gewicht. 
+Een abnormale groei zou kunnen wijzen op een pathologische aandoening die verdere diagnostiek en eventuele vraagt. Aandoeningen kunnen bijvoorbeeld zijn hydrocephalus, psychosociale problemen, craniosynostose. Regelmatige bepaling van de schedelomtrek in de eerste lijn maakt het mogelijk om problemen in een vroeg stadium op te sporen. Een toename van de hoofdomtrek kan de eerste of enige indicatie zijn van een probleem (NHS, 2011).
+Het doel van het meten van de hoofdomtrek is het bepalen van de maximale hoofdomtrek. Dit om:
+&lt;ul&gt;
+	&lt;li&gt;de groei van het kind te monitoren, met name die van kinderen onder de twee jaar;&lt;/li&gt;
+	&lt;li&gt;abnormale groei van hersenen/schedel op te sporen.&lt;/li&gt;
+&lt;/ul&gt;
+Bron: http://www.gosh.nhs.uk/clinical_information/clinical_guidelines/cpg_guideline_00066
+
+
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-08-02T00:00:00</modified>
+    </object>
+    <object>
+      <id>1222</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <notes>
+--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1242</id>
+      <name>Schedelomtrek</name>
+      <alias>HeadCircumference</alias>
+      <notes>Uitgedrukt in aantal centimeters op een decimaal achter de komma.</notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>1222</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="LOINC: 9843-4"></tag>
+      <tag name="DCM::CodeSystem" value="LOINC">OID 2.16.840.1.113883.6.1</tag>
+    </object>
+    <object>
+      <id>1243</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>1222</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>1244</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>1222</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1245</id>
+      <name>Schedelomtrek</name>
+      <alias>Head circumference</alias>
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>1222</parentId>
+      <modified>2011-08-18T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SnomedCT:363812007 Head circumference"></tag>
+      <tag name="DCM::CodeSystem" value="Snomed CT">OID 2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>1234</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1246</id>
+      <name />
+      <alias />
+      <notes>&lt;font color="#0000ff"&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Note</type>
+      <parentId>1234</parentId>
+      <modified>2010-01-08T00:00:00</modified>
+    </object>
+    <object>
+      <id>1230</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;In de afstudeerscriptie van Leene et al (2005) wordt aangegeven dat het belangrijk is de occipito-frontale circumferentie te meten met behulp van een niet-rekbaar meetlint. Ook wordt aangegeven dat de schedelomtrek van de neonaat niet direct post partum gemeten moet worden, om het effect van moulage en oedemen te vermijden. Niet duidelijk is op welk tijdstip de meting dan wel moet plaatsvinden. Duidelijk is wel dat vroeg opsporen van afwijkingen belangrijk is. 
+
+In de richtlijn van de NHS wordt het volgende aangegeven ten aanzien van de meting (2011):
+Het meetlint moet worden geplaatst boven de oren en halverwege de wenkbrauwen en de haarlijn om de occipitale prominente plek op de achterkant van het hjoofd van het kind. Hierbij wordt aangegeven dat dit een richtlijn is en zonodig moet worden aangepast, want het gaat immers om het meten van de grootste omtrek van het hoofd. 
+De meting vindt plaats tot op de milimeter nauwkeurig. De meting wordt herhaald ter controle. 
+Het resultaat wordt in het dossier vastgelegd.
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2009-11-01T00:00:00</modified>
+    </object>
+    <object>
+      <id>1228</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+
+Voor de interpretatie en monitoring van de schedelomtrek bestaan verschillende standaarden (groeicurve) waarbij de schedelomtrek wordt uitgedrukt in percentielen (WHO, 2011). Voor jongens en meisjes zijn aparte groeicurves.
+Metingen van de groei moeten worden aangepast bij kinderen die geboren zijn voor de 37 weken zwangerschap. Deze aanpassing geldt voor het eerste levensjaar van een kind (WHO, 2011). 
+
+In de afstudeerscriptie van Leene et al, 2005 wordt beschreven dat een diversiteit in normaalwaarden naar vorenkomt. Voor afwijkende waarden zijn er relevante oorzaken. Een beoordeling voor een verschil in schedelomtrek tussen rassen kan niet worden gegeven. Wel is er een statistisch significant verschil tussen de geslachten. De conclusie die wordt gegeven is dat er kan geen eenduidig beleid vastgesteld kan worden ten aanzien van het meten van de schedelomtrek van de neonaat voor de verloskundige beroepsgroep in de eerstelijn. 
+
+
+
+
+   
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1231</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Schedelomtrek maakt deel uit van de LNR gegevens voor de perinatale registratie Nederland. Het gegeven is onderdeel van de follow-up na 6 weken en daarmee ook van het bericht behorende bij de follow-up 6 weken van de kinderarts naar Perined.  &lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1223</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1225</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1226</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1239</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>&lt;b&gt;Projecten:&lt;/b&gt;
+
+
+&lt;b&gt;Literatuur:&lt;/b&gt;
+Voor de opzet van de DCM zijn de volgende refenties van belang:
+&lt;ul&gt;
+	&lt;li&gt;Afwijkende schedelgrootte. Verkregen op 13 juli 2011, van http://www.mijnkinderarts.nl/ziekten/neurologie/afwijkende-schedelgrootte-vorm.htm&lt;/li&gt;
+	&lt;li&gt;Boere – Boonekamp1, M.M.,  Anten – Kools2, E.J., Coenen – van Vroonhoven, E.J.C., Gameren – Oosterom1, H.B.M. van, Hoir1, M.P. L., Sleuwen1, B.E. van, Vlimmeren4, L.A. van, Winkel – Veninga5, A., (2010). Concept JGZ Richtlijn, Preventie, signalering en aanpak van voorkeurshouding en schedelvervorming. Leiden, TNO.&lt;/li&gt;
+	&lt;li&gt;De WHO Child Growth Standards. Verkregen op 18 augustus 2011, van http://www.who.int/childgrowth/standards/hc_for_age/en/index.html&lt;/li&gt;
+	&lt;li&gt;Head circumference, measuring a child. Verkregen op 18 augustus 2011, van http://www.gosh.nhs.uk/clinical_information/clinical_guidelines/cpg_guideline_00066&lt;/li&gt;
+	&lt;li&gt;Leene, E., Gerritsen Mulkes, M., (2005). Schedelomtrek meten in de eerste lijn noodzakelijk of zinloos. Verkregen op 13 juli 2011, van http://www.kennispoort-verloskunde.nl/schedelomtrek-meten-in-de-eerstelijn-noodzakelijk-of-zinloos.aspx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;b&gt;Vocabulary:&lt;/b&gt;
+LOINC: OID 2.16.840.113883.6.1
+Snomed CT: OID 2.16.840.1.113883.6.96</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1229</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1220</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1224</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;Stichting Perinatale Registratie Nederland als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland  of Results 4 Care via een website van Stichting Perinatale Registratie Nederland  of Results 4 Care of via e-mail, of anderszins langs elektronische weg. 
+
+Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland  via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. 
+
+Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie. 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1236</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;font color="#ff0000"&gt;&amp;lt;hier de copyrights in vermelden zoals bij de NFU wordt gebruikt?&amp;gt;&lt;/font&gt;
+Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. 
+Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.
+
+U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl
+
+Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	
+
+a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.
+b.   varianten van DCM die op een lokale situatie zijn toegesneden.
+
+Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’.
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1238</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>&lt;font color="#408080"&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl
+&lt;font color="#0000ff"&gt;&lt;b&gt;&lt;i&gt;
+&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Zie voor de referenties van gebruikte bronnen 'References'.&lt;/font&gt;
+&lt;font color="#0f0f0f"&gt;
+&lt;/font&gt;&lt;font color="#0f0f0f"&gt;Voor het gebruik van Snomed CT in software is een licentie nodig. Nictiz, als National Release center, regelt deze licenties voor Nederland. Zie hiervoor de Nictiz website https://www.nictiz.nl/page/Standaarden/SNOMED-CT-release-center/Licentie-aanvragen&lt;/font&gt;</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>1218</parentId>
+      <modified>2016-04-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>1219</id>
+      <name />
+      <alias />
+      <notes>&lt;b&gt;To get started:&lt;/b&gt;
+&lt;ol&gt;
+	&lt;li&gt;Fill in all required tags, that are all the tags with a '*' as value.&lt;/li&gt;
+	&lt;li&gt;Replace or remove all package notes with the real content. At least the required packages (see below)&lt;/li&gt;
+	&lt;li&gt;Create the Information Model &amp;amp; optionally Example Instances&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;b&gt;Required packages:&lt;/b&gt;
+&lt;ul&gt;
+	&lt;li&gt;Revision History&lt;/li&gt;
+	&lt;li&gt;Concept&lt;/li&gt;
+	&lt;li&gt;Purpose&lt;/li&gt;
+	&lt;li&gt;Evidence Base&lt;/li&gt;
+	&lt;li&gt;Information Model&lt;/li&gt;
+	&lt;li&gt;Instructions&lt;/li&gt;
+	&lt;li&gt;Interpretation&lt;/li&gt;
+	&lt;li&gt;Disclaimer&lt;/li&gt;
+	&lt;li&gt;Copyrights&lt;/li&gt;
+&lt;/ul&gt;
+
+</notes>
+      <stereotype />
+      <type>Text</type>
+      <parentId>1218</parentId>
+      <modified>2011-01-14T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>1242</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1245</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1242</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>8</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+  </relationships>
+</model>

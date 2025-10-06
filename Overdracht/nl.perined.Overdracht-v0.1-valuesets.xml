@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="OverdrachtConcepts">
+    <code code="OBS" displayName="Overdracht" codeSystemName="HL7 v3 vocabulary" />
+    <code code="183548008" displayName="| Referral to obstetrics service (procedure) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="2.1.06.02" displayName="Datum Overdracht" codeSystemName="PerinatologyObservationsPRN" />
+    <code code="439771001" displayName="| Date of event (observable entity) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="RefOutReas2" displayName="RedenOverdracht" codeSystemName="PerinatologyObservations" />
+    <code code="440378000" displayName="| Referral for (observable entity) |" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="2.06.01.06" displayName="OverdrachtAanID" codeSystemName="PerinatologyObservationsPRN" />
+    <code code="2.1.06.07" displayName="OverdrachtAanID" codeSystemName="PerinatologyObservationsPRN" />
+    <code code="2.06.01.02" displayName="OverdrachtAanID" codeSystemName="PerinatologyObservationsPRN" />
+    <code code="2.06.01.01" displayName="OverdrachtaanSpecialisme" codeSystemName="PerinatologyObservationsPRN" />
+    <code code="2.06.01.05" displayName="OverdrachtaanSpecialisme" codeSystemName="PerinatologyObservationsPRN" />
+    <code code="PRN2106032" displayName="PerinatalePeriodevanOverdracht" codeSystemName="PerinatologyObservationsPRN" />
+  </valueSet>
+</valueSets>

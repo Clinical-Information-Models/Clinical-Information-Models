@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="ReanimatieKindConcepts">
+    <code code="386412000" displayName="resuscitation of neonate" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRN560802" displayName="MiddelReanimatieVerloskundigeZorgverlener" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="PRN560801" displayName="Kinderarts" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="82296001" displayName="paediatrician" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRN560801" displayName="VerloskundigZorgverlener" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="11935004" displayName="obstetrician" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRN560804" displayName="MiddelReanimatieKinderarts" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+  </valueSet>
+  <valueSet name="Kinderarts">
+    <code code="1" displayName="Nee" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="2" displayName="Ja" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="9" displayName="Onbekend" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+  </valueSet>
+  <valueSet name="VerloskundigZorgverlener">
+    <code code="1" displayName="Nee" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="2" displayName="Ja" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="9" displayName="Onbekend" codeSystemName="PRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+  </valueSet>
+</valueSets>

@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="ReproQBV4Concepts">
+    <code code="ReproQBV4" displayName="ReproQBV 4 " codeSystemName="PerinatologyObservationsPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.1" />
+    <code code="309370004" displayName="Consent status (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="Perined11" displayName="Overige vragen" codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+    <code code="PRQ258" displayName="Bekendheid met zorgverlener" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ180" displayName="Beschrijven ervaringen" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ182" displayName="Gezondheid" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ183" displayName="Ergste situaties" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ181" displayName="Ervaringen" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="276339004" displayName="Environment (environment)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ248" displayName="Toegankelijkheid tijdens bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ245" displayName="Comfortabel tijdens kraamzorg" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ244" displayName="Comfortabel tijdens bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ249" displayName="Toegankelijkheid tijdens kraamzorg" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ246" displayName="Schoon tijdens bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ247" displayName="Schoon tijdens kraamzorg" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="225349005" displayName="Respecting the client's privacy (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ213" displayName="Medische situatie in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ212" displayName="Medische situatie tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ217" displayName="Medische gegevens in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ214" displayName="Belangrijke zaken tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ216" displayName="Medische gegevens tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ215" displayName="Belangrijke zaken in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="406221003" displayName="Health status (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ190" displayName="Gezondheid baby" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ193" displayName="Gezondheid moeder" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ194" displayName="Opname ziekenhuis" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ191" displayName="Eerste 24 uur ziekenhuis" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ194" displayName="Reden opname moeder" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ192" displayName="Reden opname baby" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="271903000" displayName="History of pregnancy (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="272058002" displayName="History of past delivery (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="161811009" displayName="History of perinatal fetal loss (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="161805006" displayName="History of cesarean section (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ184" displayName="Bewuste keuze" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="SnomedCT" displayName="57797005  Induced termination of pregnancy (disorder)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="161744009" displayName="History of miscarriage (situation) or 161763005 History of ectopic pregnancy (situation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="386229000" displayName="Caregiver support (regime/therapy)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ224" displayName="Gebeuren vertellen tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ220" displayName="Adviezen tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ222" displayName="Begrijpen uitleg tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ223" displayName="Begrijpen uitleg in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ218" displayName="Beantwoorden vragen tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ221" displayName="Adviezen in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ225" displayName="Gebeuren vertellen in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ219" displayName="Beantwoorden vragen in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="Perined13" displayName="Uw bevalling en het kraambed" codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+    <code code="PRQ193" displayName="Plaats begin bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ200" displayName="Extra uren kraamzorg" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ196" displayName="Spoed naar ziekenhuis" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ194" displayName="Tijdstip bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ199" displayName="Aantal uur kraamzorg" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="364336006" displayName="Pattern of delivery (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ192" displayName="Begeleiding bij geboorte" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="BeginDeliv" displayName="Begin bevalling" codeSystemName="Perinatologische observatiecodes" codeSystem="2.16.840.1.113883.2.4.4.13" />
+    <code code="PRQ198" displayName="Aantal dagen kraamzorg" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ191" displayName="Begeleiding begin bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ190" displayName="Verwachting bij wie " codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRN4209" displayName="Voorgenomen plaats baring tijdens zwangerschap" codeSystemName="PerinatologyProceduresPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.3" />
+    <code code="PRQ197" displayName="Aantal dagen opname" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="169812000" displayName="Place of birth (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="182970005" displayName="Pain relief (procedure)|363702006|Has focus (attribute)|118215003  Delivery finding (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ195" displayName="Dag bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="Perined13" displayName="Algemene gegevens" codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+    <code code="PRQ185" displayName="Jaar Onderwijs" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ186" displayName="Etniciteit moeder" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ187" displayName="Etniciteit vader" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="105421008" displayName="Educational achievement (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ188" displayName="Plaats verloskundige praktijk" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ189" displayName="Plaats ziekenhuis" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="ON" displayName="Naam ziekenhuis" codeSystemName="HL7R2DT" codeSystem="2.16.840.1.113883.11.10801" />
+    <code code="ON" displayName="Naam verloskunde praktijk" codeSystemName="HL7R2DT" codeSystem="2.16.840.1.113883.11.10801" />
+    <code code="ON" displayName="Naam kraamorganisatie" codeSystemName="HL7R2DT" codeSystem="2.16.840.1.113883.11.10801" />
+    <code code="AD.postalCode" displayName="Postcode" codeSystemName="HL7R2DT" codeSystem="2.16.840.1.113883.11.10801" />
+    <code code="184102003" displayName="Patient postal code (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="184099003" displayName="Date of birth" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="302160007" displayName="Household, family and support network detail (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ241" displayName="Rekening houden in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ239" displayName="Betrokkenheid in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ242" displayName="Steun tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ240" displayName="Rekening houden tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ238" displayName="Betrokkenheid tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ243" displayName="Steun in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="420107008" displayName="Patient decision status (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ210" displayName="Weigeren behandeling in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ208" displayName="Behandeling in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ211" displayName="Pijnbehandeling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ207" displayName="Behandeling tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ133" displayName="Geboorteplan" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ209" displayName="Weigeren behandeling tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="Perined10" displayName="Wisselen van zorgverlener" codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+    <code code="PRQ250" displayName="Geïnformeerd tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ254" displayName="Wenselijke zorgverlener tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ251" displayName="Geïnformeerd in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ257" displayName="Leiding over zorg in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ255" displayName="Wenselijke zorgverlener in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ252" displayName="Bij verwijzing goed geinformeerd tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ253" displayName="Bij verwijzing goed geinformeerd in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ256" displayName="Leiding over zorg tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="Perined3" displayName="Omgang met zorgverleners " codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+    <code code="PRQ206" displayName="Alles vertellen in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ197" displayName="Respect tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ202" displayName="Vriendelijk in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ195" displayName="Privacy tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ200" displayName="Persoonlijke aandacht in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ201" displayName="Vriendelijk tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ203" displayName="Wensen en gebruiken tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ205" displayName="Alles vertellen tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ199" displayName="Persoonlijke aandacht tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ198" displayName="Respect in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ196" displayName="Privacy in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ204" displayName="Wensen en gebruiken in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="Perined7" displayName="Tijd totdat u hulp kreeg" codeSystemName="PerinatologyOrganizersPRN" codeSystem="2.16.840.1.113883.2.4.3.22.1.6" />
+    <code code="PRQ228" displayName="Hulp indien niet dringend tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ234" displayName="Kraamzorg tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ229" displayName="Hulp indien niet dringend in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ236" displayName="Plaats zorg bereikbaar tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ237" displayName="Plaats zorg bereikbaar in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ231" displayName="Tijd van zorgverleners in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ227" displayName="Hulp indien dringend in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ235" displayName="Kraamzorg in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ230" displayName="Tijd van zorgverleners tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ226" displayName="Hulp indien dringend tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ233" displayName="Zorgverleners bereikbaar in de dagen na de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ232" displayName="Zorgverleners bereikbaar tijdens de bevalling" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="289908002" displayName="Pregnancy, function (observable entity)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="PRQ114" displayName="Controles tot nu toe, huisarts" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ111" displayName="Eerste verloskundige controle" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ113" displayName="Controles tot nu toe, gynaecoloog" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ114" displayName="Meeste controles 2e helft" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ112" displayName="Controles tot nu toe, verloskundige" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+    <code code="PRQ115" displayName="Meeste controles 1e helft" codeSystemName="ReproQdataCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.1.1" />
+  </valueSet>
+  <valueSet name="Toestemming">
+    <code code="INFCON" displayName="Informatieoverdracht o.b.v. expliciete toestemming" codeSystemName="ActCode" />
+  </valueSet>
+  <valueSet name="BekendZorgverlener" oid="2.16.840.1.113883.2.4.3.22.1.18.1.37">
+    <code code="ReproQ75" displayName="ja, ik haar/hem ontmoet en gesproken" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ76" displayName="ja, ik kende haar/hem alleen van naam" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ77" displayName="nee, ik kende haar/hem niet" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ78" displayName="nee, ik wist niet wie de leiding had" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="GezondheidAlg" oid="2.16.840.1.113883.2.4.3.22.1.18.1.36">
+    <code code="135819008" displayName="General health very poor (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="135818000" displayName="General health poor (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="135817005" displayName="General health fair (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="135815002" displayName="General health good (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="135816001" displayName="General health excellent (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="ErgsteSituatie" oid="2.16.840.1.113883.2.4.3.22.1.18.1.33">
+    <code code="ReproQ45" displayName="onvriendelijk en onbeleefd behandeld" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ46" displayName="niet betrokken bij keuze behandeling" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ47" displayName="slordige omgang met mijn persoonlijke gegevens" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ48" displayName="weinig uitleg gekregen over ziekte en behandeling" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ49" displayName="lang moeten wachten op hulp" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ50" displayName="weinig aandacht voor mijn gezin en huishouden" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ51" displayName="behandeld in vieze en oncomfortabele ruimtes" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ52" displayName="weinig keuze om voor een eigen zorgverlener te keizen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Algemeen" oid="2.16.840.1.113883.2.4.3.22.1.18.1.19">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ28" displayName="nooit" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling" oid="2.16.840.1.113883.2.4.3.22.1.18.1.23">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ28" displayName="nooit" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ37" displayName="weet ik niet" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ38" displayName="niet van toepassing" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="GezondheidBaby2" oid="2.16.840.1.113883.2.4.3.22.1.18.1.7">
+    <code code="ReproQ15" displayName="gezond, geen problemen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ16" displayName="kleine problemen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ17" displayName="grote problemen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ18" displayName="problemen, maar onduidelijk hoe erg het was" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ20" displayName="overleden" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="GezondheidMoeder" oid="2.16.840.1.113883.2.4.3.22.1.18.1.8">
+    <code code="ReproQ15" displayName="gezond, geen problemen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ16" displayName="kleine problemen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ17" displayName="grote problemen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ18" displayName="problemen, maar onduidelijk hoe erg het was" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="RedenOpnMoeder" oid="2.16.840.1.113883.2.4.3.22.1.18.1.11">
+    <code code="ReproQ60" displayName="vanwege nazorg (meer dan 1 dag)" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ61" displayName="vanwege mijn eigen gezondheid (meer dan 1 dag)" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ62" displayName="omdat mijn baby was opgenomen (meer dan 1 dag)" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ63" displayName="vanwege mijzelf en mijn baby (meer dan 1 dag)" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="RedenOpnBaby" oid="2.16.840.1.113883.2.4.3.22.1.18.1.10">
+    <code code="ReproQ57" displayName="niet vanwege de gezondheid van mijn baby" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ58" displayName="ter observatie van mijn baby" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ59" displayName="omdat mijn baby ziek was" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="EerderBevallen" oid="OID 2.16.840.1.113883.2.4.3.22.1.18.1.34">
+    <code code="ReproQ21" displayName="nee" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ53" displayName="ja, ik ben 1 keer eerder bevallen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ54" displayName="ja, ik ben 2 keer eerder bevallen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ55" displayName="ja, ik ben 3 keer eerder of meer bevallen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="OverledenBaby" oid="2.16.840.1.113883.2.4.3.22.1.18.1.32">
+    <code code="ReproQ21" displayName="nee" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="237361005" displayName="Antepartum fetal death (event)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="4" displayName="durante partu" codeSystemName="FasePerinatSterfte" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.79" />
+    <code code="ReproQ56" displayName="ja, in de eerste week na de bevalling" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="BewusteKeuze" oid="2.16.840.1.113883.2.4.3.22.1.18.1.35">
+    <code code="ReproQ79" displayName="bewuste keuze" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ80" displayName="geen bewuste keuze, maar wel gewenst" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ81" displayName="geen bewuste keuze, eigenlijk ongewenst" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="WerkelijkePlaatsBaring22" oid="2.16.840.1.113883.2.4.3.22.1.18.1.14">
+    <code code="169813005" displayName="Home birth (finding)" codeSystemName="Snomed CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="23" displayName="geboortecentrum (of vergelijkbare plaats)" codeSystemName="Baringslocatie" codeSystem="2.16.840.1.113883.2.4.3.22.1.8.7" />
+    <code code="22232009" displayName="Hospital (environment)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="40" displayName="Onderweg" codeSystemName="Baringslocatie" codeSystem="2.16.840.1.113883.2.4.3.22.1.8.7" />
+  </valueSet>
+  <valueSet name="TijdstipStartbevalling" oid="2.16.840.1.113883.2.4.3.22.1.18.1.16">
+    <code displayName="tussen 8.00 'ochtends en 17.00 's middags">
+      <originalText>28017001 Daytime (qualifier value)</originalText>
+    </code>
+    <code displayName="tussen 17.00 's middags en 8.00 's ochtends">
+      <originalText>2546009 Night time (qualifier value)`</originalText>
+    </code>
+  </valueSet>
+  <valueSet name="WijzeGeboorte">
+    <code code="48782003" displayName="Delivery normal (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="85548006" displayName="Episiotomy (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="302383004" displayName="Forceps delivery (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="61586001" displayName="Delivery by vacuum extraction (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="200148001" displayName="Delivery by elective cesarean section (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="200149009" displayName="Delivery by emergency cesarean section (finding)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="ZorgverlenerBevalling" oid="2.16.840.1.113883.2.4.3.22.1.18.1.13">
+    <code code="11" displayName="1e lijns verloskundige" codeSystemName="Rol" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.59" />
+    <code code="25" displayName="klinisch verloskundige" codeSystemName="Rol" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.59" />
+    <code code="01.046" displayName="gynaecoloog" codeSystemName="RoleCodeNL - zorgverlenertype" />
+    <code code="01.015" displayName="huisarts" codeSystemName="RoleCodeNL - zorgverlenertype" />
+  </valueSet>
+  <valueSet name="BeginBevalling" oid="2.16.840.1.113883.2.4.3.22.1.18.1.15">
+    <code code="1" displayName="spontane weeën" codeSystemName="WijzeBaringBegin" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.46" />
+    <code code="3" displayName="interventie om baring op gang te brengen" codeSystemName="WijzeBaringBegin" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.46" />
+    <code code="177141003" displayName="Elective cesarean section (procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="VerwPlBevalling" oid="2.16.840.1.113883.2.4.3.22.1.18.1.12">
+    <code code="169813005" displayName="Home birth (finding)" codeSystemName="Snomed CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="23" displayName="geboortecentrum (of vergelijkbare plaats, zoals kraamkliniek, kraamsuite, geboortehotel of bevalcentrum)" codeSystemName="Baringslocatie" codeSystem="2.16.840.1.113883.2.4.3.22.1.8.7" />
+    <code code="22232009" displayName="Hospital (environment)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="ReproQ82" displayName="ik wist het toen nog niet" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="DagBevalling" oid="2.16.840.1.113883.2.4.3.22.1.18.1.17">
+    <code code="307151009" displayName="Saturday (qualifier value)" codeSystemName="Snomed CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="ReproQ83" displayName="een gewone doordeweekse dag (ma-di-wo-do-vrij)" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ84" displayName="zondag of officiele feestdag" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="ZelfBeslissen2" oid="2.16.840.1.113883.2.4.3.22.1.18.1.21">
+    <code code="ReproQ64" displayName="ja, ik besliste helemaal zelf" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ65" displayName="ja, ik besliste gedeeltelijk mee" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ66" displayName="nee, maar ik wilde wel meebeslissen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ67" displayName="nee, maar ik wilde ook niet mee beslissen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ68" displayName="niet van toepassing, bijvoorbeeld door keizersnede" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ69" displayName="niet van toepassing, pijnbehandeling is niet van te voren besproken" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Invloed" oid="2.16.840.1.113883.2.4.3.22.1.18.1.22">
+    <code code="ReproQ31" displayName="ik heb het helemaal zelf bepaald" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ32" displayName="ik had veel invloed" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ33" displayName="ik had weinig invloed" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ34" displayName="ik had geen invloed, zonder dat hier een medische reden voor was" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ35" displayName="ik had geen invloed, vanwege een medische reden" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ36" displayName="er is nog niet over gesproken/ het is nog niet aan de orde geweest" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling7" oid=" 2.16.840.1.113883.2.4.3.22.1.18.1.29">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ28" displayName="nooit" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ41" displayName="altijd dezelfde zorgverlener" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling9" oid="2.16.840.1.113883.2.4.3.22.1.18.1.31">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ43" displayName="nee, er was geen keuze" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling8" oid="2.16.840.1.113883.2.4.3.22.1.18.1.30">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ28" displayName="nooit" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ42" displayName="niet verwezen" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling5" oid="2.16.840.1.113883.2.4.3.22.1.18.1.27">
+    <code code="ReproQ71" displayName="direct" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ72" displayName="na korte tijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ73" displayName="na lange tijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ21" displayName="nee" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ74" displayName="geen kraamzorg afgesproken" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling3" oid="2.16.840.1.113883.2.4.3.22.1.18.1.25">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ28" displayName="nooit" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ70" displayName="ik was thuis" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Beoordeling4" oid="2.16.840.1.113883.2.4.3.22.1.18.1.26">
+    <code code="ReproQ25" displayName="altijd" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ26" displayName="meestal" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ27" displayName="soms" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ28" displayName="nooit" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ40" displayName="geen kraamzorg afgesproken" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Controles3" oid="2.16.840.1.113883.2.4.3.22.1.18.1.4">
+    <code code="ReproQ9" displayName="vanaf het begin bij de huisarts" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ10" displayName="naar de verloskundige en daar gebleven" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ11" displayName="tijdelijk naar de gynaecoloog, maar daarna weer bij de huisarts" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ12" displayName="naar de gynaecoloog verwezen en daar gebleven" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="1eVerlControle" oid="2.16.840.1.113883.2.4.3.22.1.18.1.1">
+    <code displayName="verloskundige">
+      <originalText>RoleCodeNL - zorgverlenertype; 03.000</originalText>
+    </code>
+    <code code="309453006" displayName="Registered midwife (occupation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="01.046" displayName="gynaecoloog" codeSystemName="RoleCodeNL - zorgverlenertype" />
+    <code code="83685006" displayName="Gynecologist (occupation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="01.015" displayName="huisarts" codeSystemName="RoleCodeNL - zorgverlenertype" />
+    <code code="62247001" displayName="huisarts" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="OTH" displayName="andere zorgverlener" codeSystemName="NullFlavor" codeSystem="2.16.840.1.113883.5.1008" />
+  </valueSet>
+  <valueSet name="Controles2" oid="2.16.840.1.113883.2.4.3.22.1.18.1.3">
+    <code code="ReproQ5" displayName="vanaf het begin bij de gynaecoloog" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ6" displayName="tijdelijk naar de verloskundige, maar daarna weer bij de gynaecoloog" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ7" displayName="naar de verloskundige verwezen en daar gebleven" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ8" displayName="afwisselend bij de gynaecoloog en de verloskundige" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="MeesteControles" oid="2.16.840.1.113883.2.4.3.22.1.18.1.5">
+    <code displayName="verloskundige">
+      <originalText>RoleCodeNL - zorgverlenertype; 03.000</originalText>
+    </code>
+    <code code="309453006" displayName="Registered midwife (occupation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="01.046" displayName="gynaecoloog" codeSystemName="RoleCodeNL - zorgverlenertype" />
+    <code code="83685006" displayName="Gynecologist (occupation)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="01.015" displayName="huisarts" codeSystemName="RoleCodeNL - zorgverlenertype" />
+    <code code="62247001" displayName="huisarts" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="ReproQ13" displayName="verloskundige en gynaecoloog, ongeveer gelijk" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ14" displayName="huisarts en gynaecoloog, ongeveer gelijk" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+  <valueSet name="Controles1" oid="2.16.840.1.113883.2.4.3.22.1.18.1.2">
+    <code code="ReproQ1" displayName="vanaf het begin bij de verloskundige" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ2" displayName="tijdelijk naar de gynaecoloog, maar nu weer bij de verloskundige" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ3" displayName="naar de gynaecoloog verwezen en daar gebleven" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+    <code code="ReproQ4" displayName="afwisselend bij de verloskundige en de gynaecoloog" codeSystemName="ReproQValuesetCodes" codeSystem="2.16.840.1.113883.2.4.3.22.1.2.107" />
+  </valueSet>
+</valueSets>
