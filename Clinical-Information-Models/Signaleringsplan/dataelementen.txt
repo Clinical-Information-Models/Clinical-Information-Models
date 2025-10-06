@@ -1,0 +1,19 @@
+De verschillende concepten worden hierna toegelicht: 
+SIGNALERINGSPLAN. Dit rootconcept bevat alle gegevenselementen van de bouwsteen SIGNALERINGSPLAN. 
+AANMAAKDATUM Datum waarop gestart is met het aanmaken van het SIGNALERINGSPLAN 
+DATUM EERSTVOLGENDE EVALUATIE Datum waarop het SIGNALERINGSPLAN besproken wordt door patiënt, behandelaar en eventuele naasten. Doel van dit gesprek is het plan te evalueren en eventueel bij te stellen 
+WIE KENT HET PLAN? Een opsomming (in vrije tekst) van personen die op de hoogte zijn van het 
+SIGNALERINGSPLAN BELANGRIJKE INFORMATIE Informatie die (buiten de fasering om) relevant is voor patiënt, behandelaar en/of naasten 
+GEWENSTE BEJEGENING IN GEVAL VAN CRISIS Als de patiënt in crisis raakt is het belangrijk dat de omgeving hem of haar op de juiste wijze bejegent. In dit concept is beschreven hoe deze bejegening dient plaats te vinden 
+
+FASE Container van het concept fase. Deze container bevat alle gegevenselementen van het concept fase. 
+CODE / OMSCHRIJVING Code / omschrijving van de fase 
+WAT MERK IK ZELF? Een beschrijving van vroege voortekenen (gedrag, gedachten) die kenmerkend zijn voor de betreffende fase. Deze voortekenen neemt de patiënt bij zichzelf waar 
+WAT MERKEN DE MENSEN OM MIJ HEEN? Een beschrijving van vroege voortekenen (concreet gedrag,) die kenmerkend zijn voor de betreffende fase. Deze voortekenen kan de omgeving van de patiënt waarnemen 
+WAT DOE IK ZELF? Een beschrijving van acties die de patiënt kan uitvoeren om terugval of een crisissituatie te voorkomen 
+WAT KUNNEN ANDEREN DOEN? Een beschrijving van acties die de andere kunnen uitvoeren om terugval of een crisissituatie te voorkomen 
+
+BELANGRIJKE TELEFOONNUMMERS EN CONTACT-PERSONEN Container van het concept belangrijke telefoonnummers en contact-personen. Deze container bevat een verwijzing naar een contactpersoon of een zorgverlener 
+
+CONTACTPERSOON Verwijzing naar de bouwsteen CONTACTPERSOON 
+ZORGVERLENER Verwijzing naar de bouwsteen ZORGVERLENER 

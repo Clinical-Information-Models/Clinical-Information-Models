@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2021-05-03 14:46:02">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="nl.ggznederland.InformedConsentv-1.0" xmi.id="EAPK_026B2222_4BCB_450a_980A_49FF990280B7" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_E0569C84_F3B5_4429_BB64_4B6396C8DC75"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_A6A53B54_77AD_4a8b_A156_A26B9DC265FC"/>
+						<UML:TaggedValue tag="created" value="2020-01-13 15:37:16"/>
+						<UML:TaggedValue tag="modified" value="2021-05-03 13:55:45"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="11"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="wgoossen"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="DCM"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="11"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_026B2222_4BCB_450a_980A_49FF990280B7_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Evidence Base" xmi.id="EAID_022F3E79_1C66_49ab_873F_BCC72BBD4989" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Informed consent betekent: goed geinformeerd toestemming geven. De wetgeving schrijft voor dat de activiteit alleen uitgevoerd mag worden als er een informed consent gegeven is door de patient of in voorkomende gevallen door een vertegenwoordiger van de patient als bijvoorbeeld een ouder of een gemachtigde. De patient moet goed geïnformeerd zijn over het doel, de reden , voor- en nadelen en het soort activiteit dat vanuit de zorg wordt aangeboden.&#xA;&#xA;De wettelijke basis voor het Medical informed consent staat beschreven in de WGBO (Wet op de Geneeskundige Behandelingsovereenkomst).  De patient heeft recht op informatie: WGBO art. 7:448 lid 1 en lid 2. Recht op informatie en het toestemmingsvereiste (tezamen informed consent) vormen de spil van de patientenrechten(Legemaate, J. (2001). Informed Consent, versie 0.3. Utrecht, KNMG). &#xA;- Toestemming van de patient is vereist:.WGBO Artikel 450: toestemmingsrecht. &#xA;- Relatie met wetenschappelijk onderzoek: WGBO Artikel 457 en 458.  &#xA;- Onderzoek op lichaamsmateriaal: WGBO Artikel 467. &#xA; &#xA;De wettelijke basis om wetenschappelijk onderzoekt te verrichten met mensen staat beschreven in de WMO: Wet medisch-wetenschappelijk onderzoek met mensen, artikel 6:.&#xA;Voor Medisch wetenschappelijk onderzoek geldt in het algemeen dat de behandeling van ziektes beter worden onderzocht als gebruik wordt gemaakt van grote verzamelingen medische gegevens en lichaamsmateriaal.&#xA;&#xA;Hulpmiddelen voor vastleggen informed consent (Legemaate, J. (2001). Informed Consent, versie 0.3. Utrecht, KNMG). &#xA;Het kan nuttig zijn om de informatie te laten herhalen door de patient om te controleren of het begrepen is.&#xA;Informatie door meerdere personen. &#xA;Aanwezigheid van een derde persoon, bijvoorbeeld bij kinderen, wilsonbekwamen, etc. kan worden overwogen.&#xA;Het gebruik van een checklist, richtlijnen of stempels, kunnen nuttige hulpmiddelen zijn, omdat er geen informatie overgeslagen wordt en altijd op de zelfde manier overgedragen.&#xA;Informatie op schrift, beeld- of geluidsdrager, bijvoorbeeld formulieren, videobeelden, CDroms, informatie op het internet en in de huidige tijd in elektronische patienten dossiers van waaruit via een afschrift een kopie naar de Persoonlijke Gezondheid Omgeving (PGO) conform MedMij van de patient wordt gestuurd. (www.medmij.nl). &#xA;Toestemmingsformulier informed consent voor medisch wetenschappelijk onderzoek waarop onder meer: naam patient, geboortedatum, naam behandelend arts, handtekening van de patient, datum van ondertekening, informatieve gedeelte, de expliciete toestemming of intrekking en eventueel de geldigheidsduur. De expliciete toestemming kan voor bepaalde onderdelen (denk aan ziektebeelden, gegevensgebruik, lichaamsmaterialen, instellingen/ziekenhuizen) getekend of geweigerd worden.&#xA;&#xA;&#xA;Vormen van toestemming.&#xA;Er bestaan verschillende vormen van toestemming, onder meer voor volwassenen, kinderen, wilsonbekwame personen en speciale groepen zoals bijvoorbeeld verstandelijk gehandicapten. Hiervoor zijn aparte gebruiksvoorschriften. In de WGBO worden specifieke regels beschreven voor het geven van informatie aan en het verkrijgen van toestemming van minderjarigen en/of hun vertegenwoordigers (artikelen 7:448 en 7:450 BW). Voor kinderen gelden verschillende regels per leeftijdscategorie (tot 12 jaar en ouder dan 12 en nog geen 16 jaar). De regels voor een wilsonbekwame patient staan beschreven in de WGBO (art. 7:465 BW).&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_022F3E79_1C66_49ab_873F_BCC72BBD4989"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="7609"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Revision History" xmi.id="EAID_1B9C3814_FBB0_4517_898A_73D094506493" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="2011-03-16, v0.45; Abel Enthoven; Aanpassing aan DCM format 2010&#xA;2011-03-30, v0.46; Abel Enthoven; Review door Linda Mook&#xA;2011-07-18, v0.47; Abel Enthoven; Aangepast aan Standaard DCM 2010&#xA;GGz versie 0.5 2020 is aangepast van alleen wetenschappelijk onderzoek naar ook gebruik voor klinische zaken m.b.t. onderzoek, behandeling en gegevensverwerking.&#xA;Ook is de complete XML structuur geheel omgezet naar het formele DCM format met de volledige labels en ordening. &#xA;GGZ NL versie 0.6. Opmerkingen redactieraad verwerkt:&#xA;De redactieraad stelde in januari 2020 de volgende wijzigingen voor:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Consentgever als juiste klassennaam, niet ondertekenaar.&lt;/li&gt;&#xA;	&lt;li&gt;Bewijslast er uit&lt;/li&gt;&#xA;	&lt;li&gt;Wissen data elementen leeftijd, doelgroep en juridische status&lt;/li&gt;&#xA;	&lt;li&gt;Invoegen data element toelichting data type ST (tekst).&lt;/li&gt;&#xA;	&lt;li&gt;Link naar behandelplan er in. &lt;/li&gt;&#xA;	&lt;li&gt;Check nut consent ingetrokken, dit kan er mogelijk uit. Aangezien het wettelijk zo is dat een patiënt een consent altijd weer in kan trekken is het belangrijk dit onderdeel te handhaven. &lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;V07 na goedkeuring redactieraad na toetsing artikelen 449 en 450 WGBO waarin uitdrukkelijk het woord toestemming wordt gebruikt. &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-03-05 12:39:54"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:41:30"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1B9C3814_FBB0_4517_898A_73D094506493"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="7712"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Issues" xmi.id="EAID_1E18188F_FBD8_40e8_A3F6_258A41081839" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="--"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1E18188F_FBD8_40e8_A3F6_258A41081839"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="7617"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Constraints" xmi.id="EAID_42B4E401_B993_44c0_A257_5496803B34EE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="--"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_42B4E401_B993_44c0_A257_5496803B34EE"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="7616"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="References" xmi.id="EAID_45B47E63_FAC7_47a7_A1C2_EFA76378F015" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="https://www.knmg.nl/advies-richtlijnen/dossiers/informed-consent.htm Bezocht 13 januari 2020.&#xA;&#xA;www.medmij.nl&#xA;&#xA;Legemaate, J. (2001). Medical informed consent, versie 0.3. Utrecht, KNMG. &#xA;&#xA;Research Ethics Review Committee (WHO ERC). Medical informed consent Form Template for Clinical Studies. Verkregen op 5-11-2009, van http://www.who.int/rpc/research_ethics/informed_consent/en/index.html &#xA;&#xA;Wet op de geneeskundige behandelingsovereenkomst (WGBO) (Bron Ministerie van VWS), Verkregen op 3-11-09, van http://www.tbng- tuchtrecht.nl/userfiles/file/wetten/WGBO.pdf. &#xA;&#xA;WMO, Wet Medisch-Wetenschappelijk Onderzoek met mensen. Verkregen op 5-11-2009, van http://www.hulpgids.nl en http://wetten.overheid.nl/BWBR0009408/geldigheidsdatum_05-11-2009 &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_45B47E63_FAC7_47a7_A1C2_EFA76378F015"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="7618"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example Instances" xmi.id="EAID_5178883D_5640_46d3_838F_A72D5B353815" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="--"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5178883D_5640_46d3_838F_A72D5B353815"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="7611"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Interpretation" xmi.id="EAID_5A5D7866_1C2A_46bd_8CF3_850BFAEFC4A2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Een informed consent geeft zekerheid dat de persoon of patient in kwestie de informatie begrepen heeft en of terzake wel of geen toestemming is verleend. Deze toestemming is nodig voor medisch onderzoek, behandeling, de opslag, gebruik en  uitwisselen van gegevens. Ook is het nodig bij wetenschappelijk onderzoek. Toestemming kan gewoonlijk te allen tijde ook door de persoon of patient worden ingetrokken. Terugtrekken van het informed consent kan inhouden dat het verzamelen van gegevens, materiaal of follow-ups wordt gestopt en/of dat de gegevens en het materiaal reeds verzameld niet meer ter beschikking staan voor de zorgverleners en/of onderzoekers. &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5A5D7866_1C2A_46bd_8CF3_850BFAEFC4A2"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="7613"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Copyrights" xmi.id="EAID_8778059D_6574_4e0b_8DA3_15AECE286D5E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Niet van toepassing op informed consent als onderwerp. Op specifieke schriftelijke verklaringen van een patient berust wel auteursrecht.&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:20"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:20"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_8778059D_6574_4e0b_8DA3_15AECE286D5E"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="18"/>
+										<UML:TaggedValue tag="ea_localid" value="7622"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mindmap" xmi.id="EAID_8BB61A48_8956_4090_83D7_07C511D892DF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="geen"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_8BB61A48_8956_4090_83D7_07C511D892DF"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="7606"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Traceability to other Standards" xmi.id="EAID_9A266FA9_0E1F_4b4e_91DF_7E2471F8B56D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="--"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9A266FA9_0E1F_4b4e_91DF_7E2471F8B56D"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="7619"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instruction" xmi.id="EAID_9E2AE1DE_CBF3_42a4_BDD0_F432C2B5A5AA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="--"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9E2AE1DE_CBF3_42a4_BDD0_F432C2B5A5AA"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="7612"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Disclaimer" xmi.id="EAID_9EC6226D_7E4F_467d_939A_094FF5C8FF10" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="GGZ Nederland in de rol van opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorg Informatie Bouwsteen (zib). Onjuistheden en onvolledigheden kunnen echter voorkomen. GGZ Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door GGZ Nederland of Results 4 Care, of door U aan GGZ Nederland of Results 4 Care via een website van GGZ Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg.&#xA;&#xA;Tevens aanvaarden GGZ Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeen verstrekt door of namens GGZ Nederland of Results 4 Care via deze zib. GGZ Nederland en Results 4 Care aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze zib waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde zib documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.&#xA;&#xA;Indien informatie die in de elektronische versie van deze zib is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9EC6226D_7E4F_467d_939A_094FF5C8FF10"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="7620"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Information Model" xmi.id="EAID_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.1"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:40:24"/>
+										<UML:TaggedValue tag="date_modified" value="2019-10-15 09:20:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Informatie Model"/>
+										<UML:TaggedValue tag="author" value="Stijn"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="7623"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Purpose" xmi.id="EAID_B4E10D6C_E5DA_4851_A477_736173EC523C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Het doel van het informed consent is het goed informeren van de patient en het vastleggen van de toestemming van de patient voor onderzoeken, testen, behandeling, of om gegevens te gebruiken voor gespecificeerde doelen. De toestemming van de patient wordt tegenwoordig expliciet vastgelegd. De patient kan zijn toestemming op ieder moment intrekken als hij dat wenst. Ook dit intrekken wordt vastgelegd. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B4E10D6C_E5DA_4851_A477_736173EC523C"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="7607"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Concept" xmi.id="EAID_BC5086AC_A297_41ba_A7B7_17C79286562E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="In het gezondheidsrecht is vastgelegd dat de patient toestemming geeft voor het uitvoeren van medisch onderzoek en/of behandeling en ook voor de verwerking van gegevens van de patient (KNMG, 2020). Om juridisch gezien geldige toestemming te geven heeft de patient goede informatie nodig. Daarom moet een zorgprofessional, alvorens toestemming te vragen, de patient eerst informatie geven over het voorgenomen onderzoek of de voorgestelde behandeling of de voorgenomen verwerking van gegevens, inclusief het delen met andere betrokken zorgverleners. Deze twee-eenheid van informatieplicht van zorgverleners en de toestemming door de patient  wordt ‘informed consent’ genoemd. (Geïnformeerde toestemming). &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:16"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BC5086AC_A297_41ba_A7B7_17C79286562E"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="7605"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Patient Population" xmi.id="EAID_BF48FBEE_3FF4_487e_A505_32C47360982F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Dit geldt voor elke patient. Voor specifieke leeftijdscategorieen dan wel mate van wilsbekwaamheid kunnen aanvullende vereisten een rol spelen. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BF48FBEE_3FF4_487e_A505_32C47360982F"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="7608"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Care Process" xmi.id="EAID_CD8AFA02_E01F_4229_81F1_87F4F59B585D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De zorgprofessional (bv arts, therapeut of verpleegkundige) neemt de patienteninformatie en toestemmingsformulier (informed consent form) samen met de patient door en/of de patient krijgt het ter overweging mee naar huis. Na toestemming kan onderzoek, behandeling en gegevensverwerking gestart worden."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_CD8AFA02_E01F_4229_81F1_87F4F59B585D"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="7614"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Terms of Use" xmi.id="EAID_D0306F6C_D024_48a2_B92B_614A615A4CBE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De gebruiker mag de informatie van deze Zorginformatiebouwsteen kopieren, verspreiden en doorgeven, onder de voorwaarden, die gelden voor Creative Commons licentie Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland (CC BY-NC-SA-3.0).De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 (zie ook http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).&#xA;The user may copy, distribute and pass on the information in this Health and Care Information Model under the conditions that apply for Creative Commons license Attribution-NonCommercial-ShareAlike 3.0 Netherlands (CC BY-NCSA-3.0). The content is available under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (see also http://creativecommons.org/licenses/by-nc-sa/3.0/nl/)&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:19"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:20"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_D0306F6C_D024_48a2_B92B_614A615A4CBE"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="7621"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example of the Instrument" xmi.id="EAID_DAE8DB6B_EB6E_41d1_9B65_A6D9EB3821F2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="--"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:37:18"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DAE8DB6B_EB6E_41d1_9B65_A6D9EB3821F2"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.InformedConsentv-1.0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="7615"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Revision History" xmi.id="EAPK_1B9C3814_FBB0_4517_898A_73D094506493" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="2011-03-16, v0.45; Abel Enthoven; Aanpassing aan DCM format 2010&#xA;2011-03-30, v0.46; Abel Enthoven; Review door Linda Mook&#xA;2011-07-18, v0.47; Abel Enthoven; Aangepast aan Standaard DCM 2010&#xA;GGz versie 0.5 2020 is aangepast van alleen wetenschappelijk onderzoek naar ook gebruik voor klinische zaken m.b.t. onderzoek, behandeling en gegevensverwerking.&#xA;Ook is de complete XML structuur geheel omgezet naar het formele DCM format met de volledige labels en ordening. &#xA;GGZ NL versie 0.6. Opmerkingen redactieraad verwerkt:&#xA;De redactieraad stelde in januari 2020 de volgende wijzigingen voor:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Consentgever als juiste klassennaam, niet ondertekenaar.&lt;/li&gt;&#xA;	&lt;li&gt;Bewijslast er uit&lt;/li&gt;&#xA;	&lt;li&gt;Wissen data elementen leeftijd, doelgroep en juridische status&lt;/li&gt;&#xA;	&lt;li&gt;Invoegen data element toelichting data type ST (tekst).&lt;/li&gt;&#xA;	&lt;li&gt;Link naar behandelplan er in. &lt;/li&gt;&#xA;	&lt;li&gt;Check nut consent ingetrokken, dit kan er mogelijk uit. Aangezien het wettelijk zo is dat een patiënt een consent altijd weer in kan trekken is het belangrijk dit onderdeel te handhaven. &lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;V07 na goedkeuring redactieraad na toetsing artikelen 449 en 450 WGBO waarin uitdrukkelijk het woord toestemming wordt gebruikt. &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-03-05 12:39:54"/>
+								<UML:TaggedValue tag="modified" value="2020-03-05 12:41:30"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Concept" xmi.id="EAPK_BC5086AC_A297_41ba_A7B7_17C79286562E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="In het gezondheidsrecht is vastgelegd dat de patient toestemming geeft voor het uitvoeren van medisch onderzoek en/of behandeling en ook voor de verwerking van gegevens van de patient (KNMG, 2020). Om juridisch gezien geldige toestemming te geven heeft de patient goede informatie nodig. Daarom moet een zorgprofessional, alvorens toestemming te vragen, de patient eerst informatie geven over het voorgenomen onderzoek of de voorgestelde behandeling of de voorgenomen verwerking van gegevens, inclusief het delen met andere betrokken zorgverleners. Deze twee-eenheid van informatieplicht van zorgverleners en de toestemming door de patient  wordt ‘informed consent’ genoemd. (Geïnformeerde toestemming). &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:16"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:41:57"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Mindmap" xmi.id="EAPK_8BB61A48_8956_4090_83D7_07C511D892DF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="geen"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Purpose" xmi.id="EAPK_B4E10D6C_E5DA_4851_A477_736173EC523C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Het doel van het informed consent is het goed informeren van de patient en het vastleggen van de toestemming van de patient voor onderzoeken, testen, behandeling, of om gegevens te gebruiken voor gespecificeerde doelen. De toestemming van de patient wordt tegenwoordig expliciet vastgelegd. De patient kan zijn toestemming op ieder moment intrekken als hij dat wenst. Ook dit intrekken wordt vastgelegd. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Patient Population" xmi.id="EAPK_BF48FBEE_3FF4_487e_A505_32C47360982F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Dit geldt voor elke patient. Voor specifieke leeftijdscategorieen dan wel mate van wilsbekwaamheid kunnen aanvullende vereisten een rol spelen. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Evidence Base" xmi.id="EAPK_022F3E79_1C66_49ab_873F_BCC72BBD4989" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Informed consent betekent: goed geinformeerd toestemming geven. De wetgeving schrijft voor dat de activiteit alleen uitgevoerd mag worden als er een informed consent gegeven is door de patient of in voorkomende gevallen door een vertegenwoordiger van de patient als bijvoorbeeld een ouder of een gemachtigde. De patient moet goed geïnformeerd zijn over het doel, de reden , voor- en nadelen en het soort activiteit dat vanuit de zorg wordt aangeboden.&#xA;&#xA;De wettelijke basis voor het Medical informed consent staat beschreven in de WGBO (Wet op de Geneeskundige Behandelingsovereenkomst).  De patient heeft recht op informatie: WGBO art. 7:448 lid 1 en lid 2. Recht op informatie en het toestemmingsvereiste (tezamen informed consent) vormen de spil van de patientenrechten(Legemaate, J. (2001). Informed Consent, versie 0.3. Utrecht, KNMG). &#xA;- Toestemming van de patient is vereist:.WGBO Artikel 450: toestemmingsrecht. &#xA;- Relatie met wetenschappelijk onderzoek: WGBO Artikel 457 en 458.  &#xA;- Onderzoek op lichaamsmateriaal: WGBO Artikel 467. &#xA; &#xA;De wettelijke basis om wetenschappelijk onderzoekt te verrichten met mensen staat beschreven in de WMO: Wet medisch-wetenschappelijk onderzoek met mensen, artikel 6:.&#xA;Voor Medisch wetenschappelijk onderzoek geldt in het algemeen dat de behandeling van ziektes beter worden onderzocht als gebruik wordt gemaakt van grote verzamelingen medische gegevens en lichaamsmateriaal.&#xA;&#xA;Hulpmiddelen voor vastleggen informed consent (Legemaate, J. (2001). Informed Consent, versie 0.3. Utrecht, KNMG). &#xA;Het kan nuttig zijn om de informatie te laten herhalen door de patient om te controleren of het begrepen is.&#xA;Informatie door meerdere personen. &#xA;Aanwezigheid van een derde persoon, bijvoorbeeld bij kinderen, wilsonbekwamen, etc. kan worden overwogen.&#xA;Het gebruik van een checklist, richtlijnen of stempels, kunnen nuttige hulpmiddelen zijn, omdat er geen informatie overgeslagen wordt en altijd op de zelfde manier overgedragen.&#xA;Informatie op schrift, beeld- of geluidsdrager, bijvoorbeeld formulieren, videobeelden, CDroms, informatie op het internet en in de huidige tijd in elektronische patienten dossiers van waaruit via een afschrift een kopie naar de Persoonlijke Gezondheid Omgeving (PGO) conform MedMij van de patient wordt gestuurd. (www.medmij.nl). &#xA;Toestemmingsformulier informed consent voor medisch wetenschappelijk onderzoek waarop onder meer: naam patient, geboortedatum, naam behandelend arts, handtekening van de patient, datum van ondertekening, informatieve gedeelte, de expliciete toestemming of intrekking en eventueel de geldigheidsduur. De expliciete toestemming kan voor bepaalde onderdelen (denk aan ziektebeelden, gegevensgebruik, lichaamsmaterialen, instellingen/ziekenhuizen) getekend of geweigerd worden.&#xA;&#xA;&#xA;Vormen van toestemming.&#xA;Er bestaan verschillende vormen van toestemming, onder meer voor volwassenen, kinderen, wilsonbekwame personen en speciale groepen zoals bijvoorbeeld verstandelijk gehandicapten. Hiervoor zijn aparte gebruiksvoorschriften. In de WGBO worden specifieke regels beschreven voor het geven van informatie aan en het verkrijgen van toestemming van minderjarigen en/of hun vertegenwoordigers (artikelen 7:448 en 7:450 BW). Voor kinderen gelden verschillende regels per leeftijdscategorie (tot 12 jaar en ouder dan 12 en nog geen 16 jaar). De regels voor een wilsonbekwame patient staan beschreven in de WGBO (art. 7:465 BW).&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:17"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Information Model" xmi.id="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:40:24"/>
+								<UML:TaggedValue tag="modified" value="2019-10-15 09:20:50"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:20"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="version" value="1.1"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Stijn"/>
+								<UML:TaggedValue tag="alias" value="Informatie Model"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment name="Legend" xmi.id="EAID_475DA90D_000E_4d54_9FBC_42E86F5E59CC" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="76"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:40:24"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:40:24"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Spruyt"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="styleex" value="LegendOpts=31;LegendTypeObj=Filter=:;LegendTypeConn=Filter=:;"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="19075"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6AADED2E-6E57-4350-9D39-611FB3D78E21}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=rootconcept@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16777215;#Pen_Color#=0;#Pen_Size#=2;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=0@ENDPRMT;@ENDPROP;@PROP=@NAME=container@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=14346490;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=1@ENDPRMT;@ENDPROP;@PROP=@NAME=data@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16764057;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=2@ENDPRMT;@ENDPROP;@PROP=@NAME=codelist@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=14806471;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=3@ENDPRMT;@ENDPROP;@PROP=@NAME=constraint@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16772588;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=4@ENDPRMT;@ENDPROP;@PROP=@NAME=Legend@ENDNAME;@TYPE=LEGEND_STYLE_SETTINGS@ENDTYPE;@VALU=#TITLE#=Legend;#HEADINGSIZE#=16;#FONTCOLOR#=6303744;#BACKGROUNDCOLOR#=13741727;#BORDERCOLOR#=12754832;#BACKGROUNDISDEFAULT#=0;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={475DA90D-000E-4d54-9FBC-42E86F5E59CC}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Class name="Zib: Patient" xmi.id="EAID_48EB898A_2CA8_46ce_9DFE_DA329D8DFC9E" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="context reference"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Relatie met  de zib patient"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:57:20"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:20:59"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="context reference"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="19103"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A24F0FC4-B9EA-4238-B172-E78A69F711BB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=context reference;GUID={5422BC3E-C67D-45dd-A2ED-00F176E4D375};@ENDSTEREO;$DES;$CLT={48EB898A-2CA8-46ce-9DFE-DA329D8DFC9E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_C245D824_9140_4649_9325_5F69FC187ABE" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14551"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Zib: Patient"/>
+										<UML:TaggedValue tag="ea_targetName" value="Consentgever"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19103"/>
+										<UML:TaggedValue tag="ea_targetID" value="19102"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_48EB898A_2CA8_46ce_9DFE_DA329D8DFC9E">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_C4E73761_DCC9_4250_AAC6_0D3779AA7390">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="Zib: Zorgverlener" xmi.id="EAID_4FDF3744_0261_4fea_BBAA_271018FD0A25" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="context reference"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Relatie met  de zib zorgprofessional"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:52:29"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-03 13:49:26"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="context reference"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="19100"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4D809AC0-BC57-49f4-95D1-3F4F2C8722D6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=context reference;GUID={5422BC3E-C67D-45dd-A2ED-00F176E4D375};@ENDSTEREO;$DES;$CLT={4FDF3744-0261-4fea-BBAA-271018FD0A25}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_8A033602_50C1_4fe7_86E5_0A5733BD405E" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14548"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Zib: Zorgverlener"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19100"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_4FDF3744_0261_4fea_BBAA_271018FD0A25">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="Toestemmingsvorm" xmi.id="EAID_528D1327_3CD8_4d22_A62D_32A9F84A0934" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De vorm van toestemming die wordt gegeven, bijvoorbeeld expliciete toestemming of geen toestemming.  Deze wordt ontleend aan de waardenlijst. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:35:36"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:33:16"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="19093"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={904F8067-0646-4f78-9A98-01811A047F66}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={528D1327-3CD8-4d22-A62D-32A9F84A0934}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_528D1327_3CD8_4d22_A62D_32A9F84A0934" supertype="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" xmi.id="EAID_60D49E79_E71B_490d_B9B5_AE7235A9FF7A" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14724"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Toestemmingsvorm"/>
+										<UML:TaggedValue tag="ea_targetName" value="CD"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19093"/>
+										<UML:TaggedValue tag="ea_targetID" value="24"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Dependency client="EAID_F22C554E_9A1E_411c_AD62_0B71E5F96DEB" supplier="EAID_528D1327_3CD8_4d22_A62D_32A9F84A0934" xmi.id="EAID_DB6ABEBE_0FB2_4851_BC44_A92A8C7B4D81" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Dependency"/>
+										<UML:TaggedValue tag="direction" value="Unspecified"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14543"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Toestemmingsvorm"/>
+										<UML:TaggedValue tag="ea_targetName" value="Toestemmingsvorm"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Artifact"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19095"/>
+										<UML:TaggedValue tag="ea_targetID" value="19093"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Dependency>
+								<UML:Association xmi.id="EAID_E50A9D9C_0F9A_47be_ACF9_398FCB274DCA" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14542"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Toestemmingsvorm"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19093"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_528D1327_3CD8_4d22_A62D_32A9F84A0934">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="ConsentOnderwerp" xmi.id="EAID_562D43AC_1873_4a17_A498_88DE441ADC2C" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Het onderwerp waarover consent wordt gevraagd en verkregen, bijvoorbeeld behandelplan, gegevensuitwisseling. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:13:11"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:23:59"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="19086"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E777572A-005D-4aa7-8AD1-A7A3A1CED348}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={562D43AC-1873-4a17-A498-88DE441ADC2C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_0279FB89_475D_4cd3_AC72_1D8FADC553B6" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14534"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ConsentOnderwerp"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19086"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_562D43AC_1873_4a17_A498_88DE441ADC2C">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Generalization subtype="EAID_562D43AC_1873_4a17_A498_88DE441ADC2C" supertype="EAID_F0D97D3B_9376_40cb_A4CC_54BF0BD3A4D3" xmi.id="EAID_60E9CD16_8C2C_41fc_9060_DBC8AF0B0915" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14535"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ConsentOnderwerp"/>
+										<UML:TaggedValue tag="ea_targetName" value="ST"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19086"/>
+										<UML:TaggedValue tag="ea_targetID" value="21"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="InformedConsent" xmi.id="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="rootconcept"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&amp;lt;languages xml:space=&quot;preserve&quot;&amp;gt;&#xA;&amp;lt;nl-NL&amp;gt;Rootconcept van de bouwsteen [naam]. Dit rootconcept bevat alle gegevenselementen van de bouwsteen [naam].&amp;lt;/nl-NL&amp;gt;&#xA;&amp;lt;en-US&amp;gt;Root concept of information model [nameEN]. This root concept contains all data elements of information model [nameEN].&amp;lt;/en-US&amp;gt;&#xA;&amp;lt;/languages&amp;gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 15:40:24"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 15:42:56"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="EN: RootConcept"/>
+										<UML:TaggedValue tag="author" value="stijn"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="rootconcept"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="19076"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={43F532FA-437D-4e75-BC38-CB5A72278F26}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rootconcept;GUID={3C84F759-4666-419f-A4DE-00EEFC349C8F};@ENDSTEREO;$DES;$CLT={700B2EAC-A1A6-4b24-BD12-EBD456958DDF}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_484130C8_C2D1_4645_9F55_F86AA820938B" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14620"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Informatie Model: Compositie Behandelplan"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19190"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_A57DFE5D_FF24_4531_884F_F177B1EEA786">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_4DED3183_F750_4fb3_B4FC_9FD9B16704CB" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14618"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ToelichtingConsent"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19189"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_B6A82F0D_8890_4974_A604_5D0F8B6AF08B">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_67246152_4BA1_4143_8A0D_74795CC27668" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14550"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Consentgever"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19102"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_C4E73761_DCC9_4250_AAC6_0D3779AA7390">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_7EB7826D_C3C0_4f00_B9F7_B84E0CFAE315" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14526"/>
+										<UML:TaggedValue tag="ea_sourceName" value="VersienummerConsent "/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19082"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_FE30EDB9_E0C9_4fc1_8DDA_E05CEEC30661">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_8F444B2C_DBA9_44fe_B70F_74AB61922108" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14528"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ConsentVerleendOp"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19083"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_9E528956_B3F4_40ac_A11D_50B37120C508">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_BEE61A49_324D_4a72_916D_EDA2FE47C30B" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14530"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ConsentIngetrokken"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19084"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_8D09D41E_0231_48ff_BC92_AF3EC7280205">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_C5F10FC9_343A_49a5_AEEE_199C8D7D08FB" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14533"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Wilsbekwaam"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19085"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_94EAE003_137F_4b69_8BDC_358BEB7B1FFE">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_CE29B0AB_2F42_4f0a_8C4C_8C872D4626D1" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14537"/>
+										<UML:TaggedValue tag="ea_sourceName" value="InformatieGegeven"/>
+										<UML:TaggedValue tag="ea_targetName" value="InformedConsent"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19087"/>
+										<UML:TaggedValue tag="ea_targetID" value="19076"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_F0AB0B90_BEDB_4fc7_A28F_1B4EA3E3BFAD">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="ConsentIngetrokken" xmi.id="EAID_8D09D41E_0231_48ff_BC92_AF3EC7280205" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Datum waarop de patient zijn toestemming intrekt. Hier kan de systeemtijd voor worden gebruikt. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 16:45:49"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:29:44"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="19084"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AB7FBD8B-7A1A-449e-B307-3CE47B6567A9}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={8D09D41E-0231-48ff-BC92-AF3EC7280205}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_8D09D41E_0231_48ff_BC92_AF3EC7280205" supertype="EAID_224A3E40_1D0C_400a_98D6_B5019EBFAD5C" xmi.id="EAID_F366B199_F24A_4be5_92D9_F90EC1B5A506" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14725"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ConsentIngetrokken"/>
+										<UML:TaggedValue tag="ea_targetName" value="TS"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19084"/>
+										<UML:TaggedValue tag="ea_targetID" value="5"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="Wilsbekwaam" xmi.id="EAID_94EAE003_137F_4b69_8BDC_358BEB7B1FFE" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Hier kan de inschatting van de wilsbekwaamheid worden vastgelegd. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 16:50:52"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:30:36"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="19085"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E8952EB8-7F5C-48ac-A21F-B46F36622FFD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={94EAE003-137F-4b69-8BDC-358BEB7B1FFE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_94EAE003_137F_4b69_8BDC_358BEB7B1FFE" supertype="EAID_F0D97D3B_9376_40cb_A4CC_54BF0BD3A4D3" xmi.id="EAID_5FBBB1DD_3A4D_431c_BB8F_CBC201B39FA4" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14532"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Wilsbekwaam"/>
+										<UML:TaggedValue tag="ea_targetName" value="ST"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19085"/>
+										<UML:TaggedValue tag="ea_targetID" value="21"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="ConsentVerleendOp" xmi.id="EAID_9E528956_B3F4_40ac_A11D_50B37120C508" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De datum waarop de consent is verleend. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 16:28:10"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:27:04"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="19083"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C0198596-634C-42b8-A1A7-F522CF918254}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={9E528956-B3F4-40ac-A11D-50B37120C508}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_9E528956_B3F4_40ac_A11D_50B37120C508" supertype="EAID_224A3E40_1D0C_400a_98D6_B5019EBFAD5C" xmi.id="EAID_A35DAA30_F889_459c_AE4C_D57F6604A03F" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14529"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ConsentVerleendOp"/>
+										<UML:TaggedValue tag="ea_targetName" value="TS"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19083"/>
+										<UML:TaggedValue tag="ea_targetID" value="5"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="Informatie Model: Compositie Behandelplan" xmi.id="EAID_A57DFE5D_FF24_4531_884F_F177B1EEA786" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="context reference"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Relatie met  de compositie zibs behandelplan."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-11 16:35:45"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:21:34"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="context reference"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="19190"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6FE05D17-2BC5-4bbe-8BC6-5378A8FA7A95}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=context reference;GUID={5422BC3E-C67D-45dd-A2ED-00F176E4D375};@ENDSTEREO;$DES;$CLT={A57DFE5D-FF24-4531-884F-F177B1EEA786}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="ToelichtingConsent" xmi.id="EAID_B6A82F0D_8890_4974_A604_5D0F8B6AF08B" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Hier kan een nadere toelichting worden gegeven."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-02-11 16:19:13"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:30:53"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="19189"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0EDAA5FB-B82A-40a3-860E-9A4BEBE78A81}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={B6A82F0D-8890-4974-A604-5D0F8B6AF08B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_B6A82F0D_8890_4974_A604_5D0F8B6AF08B" supertype="EAID_F0D97D3B_9376_40cb_A4CC_54BF0BD3A4D3" xmi.id="EAID_37581FE6_9711_4a96_A854_FB95712899CF" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14619"/>
+										<UML:TaggedValue tag="ea_sourceName" value="ToelichtingConsent"/>
+										<UML:TaggedValue tag="ea_targetName" value="ST"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19189"/>
+										<UML:TaggedValue tag="ea_targetID" value="21"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="Consentgever" xmi.id="EAID_C4E73761_DCC9_4250_AAC6_0D3779AA7390" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="container"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De persoon die de consent geeft. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:55:54"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:20:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="container"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="19102"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D1934698-51DF-4dd0-A48A-9802C2F8089A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=container;GUID={54552629-E611-4b0f-A6F9-274222E4F3ED};@ENDSTEREO;$DES;$CLT={C4E73761-DCC9-4250-AAC6-0D3779AA7390}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_87B06B7F_DD63_4620_827E_69C88157E2B9" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14546"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Zib: Contactpersoon"/>
+										<UML:TaggedValue tag="ea_targetName" value="Consentgever"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19098"/>
+										<UML:TaggedValue tag="ea_targetID" value="19102"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_F7E83A6B_80DE_472b_8B6D_4ABF89A2222E">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_C4E73761_DCC9_4250_AAC6_0D3779AA7390">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="InformatieGegeven" xmi.id="EAID_F0AB0B90_BEDB_4fc7_A28F_1B4EA3E3BFAD" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De concrete informatie die aan de patient is verstrekt en waarop de toestemming kan worden gebaseerd. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:15:11"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:26:33"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="19087"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={463EE240-D6BF-4f8c-9011-408AC66038CA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={F0AB0B90-BEDB-4fc7-A28F-1B4EA3E3BFAD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_F0AB0B90_BEDB_4fc7_A28F_1B4EA3E3BFAD" supertype="EAID_F0D97D3B_9376_40cb_A4CC_54BF0BD3A4D3" xmi.id="EAID_95340AC3_4A40_4ce2_96F3_0984B24AA0BD" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14536"/>
+										<UML:TaggedValue tag="ea_sourceName" value="InformatieGegeven"/>
+										<UML:TaggedValue tag="ea_targetName" value="ST"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19087"/>
+										<UML:TaggedValue tag="ea_targetID" value="21"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="Toestemmingsvorm" xmi.id="EAID_F22C554E_9A1E_411c_AD62_0B71E5F96DEB" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="document"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Artifact"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:38:18"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-13 18:22:40"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="EN: Class1Codelist"/>
+										<UML:TaggedValue tag="author" value="spruyt"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="object_style" value="MDoc=1;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="document"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="19095"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4B21C8C7-6C0A-4121-A5F6-018A34DABB14}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=document;GUID={6814A518-B031-40a6-9B8D-3E6C1356ED2B};@ENDSTEREO;$DES;$CLT={F22C554E-9A1E-411c-AD62-0B71E5F96DEB}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="modeldocument" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64" type="ModelDocument" docid="{F22C554E-9A1E-411c-AD62-0B71E5F96DEB}" name="DiepteCodelijst" date="13-Jan-2020 18:22:40" notes="" style="" elementtype="ModelDocument" strcontent="" author="" version="" isactive="2057" sequence="0">UEsDBBQAAAAIANCSLVAGhEwRfwcAAKk9AAAHABEAc3RyLmRhdFVUDQAHcLUcXnC1HF5wtRxe
+7Vvdb9s4En8v0P+Bb/sBnKEvy/blqU2ybbFputj4rsCBL5RE2TzTkkpScbJt/vcbfkhxXDWp
+HQfR9owk8nA4/HFmNJwZy85nLFTuY1JIhjOac1LMfC8Kca6K5L+4Tn3Nzb2XLz7jvCyUSjgQ
+HsK5XDEp0SvBCD+6AZ7f8nCezomQVHnomHCWCGYEgi6B2/UhsEW5JMX69JQtqUTndIX+1FNG
+MAKBgnF0VqcsI+gCVDf8oeMfl7VgVOhVRzc3WvG05KUAzdERFjTz8ExQWng44TX1LC8YDi1X
+E5oPr9+Y8YNxB04rD9Pr/Fa6xbmzr8OIo7vCfjCyE5qwMyMHE4ROHSDMxkGIjoyVUl1zKueU
+Kn2HwNeBh85LsbT+TaWPTmhOaq7QH0SQmSDVHP0Gt9TOBuBYWOPHOMGVKBVNFU4hMNIkxOk8
+TSqiQnRx8bosF0siFnqRDLEs6JXysEx8D67EXLnb1u4rIys01LuzgilWFmhKxdJMDu0k7Mw8
+zFkYe1gwb130jEmnYYzZ2oRZPrLLQ1zWirOCcnpJuQ9mRGMwY0OrDaEFpVWB3voGaNwFBC6R
+ofbHfUBBAxQYoEkXUKhvxkMahQ1QaIB8rwtJ36IgegApapAii+R3IQ1NgDyANGyQhhYp6EKK
+m7C5DylukOKXLyyWC54Q7uqrLBNUmlMsfRcv3p2Q0NfNIHvNy3TxqYZQdfE9BKjjd9NTNwS9
+rJHo+MNJwxyBzOmymhPJzH7AGuOaQ6hH6O11RQVobIIbJiZ2YginhPNyRbMNAXCf2wEn6Hd6
+nZREZMaIwLn8VkAmWnWr+B+C5vqAKEWdeOtXc25B80uciEwoc80S86IP46cU/fWP16VS5RKV
+OejljlHQOvMugF25CTAtq/XVqY4osPKCLCvufBlArkMXSpTFzDFuvTkFL6wEU1S4Ke3TfxNI
+5Em7fAwKpHmM3k7fn6H3kC/qys1M8CVk6OWS2sQjwybOQXF9csEX9sbbTHBeoouKpKzRI/Q7
+81QAeSpu8lQMeWpKwRii6G+M8syVgV8hgV7qAvavYlGUq6Jlc8gxSmuvh3pgOQ6CZab6aZYJ
+ZWyuRZ56lspNdLiBVEQoovzPdqjAMoR/8gL48wY3jlvUy4QKqSd8q8Ojwf2nBA+eEjx8SvDo
+KcGHTwkePyX4aF/g3ga4t4F7C1mQJTXF3Du6MQyW+S9f3Jjf5gyWl1QIllFzFoGPKwIJd+UH
+QeRZeu4Px0BDBzLj/tizlGgp5UduNjHUnJKMiuuRztQl5ApLFuVMlCtSqzJnSre3sJ8VEUs5
+hxUgkVOiakHVHFIMuAOyDoUuhdAiKwBHYgL9cSF4iquZzq16I0fqjUB1CYlJs1byqvD9iTcG
+eq7peBxCC1dDehEwdLboidac9YHSg9aoZtBtl0wWFZlR2KhIoa/TrxlNtRs5YYW7us4QuJDd
+VxlcZ9AIQvZVIlfyI8vUPAR6Zajx0BvCoCJZxo2IpnKuBTQlbnmi4amWpRpW0rISzeLgcM0R
+82AC0QREuQJ1Ug53XxEO6ZzfFj9prquhq2BjN2kr2jcm+X2T4luTpnSMgABNdTUyhDbCENpU
+yxGOox1iOdxxkoahW2bK+VUIN/7HtEwHhjmfIsOsgJqKpYQBIfUVxKG5qzDEnzhesSxVXA/u
+xF8zciW/fds5Z+lcc7PEvkKPZ151iTeSCZp2rA29sf/wWtAKOAkqqYTivoSmQl7Cme/A+15d
+UMfarXQx7ty3J7fSAH14d/JojH+iYODHA8jNA3/g++F4HA7gJ/BhHA0C+Jm0ltqtDIC3uVXg
+tgrcVkGzlXGEcZh1ks0Zz5vC+pW6Jns94P44Cn9My/qUlPdrWRROdFL+AS2L4/gHjcanKKQP
+pO5GUudTeCtepLRS6Bza8+eoRZ3KHJdZH5TJ6MW1fCTKoC+eNcZA1/NIoB0anjvrd2o21hGe
+3ZUnVKaCVfoZ9M4tjQFsWpr+NDTmPZkX96ex2V+e7Uk/sz+DetLG7M+gnnQv+zOoJ03L/gy6
+v1cJzWczOu9+O9va5Oh74X1vrq0kekNpMb19p74zDnqgYoTbloxtNo+9YeB5QVfVfOARwxY1
+b2sLtlAAXZx/eH96crzDQ5eeWODK9tfPJ+LBJN63XtvExkem5mWtUEXFkkmpP+zOS4F+1s9u
+6ZWqCUef4MJyRsUv6OeWRpeE1/QX9OXLoyEe59PGeT1rYEb+oYH5Gxh0aGD6btD/XwPzdMn+
+9KriLGVU0f30NHtJ3M/hiNFoBFXYG/XMhC0UuK8l+i6AZ7eg1y3RoZm58zRmcmhm/gYGHZqZ
+vht0aGb2l6bfFUrQxWJ/Hcw2Kzv6J/P96mgz44cOI3QYYYMR9aUAv3nzn/Oz6bvzRwMFo2c0
+Rpux89qdqzY6P9t56Z0PGrs+4fsumL5E0ddt3O03b2yueB710CkVGW3Btl6+e2jM6Ixe0vYb
+j1uv331n9XVy2hoDMYn0987F7mrA9hSa18Vidyd8d1fMidScQ3e8t8p+6I77btChO+67QXvu
+jndOnAcFDgqsF0+jzLoant6+c1P3dSIQNf8k8z9QSwECFwsUAAAACADQki1QBoRMEX8HAACp
+PQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHcLUcXlBLBQYAAAAAAQABAD4AAAC1
+BwAAAAA=</UML:TaggedValue>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Zib: Contactpersoon" xmi.id="EAID_F7E83A6B_80DE_472b_8B6D_4ABF89A2222E" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="context reference"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Relatie met  de zib contactpersoon."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 17:50:25"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:20:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="context reference"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="19098"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1128040E-DB79-486a-A29A-63125A329A9C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=context reference;GUID={5422BC3E-C67D-45dd-A2ED-00F176E4D375};@ENDSTEREO;$DES;$CLT={F7E83A6B-80DE-472b-8B6D-4ABF89A2222E}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="VersienummerConsent " xmi.id="EAID_FE30EDB9_E0C9_4fc1_8DDA_E05CEEC30661" visibility="public" namespace="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Versienummer van de consent, bijvoorbeeld als er in de tijd wisselingen in zijn.  "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-13 16:18:57"/>
+										<UML:TaggedValue tag="date_modified" value="2020-03-05 12:26:50"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="wgoossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="19082"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1D4C6D59-7892-4ff1-81A5-14E6F6DE925F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={FE30EDB9-E0C9-4fc1-8DDA-E05CEEC30661}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_FE30EDB9_E0C9_4fc1_8DDA_E05CEEC30661" supertype="EAID_306AF4FC_BDA9_4dcd_81FC_88FADB4DBE71" xmi.id="EAID_CC709A53_8631_4dfa_903A_C21D253628F1" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14527"/>
+										<UML:TaggedValue tag="ea_sourceName" value="VersienummerConsent "/>
+										<UML:TaggedValue tag="ea_targetName" value="INT"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19082"/>
+										<UML:TaggedValue tag="ea_targetID" value="6"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Instruction" xmi.id="EAPK_9E2AE1DE_CBF3_42a4_BDD0_F432C2B5A5AA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="--"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Example Instances" xmi.id="EAPK_5178883D_5640_46d3_838F_A72D5B353815" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="--"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Interpretation" xmi.id="EAPK_5A5D7866_1C2A_46bd_8CF3_850BFAEFC4A2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Een informed consent geeft zekerheid dat de persoon of patient in kwestie de informatie begrepen heeft en of terzake wel of geen toestemming is verleend. Deze toestemming is nodig voor medisch onderzoek, behandeling, de opslag, gebruik en  uitwisselen van gegevens. Ook is het nodig bij wetenschappelijk onderzoek. Toestemming kan gewoonlijk te allen tijde ook door de persoon of patient worden ingetrokken. Terugtrekken van het informed consent kan inhouden dat het verzamelen van gegevens, materiaal of follow-ups wordt gestopt en/of dat de gegevens en het materiaal reeds verzameld niet meer ter beschikking staan voor de zorgverleners en/of onderzoekers. &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Constraints" xmi.id="EAPK_42B4E401_B993_44c0_A257_5496803B34EE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="--"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Issues" xmi.id="EAPK_1E18188F_FBD8_40e8_A3F6_258A41081839" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="--"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="12"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Example of the Instrument" xmi.id="EAPK_DAE8DB6B_EB6E_41d1_9B65_A6D9EB3821F2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="--"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Care Process" xmi.id="EAPK_CD8AFA02_E01F_4229_81F1_87F4F59B585D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De zorgprofessional (bv arts, therapeut of verpleegkundige) neemt de patienteninformatie en toestemmingsformulier (informed consent form) samen met de patient door en/of de patient krijgt het ter overweging mee naar huis. Na toestemming kan onderzoek, behandeling en gegevensverwerking gestart worden."/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="14"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Traceability to other Standards" xmi.id="EAPK_9A266FA9_0E1F_4b4e_91DF_7E2471F8B56D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="--"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="References" xmi.id="EAPK_45B47E63_FAC7_47a7_A1C2_EFA76378F015" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="https://www.knmg.nl/advies-richtlijnen/dossiers/informed-consent.htm Bezocht 13 januari 2020.&#xA;&#xA;www.medmij.nl&#xA;&#xA;Legemaate, J. (2001). Medical informed consent, versie 0.3. Utrecht, KNMG. &#xA;&#xA;Research Ethics Review Committee (WHO ERC). Medical informed consent Form Template for Clinical Studies. Verkregen op 5-11-2009, van http://www.who.int/rpc/research_ethics/informed_consent/en/index.html &#xA;&#xA;Wet op de geneeskundige behandelingsovereenkomst (WGBO) (Bron Ministerie van VWS), Verkregen op 3-11-09, van http://www.tbng- tuchtrecht.nl/userfiles/file/wetten/WGBO.pdf. &#xA;&#xA;WMO, Wet Medisch-Wetenschappelijk Onderzoek met mensen. Verkregen op 5-11-2009, van http://www.hulpgids.nl en http://wetten.overheid.nl/BWBR0009408/geldigheidsdatum_05-11-2009 &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="16"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Disclaimer" xmi.id="EAPK_9EC6226D_7E4F_467d_939A_094FF5C8FF10" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="GGZ Nederland in de rol van opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorg Informatie Bouwsteen (zib). Onjuistheden en onvolledigheden kunnen echter voorkomen. GGZ Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door GGZ Nederland of Results 4 Care, of door U aan GGZ Nederland of Results 4 Care via een website van GGZ Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg.&#xA;&#xA;Tevens aanvaarden GGZ Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeen verstrekt door of namens GGZ Nederland of Results 4 Care via deze zib. GGZ Nederland en Results 4 Care aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze zib waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde zib documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.&#xA;&#xA;Indien informatie die in de elektronische versie van deze zib is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="17"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Copyrights" xmi.id="EAPK_8778059D_6574_4e0b_8DA3_15AECE286D5E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Niet van toepassing op informed consent als onderwerp. Op specifieke schriftelijke verklaringen van een patient berust wel auteursrecht.&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:20"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:20"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="18"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Terms of Use" xmi.id="EAPK_D0306F6C_D024_48a2_B92B_614A615A4CBE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De gebruiker mag de informatie van deze Zorginformatiebouwsteen kopieren, verspreiden en doorgeven, onder de voorwaarden, die gelden voor Creative Commons licentie Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland (CC BY-NC-SA-3.0).De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 (zie ook http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).&#xA;The user may copy, distribute and pass on the information in this Health and Care Information Model under the conditions that apply for Creative Commons license Attribution-NonCommercial-ShareAlike 3.0 Netherlands (CC BY-NCSA-3.0). The content is available under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (see also http://creativecommons.org/licenses/by-nc-sa/3.0/nl/)&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_026B2222_4BCB_450a_980A_49FF990280B7"/>
+								<UML:TaggedValue tag="created" value="2020-01-13 15:37:19"/>
+								<UML:TaggedValue tag="modified" value="2020-01-13 15:37:20"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="19"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="wgoossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_E0569C84_F3B5_4429_BB64_4B6396C8DC75" name="DCM" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="CoderList" xmi.id="EAID_FFBF87E3_B33B_4a6c_8206_87AC25EA4878" value="W Goossen" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Contact Information" xmi.id="EAID_F8789544_45D1_4e18_841E_48A0193AAFE8" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="ContactInformation.Address" xmi.id="EAID_C1947B2D_E894_433d_8D6E_102AB2FDE58E" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="ContactInformation.Name" xmi.id="EAID_FF2FF594_250F_409f_B466_2E5D43623E40" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="ContactInformation.Telecom" xmi.id="EAID_FDF070B5_253E_444a_9B6C_24F38E78C9BA" value="wgoossen@ggznederland.nl" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="ContentAuthorList" xmi.id="EAID_EFD2EFBB_64BA_4172_B060_C212DD2236DF" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="CreationDate" xmi.id="EAID_A87CD8B4_74C0_4ba1_A7B3_B41FDFD5F973" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="DefinitionCode" xmi.id="EAID_ACCC0BB0_F4F1_4411_950C_178A00610B80" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="DefinitionCode1" xmi.id="EAID_34AF41D3_C9E8_4064_8E33_00F71A4FFDC3" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="DefinitionCode2" xmi.id="EAID_3FBF13D3_C08D_4e47_AB7C_0A1D8849B344" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="DeprecatedDate" xmi.id="EAID_483CD46F_16AD_4aa4_9426_6C70B72D98CA" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="DescriptionLanguage" xmi.id="EAID_90ED073F_C669_467f_882E_93CA55BEE7B9" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="EndorsingAuthorityAddress" xmi.id="EAID_83703D05_F558_4284_8143_3079934483E3" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="EndorsingAuthorityName" xmi.id="EAID_725305BB_950F_4c87_878D_C665B4E4389A" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="EndorsingAuthorityTelecom" xmi.id="EAID_6781E8CE_C4E0_468b_87E3_8C637BB1FE82" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Id" xmi.id="EAID_F2B0E849_5997_4c97_9048_2CA47A1D7B61" value="2.16.840.1.113883.3.3210.14.1.6" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="KeywordList" xmi.id="EAID_8D2E2DC6_6AC6_4aa9_8673_A72536980A85" value="informed, consent, approval, toestemming, informatieverstrekken, intrekken toestemming" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="LifecycleStatus" xmi.id="EAID_68669254_F41C_4aad_8C61_65E8FDAB9C43" value="001" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="ModelerList" xmi.id="EAID_4378E289_37C0_4208_80EB_076420DE7A64" value="W Goossen" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Name" xmi.id="EAID_5FCEB061_68E8_4344_A473_935DCEE09DC9" value="nl.ggznederland.InformedConsent" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="note" xmi.id="EAID_E9D9DFEB_0D3D_4029_8B97_586F2A7EE472" value="Correcte nieuwe versie" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="PublicationDate" xmi.id="EAID_DD858388_B126_4289_80F0_6A5A317BB19D" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="PublicationStatus" xmi.id="EAID_DB9D0D4A_B3A5_4d5c_9AB3_4E9AFCA0146C" value="first draft" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="ReviewerList" xmi.id="EAID_D4E1B613_9145_4c1a_8ABD_9C449FE8AEED" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Revision History" xmi.id="EAID_228F188F_F16E_45d7_8A44_2AB0CC4C1438" value="&lt;see notes&gt;#NOTES#2011-03-16, v0.45; Abel Enthoven; Aanpassing aan DCM format 2010&#xA;2011-03-30, v0.46; Abel Enthoven; Review door Linda Mook&#xA;2011-07-18, v0.47; Abel Enthoven; Aangepast aan Standaard DCM 2010&#xA;&#xA;GGz versie 2020 is aangepast van alleen wetenschappelijk onderzoek naar ook gebruik voor klinische zaken mbt onderzoek, behandeling en gegevensverwerking.&#xA;Ook is de complete XML structuur geheel omgezet naar het formele DCM format met de volledige labels en ordening. " modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="RevisionDate" xmi.id="EAID_4BEE5367_313B_4250_953C_25E6AE3FFA15" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Supersedes" xmi.id="EAID_AAB8D95A_008E_450e_BEA0_E3613781D79E" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="template_id" xmi.id="EAID_FA815EB2_68E8_41d1_857D_BD601F7C0043" value="nlggznederlandinformedconsent" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Type" xmi.id="EAID_63762270_7ED2_4d9a_890D_66F5EBEA32BA" value="--" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="Version" xmi.id="EAID_61C1E31E_44EB_4492_A084_7A8746D2FB3C" value="1.0" modelElement="MX_EAID_026B2222_4BCB_450a_980A_49FF990280B7"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_60F43E31_9EF1_49e6_B188_34A72314450B" value="GGZNL: GGZNL2026" modelElement="EAID_528D1327_3CD8_4d22_A62D_32A9F84A0934"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_6BD872A4_6B5F_4b3d_944B_8D4620F836D5" value="GGZNL: GGZNL2023" modelElement="EAID_562D43AC_1873_4a17_A498_88DE441ADC2C"/>
+		<UML:TaggedValue tag="DCM::ConceptId" xmi.id="EAID_BBCB97CE_7F9D_4338_8DE3_8D26F45310A8" value="NL-CM:" modelElement="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_8F82EE88_E627_4b38_BF61_0567443288DC" value="GGZNL: GGZNL2021" modelElement="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_A2EA8346_512B_4a0a_AB91_1DEE742B9105" value="SnomedCT:247755007 Withdrawn (finding) " modelElement="EAID_8D09D41E_0231_48ff_BC92_AF3EC7280205"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_1DAA62A5_61EE_4801_AD1A_5E32DD6519FA" value="GGZNL: GGZNL2022" modelElement="EAID_94EAE003_137F_4b69_8BDC_358BEB7B1FFE"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_2E3A4251_CAEC_4557_A9E4_0BA01A1EE0FA" value="SnomedCT:118575009 | Date AND time of day (property) (qualifier value) " modelElement="EAID_9E528956_B3F4_40ac_A11D_50B37120C508"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_06E0CD6D_BC24_4221_B2F1_B7C705817D8C" value="GGZNL: GGZNL2038 " modelElement="EAID_B6A82F0D_8890_4974_A604_5D0F8B6AF08B"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_63186C01_7C4E_49c9_8538_BD41751DDFDF" value="GGZNL: GGZNL2024" modelElement="EAID_F0AB0B90_BEDB_4fc7_A28F_1B4EA3E3BFAD"/>
+		<UML:TaggedValue tag="DCM::ValueSetId" xmi.id="EAID_80E8ADEA_8E8C_404c_8555_0BA48ECD85E1" modelElement="EAID_F22C554E_9A1E_411c_AD62_0B71E5F96DEB"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_C7D48EEE_B8B6_4170_A4FD_CA2D0C968AEF" value="GGZNL: GGZNL2020" modelElement="EAID_FE30EDB9_E0C9_4fc1_8DDA_E05CEEC30661"/>
+		<UML:Diagram name="Information Model" xmi.id="EAID_1733B0B8_A937_411b_8CE8_CE35ED5BA1C5" diagramType="ClassDiagram" owner="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="0.6"/>
+				<UML:TaggedValue tag="author" value="wgoossen"/>
+				<UML:TaggedValue tag="created_date" value="2020-01-13 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2021-05-03 13:49:51"/>
+				<UML:TaggedValue tag="package" value="EAPK_B032BAEA_4B9D_42fd_A55C_8237D45A45F0"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:ARIAL,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="1250"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=421402A3;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=627;Top=370;Right=767;Bottom=422;" subject="EAID_A57DFE5D_FF24_4531_884F_F177B1EEA786" seqno="1" style="DUID=5178E3E3;"/>
+				<UML:DiagramElement geometry="Left=478;Top=433;Right=579;Bottom=482;" subject="EAID_B6A82F0D_8890_4974_A604_5D0F8B6AF08B" seqno="2" style="DUID=AD9EFDCE;"/>
+				<UML:DiagramElement geometry="Left=620;Top=253;Right=767;Bottom=291;" subject="EAID_48EB898A_2CA8_46ce_9DFE_DA329D8DFC9E" seqno="3" style="DUID=1B5E866D;"/>
+				<UML:DiagramElement geometry="Left=468;Top=217;Right=558;Bottom=265;" subject="EAID_C4E73761_DCC9_4250_AAC6_0D3779AA7390" seqno="4" style="DUID=A6D37DE3;"/>
+				<UML:DiagramElement geometry="Left=625;Top=310;Right=767;Bottom=346;" subject="EAID_4FDF3744_0261_4fea_BBAA_271018FD0A25" seqno="5" style="DUID=CAA59DFC;"/>
+				<UML:DiagramElement geometry="Left=618;Top=195;Right=767;Bottom=233;" subject="EAID_F7E83A6B_80DE_472b_8B6D_4ABF89A2222E" seqno="6" style="DUID=9738EF38;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=620;Top=128;Right=767;Bottom=174;" subject="EAID_F22C554E_9A1E_411c_AD62_0B71E5F96DEB" seqno="7" style="DUID=0C59517C;NSL=0;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;BCol=13434828;"/>
+				<UML:DiagramElement geometry="Left=469;Top=130;Right=574;Bottom=198;" subject="EAID_528D1327_3CD8_4d22_A62D_32A9F84A0934" seqno="8" style="DUID=0A7BC1C1;"/>
+				<UML:DiagramElement geometry="Left=55;Top=284;Right=157;Bottom=333;" subject="EAID_F0AB0B90_BEDB_4fc7_A28F_1B4EA3E3BFAD" seqno="9" style="DUID=951E4C73;"/>
+				<UML:DiagramElement geometry="Left=57;Top=223;Right=164;Bottom=271;" subject="EAID_562D43AC_1873_4a17_A498_88DE441ADC2C" seqno="10" style="DUID=BF8AFD01;"/>
+				<UML:DiagramElement geometry="Left=363;Top=429;Right=453;Bottom=482;" subject="EAID_94EAE003_137F_4b69_8BDC_358BEB7B1FFE" seqno="11" style="DUID=8DF30660;"/>
+				<UML:DiagramElement geometry="Left=213;Top=434;Right=332;Bottom=482;" subject="EAID_8D09D41E_0231_48ff_BC92_AF3EC7280205" seqno="12" style="DUID=877935E4;"/>
+				<UML:DiagramElement geometry="Left=59;Top=429;Right=180;Bottom=482;" subject="EAID_9E528956_B3F4_40ac_A11D_50B37120C508" seqno="13" style="DUID=45C5BCC6;"/>
+				<UML:DiagramElement geometry="Left=62;Top=67;Right=163;Bottom=202;" subject="EAID_475DA90D_000E_4d54_9FBC_42E86F5E59CC" seqno="14" style="DUID=9BB831F6;"/>
+				<UML:DiagramElement geometry="Left=238;Top=172;Right=368;Bottom=242;" subject="EAID_700B2EAC_A1A6_4b24_BD12_EBD456958DDF" seqno="15" style="LWth=3;DUID=150C19B2;"/>
+				<UML:DiagramElement geometry="Left=55;Top=350;Right=184;Bottom=405;" subject="EAID_FE30EDB9_E0C9_4fc1_8DDA_E05CEEC30661" seqno="16" style="DUID=AEF5BA93;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C245D824_9140_4649_9325_5F69FC187ABE" style="Mode=3;EOID=A6D37DE3;SOID=1B5E866D;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DB6ABEBE_0FB2_4851_BC44_A92A8C7B4D81" style="Mode=3;EOID=0A7BC1C1;SOID=0C59517C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E50A9D9C_0F9A_47be_ACF9_398FCB274DCA" style="Mode=3;EOID=150C19B2;SOID=0A7BC1C1;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=51;SY=5;EX=0;EY=0;EDGE=2;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CE29B0AB_2F42_4f0a_8C4C_8C872D4626D1" style="Mode=3;EOID=150C19B2;SOID=951E4C73;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0279FB89_475D_4cd3_AC72_1D8FADC553B6" style="Mode=3;EOID=150C19B2;SOID=BF8AFD01;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C5F10FC9_343A_49a5_AEEE_199C8D7D08FB" style="Mode=3;EOID=150C19B2;SOID=8DF30660;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=52;SY=9;EX=0;EY=0;EDGE=1;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BEE61A49_324D_4a72_916D_EDA2FE47C30B" style="Mode=3;EOID=150C19B2;SOID=877935E4;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-1;SY=0;EX=-1;EY=0;EDGE=4;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_67246152_4BA1_4143_8A0D_74795CC27668" style="Mode=3;EOID=150C19B2;SOID=A6D37DE3;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=57;SY=2;EX=0;EY=0;EDGE=2;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8F444B2C_DBA9_44fe_B70F_74AB61922108" style="Mode=3;EOID=150C19B2;SOID=45C5BCC6;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=2;SX=64;SY=0;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7EB7826D_C3C0_4f00_B9F7_B84E0CFAE315" style="Mode=3;EOID=150C19B2;SOID=AEF5BA93;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-69;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_484130C8_C2D1_4645_9F55_F86AA820938B" style="Mode=3;EOID=150C19B2;SOID=5178E3E3;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4DED3183_F750_4fb3_B4FC_9FD9B16704CB" style="Mode=3;EOID=150C19B2;SOID=AD9EFDCE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-70;SY=-7;EX=0;EY=0;EDGE=4;$LLB=CX=6:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8A033602_50C1_4fe7_86E5_0A5733BD405E" style="Mode=3;EOID=150C19B2;SOID=CAA59DFC;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-73;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_87B06B7F_DD63_4620_827E_69C88157E2B9" style="Mode=3;EOID=A6D37DE3;SOID=9738EF38;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" name="CD" UMLType="Class"/>
+		<EAModel.paramSub/>
+		<EAStub xmi.id="EAID_F0D97D3B_9376_40cb_A4CC_54BF0BD3A4D3" name="ST" UMLType="Class"/>
+		<EAStub xmi.id="EAID_224A3E40_1D0C_400a_98D6_B5019EBFAD5C" name="TS" UMLType="Class"/>
+		<EAStub xmi.id="EAID_306AF4FC_BDA9_4dcd_81FC_88FADB4DBE71" name="INT" UMLType="Class"/>
+	</XMI.extensions>
+</XMI>
