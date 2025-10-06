@@ -1,0 +1,122 @@
+<clinicaltemplate>
+   <metadata>
+       <item id="m010" label="Name">nl.ggznederland.crisismaatregel#38</item>
+       <item id="m020" label="Id">--</item>
+       <item id="m025" label="Revision History" markup="textile">--</item>
+       <item id="m030" label="LifecycleStatus">001</item>
+       <item id="m040" label="PublicationStatus">first draft</item>
+       <item id="m050" label="PublicationDate">--</item>
+       <item id="m052" label="DeprecatedDate">--</item>
+       <item id="m054" label="Supersedes">--</item>
+       <item id="m056" label="CreationDate">--</item>
+       <item id="m058" label="RevisionDate">--</item>
+       <item id="m060" label="Type">--</item>
+       <item id="m070" label="DescriptionLanguage">--</item>
+       <item id="m080" label="EndorsingAuthorityName">--</item>
+       <item id="m082" label="EndorsingAuthorityAddress">--</item>
+       <item id="m084" label="EndorsingAuthorityTelecom">--</item>
+       <item id="m090" label="ContentAuthorList">--</item>
+       <item id="m100" label="Contact Information">--</item>
+       <item id="m110" label="ModelerList">--</item>
+       <item id="m120" label="ReviewerList">--</item>
+       <item id="m130" label="CoderList">--</item>
+       <item id="m140" label="KeywordList">--</item>
+       <item id="m150" label="ContactInformation.Name">--</item>
+       <item id="m160" label="ContactInformation.Address">--</item>
+       <item id="m170" label="ContactInformation.Telecom">--</item>
+       <item id="m180" label="Version">--</item>
+       <item id="m200" label="DefinitionCode">--</item>
+       <item id="m210" label="DefinitionCode1">--</item>
+       <item id="m220" label="DefinitionCode2">--</item>
+       <item id="m300" label="template_id">nlggznederlandcrisismaatregel38</item>
+       <item id="m330" label="note">De WVGGZ crisismaatregel. Welke gegevens moeten discreet in het dossier komen en in ketens kunnen worden uitgewisseld. </item>
+   </metadata>
+   <documentation>
+       <item id="d010" label="Concept" markup="textile">De crisismaatregel staat toe onmiddellijk in te grijpen bij een crisissituatie. </item>
+       <item id="d015" label="Mindmap" markup="textile">--</item>
+       <item id="d020" label="Purpose" markup="textile">Doel van de crisismaatregel is om geschikte interventies toe te passen en de crisis op te heffen of minder ernstig te maken. </item>
+       <item id="d025" label="Patient Population" markup="textile">Elke patient waarvoor door de burgemeester of rechter een crisismaatregel wordt opgelegd. </item>
+       <item id="d030" label="Evidence Base" markup="textile">Op grond van 7:1 Wvggz kan voor de betrokken persoon een crisismaatregel worden genomen omdat er een onmiddellijk dreigend ernstig nadeel is, er een ernstig vermoeden bestaat dat dit dreigend ernstig nadeel wordt veroorzaakt door het gedrag van de persoon als gevolg van een psychische stoornis en er verzet is tegen zorg als bedoeld in artikel 1:4 Wvggz, met de crisismaatregel het ernstig nadeel kan worden weggenomen en de crisissituatie dermate ernstig is dat de procedure voor een zorgmachtiging niet kan worden afgewacht.
+</item>
+       <item id="d040" label="First draft of data items" markup="textile">Zip persoon voor gegevens betrokkene.
+
+Er is een:  
+- crisismaatregel 
+- machtiging tot voortzetting van een crisismaatregel
+- zorgmachtiging
+afgegeven 
+
+
+Door wie ge&#239;nitieerd?  
+
+
+Door wie is de crisismaatregel afgegeven? Burgemeester XXXX of Rechter YYYY.
+
+Contactgegevens Burgemeester of Rechter (zib zorgaanbieder aanpassen naar niet zorg).
+
+
+Geldigheidsduur van de Crisismaatregel 
+Crisismaatregel is geldig van [datum en tijdstip], tot en met [datum en tijdstip]. 
+
+De juridische onderbouwing van de maatregel: 
+Op basis van medische verklaring door psychiater &lt;zip zorgprofessional &gt;
+
+Zo ja welke maatregel is getroffen &lt; waardenlijst is gelijk aan die van zib vrijheidsbeperkende maatregelen&gt; 
+
+2. Zorg die noodzakelijk is om de crisissituatie af te wenden
+a. Welke soort zorg is noodzakelijk (meerdere keuzes mogelijk)
+- toedienen van vocht, voeding en medicatie, alsmede het verrichten van medische controles of andere medische handelingen en therapeutische maatregelen, ter behandeling van een psychische stoornis, dan wel vanwege die stoornis, ter behandeling van een somatische aandoening; 
+- beperken van de bewegingsvrijheid; 
+- insluiten; 
+- uitoefenen van toezicht op betrokkene; 
+- onderzoek aan kleding of lichaam; 
+- onderzoek van de woon- of verblijfsruimte op gedragbe&#239;nvloedende middelen en gevaarlijke voorwerpen; 
+- controleren op de aanwezigheid van gedrag-be&#239;nvloedende middelen; 
+- aanbrengen van beperkingen in de vrijheid het eigen leven in te richten, die tot gevolg hebben dat betrokkene iets moet doen of nalaten, waaronder het gebruik van 
+communicatiemiddelen; 
+- beperken van het recht op het ontvangen van bezoek; 
+- opnemen in een accommodatie.
+
+
+Wie verleent zorg / geeft uitvoering aan (link naar zib zorgprofessional).
+
+Waar wordt de zorg verleend: ZIB locatie of locatiecomponent ZIB zorgaanbieder.
+
+ZIB zorgaanbieder 2x voor zorgprofessional en geneesheer directeur dus cardinaliteit 2..*.
+
+
+Is betrokkene gehoord? Ja/Nee. Bij nee waarom niet (reden).
+
+Heeft de betrokkene toestemming verleend om de persoonsgegevens te delen met 
+stichting PVP?
+Ja 
+Nee
+Niet gevraagd
+</item>
+       <item id="d070" label="Example Instances" markup="textile">--</item>
+       <item id="d080" label="Instruction" markup="textile">Bij de uitvoering van de crisismaatregel is het belangrijk dat de patient wordt gevraagd of zij/hij van een patienten vertrouwenspersoon gebruik wil maken voor ondersteuning.
+De mogelijkheid van advies en bijstand door een pati&#235;ntenvertrouwenspersoon PVP.
+
+De patient heeft altijd de mogelijkheid om advies en bijstand te vragen van een Pati&#235;ntenvertrouwenspersoon (PVP).
+De pvp is te bereiken via de helpdesk op 0900 &#8211; 444 8888, helpdesk@pvp.nl of via de chat op www.pvp.nl</item>
+       <item id="d090" label="Interpretation" markup="textile">--</item>
+       <item id="d100" label="Care Process" markup="textile">--</item>
+       <item id="d110" label="Example of the Instrument" markup="textile">--</item>
+       <item id="d120" label="Constraints" markup="textile">--</item>
+       <item id="d130" label="Issues" markup="textile">--</item>
+       <item id="d140" label="References" markup="textile">--</item>
+       <item id="d150" label="Traceability to other Standards" markup="textile">--</item>
+       <item id="d160" label="Disclaimer" markup="textile">GGZ Nederland in de rol van opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorg Informatie Bouwsteen (zib). Onjuistheden en onvolledigheden kunnen echter voorkomen. GGZ Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door GGZ Nederland of Results 4 Care, of door U aan GGZ Nederland of Results 4 Care via een website van GGZ Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg.
+
+Tevens aanvaarden GGZ Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of idee&#235;n verstrekt door of namens GGZ Nederland of Results 4 Care via deze zib. GGZ Nederland en Results 4 Care aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze zib waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde zib documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.
+
+Indien informatie die in de elektronische versie van deze zib is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.
+</item>
+       <item id="d170" label="Terms of Use" markup="textile">De gebruiker mag de informatie van deze Zorginformatiebouwsteen kopi&#235;ren, verspreiden en doorgeven, onder de voorwaarden, die gelden voor Creative Commons licentie Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland (CC BY-NC-SA-3.0).De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 (zie ook http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).
+The user may copy, distribute and pass on the information in this Health and Care Information Model under the conditions that apply for Creative Commons license Attribution-NonCommercial-ShareAlike 3.0 Netherlands (CC BY-NCSA-3.0). The content is available under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (see also http://creativecommons.org/licenses/by-nc-sa/3.0/nl/)
+</item>
+       <item id="d180" label="Copyrights" markup="textile">Op de verplichte formulieren berust geen copyright. Die kunnen altijd worden toegepast. </item>
+   </documentation>
+</clinicaltemplate>

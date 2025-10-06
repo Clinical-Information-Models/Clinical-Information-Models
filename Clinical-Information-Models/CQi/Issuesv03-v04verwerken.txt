@@ -1,0 +1,26 @@
+v01 Nog niet alle klassen zijn van conceptIds en DefinitionCodes linken voorzien.
+
+v02 Alles van V01 moet nog nagelopen en aangevuld. 
+
+DCMCC-09: "3. Makkelijk Contact" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "4. Voor en nadelen behandeling" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "5. Informatie gekregen" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "6. Verwachte resultaten" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "7. Clientenorganisaties" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "8. Meebeslissen" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "9. Doel samen bepaald" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "10. Behandeling naar wens" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "11. Keuze naasten betrekken" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "12. Juiste aanpak" expected at least 1 DCM::DefinitionCode Tagged Value	
+
+DCMCC-09: "14. Vragenlijsten besproken" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "15. Informatie Medicijnen en hun Bijwerkingen" expected at least 1 DCM::DefinitionCode Tagged Value	
+	
+DCMCC-09: "17. Behandeld voor klachten" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "18. Behandeling gericht op klacht" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "19. Geslacht" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "20. Leeftijdscategorie" expected at least 1 DCM::DefinitionCode Tagged Value	
+DCMCC-09: "21. Opleiding " expected at least 1 DCM::DefinitionCode Tagged Value	
+
+
+

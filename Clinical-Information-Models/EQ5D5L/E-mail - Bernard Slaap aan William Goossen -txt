@@ -1,0 +1,497 @@
+
+Aan:
+
+  * William Goossen
+
+CC:
+
+  * EuroQol Legal <legal@euroqol.org>
+
+Brooks2020_Article_EQ-5DAPleaForAccurateNomenclat.pdf
+407 kB
+EQ-5D-5L-English-User-Guide_version-3.0-Sept-2019-secured.pdf
+3 MB
+2 bijlagen (3 MB)Alles downloadenAlles opslaan in OneDrive - GGZ Nederland
+
+Geachte meneer Goossen,
+
+ 
+
+Dank voor de gelegenheid de zorginformatiebouwsteen (zib) voor EQ-5D-5L
+te bekijken. Er zijn mij enkele zaken opgevallen:
+
+  * P. 5: uitkomst: de score op de 5 dimensies van een respondent levert
+    een EQ-5D profiel op. Met de EQ-5D-5L value set voor Nederland kan
+    hiermee de index value worden berekend, zie Versteegh et al (2016)
+    <https://pubmed.ncbi.nlm.nih.gov/27325326/>. In de user guide,
+    aangehangen, wordt beschreven hoe dit werkt.
+  * P. 5 Mobiliteit: dit is een van de 5 dimensies van EQ-5D. In de zib
+    wordt dit een concept genoemd. Mijn voorstel zou zijn om dit een
+    dimensie te noemen, in lijn met de EQ-5D nomenclatuur, zie hier
+    <https://euroqol.org/support/terminology/> of de aangehangen publicatie.
+  * P. 5 EQ-5D-Mobiliteit valueset: EQ-5D-5L heeft 5 levels/niveaus per
+    dimensie. In de zib staan er 3? De opgenoemde niveaus komen overeen
+    met EQ-5D-3L. NB het woord “value set” bij EQ-5D heeft een andere
+    betekenis, zie de EQ-5D nomenclatuur.
+  * Verder valt mij op dat de complete beschrijving van de EQ-5D levels
+    in de zib is opgenomen. Dit lijkt mij onnodig voor een
+    coderingsstandaard. Aangehangen vind u de EQ-5D-5L user guide. In
+    hoofdstuk 5 wordt beschreven hoe EQ-5D-5L data kan worden gecodeerd.
+    Hierin staan variable labels en value labels. Is het niet mogelijk
+    om deze labels te gebruiken?
+  * P. 9 Copyrights: kan de 2^e paragraaf aub beginnen met “EQ-5D kan
+    worden verkregen door te registreren op https://euroqol.org.” 
+
+ 
+
+Kunt u aub bevestigen dat met de zib het niet de bedoeling is om de
+EQ-5D-5L vragenlijst te tonen aan/ te reproduceren voor
+respondenten/cliënten? Ik had begrepen dat de zib een standaard is om
+EQ-5D-5L data op te slaan. Echter, in de huidige vorm is nagenoeg de
+hele EQ-5D-3L opgenomen, inclusief de instructies van de EQ-VAS.
+
+ 
+
+Met beste groet, Bernhard
+
+*Bernhard Slaap, PhD
+*Executive Director
+*EuroQol Research Foundation
+*
+
+
+ T +31 88 4400196  |  E slaap@euroqol.org <mailto:slaap@euroqol.org>  |
+ www.euroqol.org <http://www.euroqol.org/> 
+
+Marten Meesweg 107  |  3068 AV  Rotterdam  The Netherlands
+
+ 
+
+ 
+
+*From:*William Goossen <WGoossen@denederlandseggz.nl>
+*Sent:* maandag 30 november 2020 11:59
+*To:* Bernhard Slaap <slaap@euroqol.org>
+*Cc:* EuroQol Registration <registration@euroqol.org>
+*Subject:* Re: General conditions for the registration Id : 37755
+
+ 
+
+Dag meneer Slaap,
+
+ 
+
+Naar aanleiding van uw onderstaande bericht heb ik de
+zorginformatiebouwsteen (zib) voor EQ-5D-5L gemaakt. Deze is afgelopen
+week door de redactieraad zibs in de ggz goedgekeurd, met enkele
+opmerkingen. Die opmerkingen zijn in deze versie verwerkt.
+
+Omdat u aangaf dat u / Euroqol graag wil meedenken stuur ik u hierbij de
+laatste versie van de zib met de vraag of u naar deze bijlage zou willen
+kijken.
+
+ 
+
+De vragen van ons uit aan u zijn:
+
+
+
+ 1. Is de beknopte samenvatting zoals in de eerste rubrieken (concept,
+    doel, evidentie e.d.) opgenomen naar uw mening correct? We proberen
+    deze rubrieken zo beknopt als mogelijk te houden, maar het moet
+    natuurlijk correct zijn.
+ 2. Zijn alle gegevens in het model opgenomen (de klassen, ofwel
+    rechthoeken in het model)?
+ 3. Zijn de beschrijvingen van de afzonderlijke gegevens (vragen en
+    antwoorden) volledig en correct? 
+
+ 
+
+Ik hoor graag van u.
+
+ 
+
+ 
+
+Met vriendelijke groet,
+
+ 
+
+*dr William Goossen***
+Adviseur Informatiebeleid
+
+ 
+
+ 
+
+ 
+M 06 54614458
+
+ 
+
+wgoossen@denederlandseggz.nl<mailto:wgoossen@denederlandseggz.nl>
+www.denederlandseggz.nl<http://www.denederlandseggz.nl/>
+
+ 
+
+ 
+
+<https://www.linkedin.com/company/de-nederlandse-ggz>
+
+	
+
+<https://www.facebook.com/deNederlandseggz>
+
+	
+
+<https://www.instagram.com/denederlandseggz/>
+
+	
+
+<https://twitter.com/deNLggz>
+
+	
+
+<https://vimeo.com/denederlandseggz>
+
+------------------------------------------------------------------------
+
+*Van:*Bernhard Slaap <slaap@euroqol.org <mailto:slaap@euroqol.org>>
+*Verzonden:* woensdag 14 oktober 2020 17:07
+*Aan:* William Goossen <WGoossen@denederlandseggz.nl
+<mailto:WGoossen@denederlandseggz.nl>>
+*CC:* EuroQol Registration <registration@euroqol.org
+<mailto:registration@euroqol.org>>
+*Onderwerp:* RE: General conditions for the registration Id : 37755
+
+ 
+
+Geachte Dr. Goossen,
+
+ 
+
+Dank voor uw belangstelling om EQ-5D in de GGZ te gaan gebruiken. Mijn
+indruk is dat u toestemming vraagt om een standaard datamodel te maken 
+waarin EQ-5D data op een universele manier kan worden opgeslagen.
+
+ 
+
+Dank voor uw verzoek. Een initiatief voor het standaardiseren van EQ-5D
+data opslag binnen de GGZ kunnen we alleen maar toejuichen. Onze
+toestemming heeft u hiervoor niet nodig.
+
+ 
+
+EQ-5D mag alleen worden gebruikt met toestemming van de EuroQol Research
+Foundation. Echter, onze licentieovereenkomsten en Terms of Use geven
+wij aan dat de data die klanten verzamelen met EQ-5D hun eigen
+verantwoordelijkheid is. Verzamelde EQ-5D data, en hoe deze wordt
+opgeslagen, valt dus buiten het bestek van onze licentieovereenkomsten.
+
+ 
+
+Via onze website en onze user guides geven we wel aan hoe mensen EQ-5D
+data kunnen coderen, opslaan en analyseren. Verder is hierover
+recentelijk een boek over verschenen dat gratis wordt verspreid. Als
+laatste wil ik noemen dat het wetenschappelijke team van EuroQol graag
+wil meedenken over dit onderwerp, desgevraagd.
+
+​​​​
+
+Beste groet en succes, Bernhard
+
+*Bernhard Slaap, PhD
+*Executive Director
+*EuroQol Research Foundation
+*
+
+
+ T +31 88 4400196  |  E slaap@euroqol.org <mailto:slaap@euroqol.org>  |
+ www.euroqol.org <http://www.euroqol.org/> 
+
+Marten Meesweg 107  |  3068 AV  Rotterdam  The Netherlands
+
+ 
+
+ 
+
+*From:*EuroQol Registration <registration@euroqol.org
+<mailto:registration@euroqol.org>>
+*Sent:* woensdag 14 oktober 2020 15:58
+*To:* Bernhard Slaap <slaap@euroqol.org <mailto:slaap@euroqol.org>>
+*Subject:* FW: General conditions for the registration Id : 37755
+
+ 
+
+Dag Bernhard,
+
+ 
+
+Ik zag staan in de comments van lead 37755 dat jij deze wilde oppakken.
+
+ 
+
+De aanvrager heeft inmiddels gemaild. Zie hieronder. Ik heb je de lead
+owner gemaakt.
+
+ 
+
+ 
+
+Best regards,
+
+*Anita Dwarkasing
+*Legal Counsel
+*EuroQol Research Foundation
+
+**Available on workdays except Wednesday.*
+
+* *
+
+*A reply to e-mails can be expected within approximately 5 business days.*
+
+*
+**
+*
+
+
+T+31 88 4400192 |Edwarkasing@euroqol.org
+<mailto:dwarkasing@euroqol.org>| www.euroqol.org <http://www.euroqol.org/>
+Marten Meesweg 107 | 3068 AV  Rotterdam  The Netherlands
+
+<https://twitter.com/hashtag/eq5d>
+
+*Upcoming OOO: 23^rd of October 2020 & 16-27 November 2020,*
+
+*11-22 January 2021.*
+
+ 
+
+*From:*William Goossen <WGoossen@denederlandseggz.nl
+<mailto:WGoossen@denederlandseggz.nl>>
+*Sent:* Thursday, 8 October 2020 15:43
+*To:* EuroQol Registration <registration@euroqol.org
+<mailto:registration@euroqol.org>>
+*Subject:* Re: General conditions for the registration Id : 37755
+
+ 
+
+Dear mrs Dwarkasing,
+
+ 
+
+The EuroQol specification will be used in electronic format only.
+However the CIM that we create for the data exchange in the Netherlands,
+will probably be used on smartphone, tablet, laptop and PC. Furthermore,
+it will be used in Health Level 7 Fast Interoperability Resources.  That
+is, the resulting logical model or CIM, does not make any difference
+between the technologies it is used on. We call that technology agnostic
+models. This way, professionals, researchers or patients will not be
+limited in their application of the instrument because of technology
+issues.
+
+As said before, I will not use EuroQol to collect data, but to
+facilitate professionals and patients to apply it on their devices.
+Hence, I would appreciate to obtain the Dutch version.
+
+ 
+
+ 
+
+Met vriendelijke groet,
+
+ 
+
+*William Goossen***
+Adviseur Informatiebeleid
+
+ 
+
+ 
+
+
+M 06 54614458
+
+ 
+
+wgoossen@denederlandseggz.nl<mailto:wgoossen@denederlandseggz.nl>
+www.denederlandseggz.nl<http://www.denederlandseggz.nl/>
+
+ 
+
+ 
+
+<https://www.linkedin.com/company/de-nederlandse-ggz>
+
+	
+
+<https://www.facebook.com/deNederlandseggz>
+
+	
+
+<https://www.instagram.com/denederlandseggz/>
+
+	
+
+<https://twitter.com/deNLggz>
+
+	
+
+<https://vimeo.com/denederlandseggz>
+
+ 
+
+------------------------------------------------------------------------
+
+*Van:*EuroQol Registration <registration@euroqol.org
+<mailto:registration@euroqol.org>>
+*Verzonden:* donderdag 8 oktober 2020 15:25
+*Aan:* William Goossen <WGoossen@denederlandseggz.nl
+<mailto:WGoossen@denederlandseggz.nl>>; EuroQol Registration
+<registration@euroqol.org <mailto:registration@euroqol.org>>
+*Onderwerp:* RE: General conditions for the registration Id : 37755
+
+ 
+
+Dear Dr. Goossen,
+
+ 
+
+Thank you for your e-mail.  I hope this e-mail is received.
+
+ 
+
+I would like know which mode of administration you would like to use. On
+our website the modes of administration (laptop/desktop,paper, tablet or
+pda) are listed:
+https://euroqol.org/eq-5d-instruments/eq-5d-5l-available-modes-of-administration/
+<https://euroqol.org/eq-5d-instruments/eq-5d-5l-available-modes-of-administration/>.
+
+ 
+
+Thereafter, we can assist you with this request.
+
+ 
+
+Best regards,
+
+*Anita Dwarkasing
+*Legal Counsel
+*EuroQol Research Foundation
+
+**Available on workdays except Wednesday.*
+
+* *
+
+*A reply to e-mails can be expected within approximately 5 business days.*
+
+*
+**
+*
+
+
+T+31 88 4400192 |Edwarkasing@euroqol.org
+<mailto:dwarkasing@euroqol.org>| www.euroqol.org <http://www.euroqol.org/>
+Marten Meesweg 107 | 3068 AV  Rotterdam  The Netherlands
+
+<https://twitter.com/hashtag/eq5d>
+
+*Upcoming OOO: 23^rd of October 2020 & 16-27 November 2020,*
+
+*11-22 January 2021.*
+
+ 
+
+*From:*William Goossen <WGoossen@denederlandseggz.nl
+<mailto:WGoossen@denederlandseggz.nl>>
+*Sent:* Wednesday, 7 October 2020 11:29
+*To:* EuroQol Registration <registration@euroqol.org
+<mailto:registration@euroqol.org>>
+*Subject:* Re: General conditions for the registration Id : 37755
+
+ 
+
+Dear reader,
+
+ 
+
+Only today I received your request to respond. Earlier messages were
+unfortunately placed automatically in the junk mail folder . I apologize.
+
+ 
+
+I read that you have additional questions, but cannot determine what you
+further would like to ask.
+
+ 
+
+Please let me know how to proceed.
+
+ 
+
+Dr William Goossen
+
+Results 4 Care BV
+
+Tel +31654614458
+
+De Stinse 15
+
+3823 VM Amersfoort
+
+KvK 32133713
+
+wgoossen@results4care.nl <mailto:wgoossen@results4care.nl>
+
+ 
+
+------------------------------------------------------------------------
+
+*From:*EuroQol - Registration <registration@euroqol.org
+<mailto:registration@euroqol.org>>
+*Sent:* Sunday, September 27, 2020 8:30:02 AM
+*To:* William Goossen <WGoossen@denederlandseggz.nl
+<mailto:WGoossen@denederlandseggz.nl>>
+*Subject:* General conditions for the registration Id : 37755
+
+ 
+
+euroqol logo <https://euroqol.org/>
+
+Dear Dr. William Goossen ,
+
+ 
+
+Ten days ago we sent you an email with some questions regarding your
+request to use EQ-5D. Can you please respond to this email? We need your
+response to process your request.
+
+You can find this email back via the Registration number: 37755
+
+Please note that your request will expire in 15 days, unless we hear
+from you.
+
+ 
+
+Best regards,
+
+ 
+
+
+        Bernhard Slaap
+        Executive Director
+        EuroQol Research Foundation
+
+euroqol logo
+
+T +31 88 4400196 | E slaap@euroqol.org <mailto:slaap@euroqol.org> |
+[%20www.euroqol.org%20]www.euroqol.org | Marten Meesweg 107 | 3068 AV
+Rotterdam The Netherlands
+
+Beantwoorden
+
+Allen beantwoorden
+
+Doorsturen
+
+//////////////////////////////////////////////////////////////////////.....
